@@ -1,15 +1,9 @@
 import React from 'react'
-import api from '../../utils/api'
 import ClientsTable from '../../components/ClientsTable'
 import SalesTable from '../../components/SalesTable'
 import Store from '../../components/Store'
 
 export class Clients extends React.Component {
-  state = {
-    isLoading: false,
-    error: null,
-  }
-
   componentWillMount() {
     this.fetchDataIfNeeded()
   }
@@ -25,35 +19,16 @@ export class Clients extends React.Component {
   }
 
   fetchDataIfNeeded = () => {
-    if (this.state.isLoading) return
+    if (this.context.isLoading) return
 
-    const { clients, sales } = this.context
+    const { clients, sales, fetchClients, fetchSales } = this.context
     const { clientId } = this.props.match.params
 
     const shouldFetchClients = !clients.length
     const shouldFetchSales = clientId && !sales.length
 
-    if (shouldFetchClients) this.request('clients')
-    if (shouldFetchSales) this.request('sales')
-  }
-
-  request = endpoint => {
-    if (this.state.isLoading) return
-
-    this.setState({ isLoading: true }, () => {
-      api.get(endpoint)
-        .then(results => {
-          this.setState({
-            isLoading: false,
-            error: null
-          })
-          this.context.set(endpoint, results)
-        })
-        .catch(error => this.setState({
-          error,
-          isLoading: false
-        }))
-    })
+    if (shouldFetchClients) fetchClients()
+    if (shouldFetchSales) fetchSales()
   }
 
   render() {

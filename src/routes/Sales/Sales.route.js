@@ -4,8 +4,10 @@ import SalesTable from '../../components/SalesTable'
 
 export class Sales extends React.Component {
   componentWillMount() {
-
+    const shouldFetch = !this.context.sales.length
+    if (shouldFetch) this.context.fetchSales()
   }
+
   render() {
     return (
       <div>
