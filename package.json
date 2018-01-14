@@ -1,0 +1,32 @@
+{
+  "name": "widget-sales-react",
+  "version": "0.1.0",
+  "description": "A simple React web UI for widget-sales-api",
+  "private": true,
+  "dependencies": {
+    "react": "16.2.0",
+    "react-dom": "16.2.0",
+    "react-router-dom": "4.2.2",
+    "react-scripts": "1.0.17"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/albertkawmi/widget-sales-react.git"
+  },
+  "keywords": [
+    "react",
+    "example"
+  ],
+  "author": "Albert Kawmi <albert@kawmi.co> (http://kawmi.co/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/albertkawmi/widget-sales-react/issues"
+  },
+  "homepage": "https://github.com/albertkawmi/widget-sales-react#readme"
+}
