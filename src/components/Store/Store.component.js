@@ -15,7 +15,8 @@ export default class Store extends React.Component {
       ...this.state,
       fetchClients: () => this.request('clients'),
       fetchSales: () => this.request('sales'),
-      fetchFault: () => this.request('fault')
+      fetchFault: () => this.request('fault'),
+      dismissError: () => this.setState({ error: '' })
     }
     return childContext
   }
@@ -50,5 +51,6 @@ Store.childContextTypes = {
   error: PropTypes.string,
   fetchClients: PropTypes.func,
   fetchSales: PropTypes.func,
-  fetchFault: PropTypes.func
+  fetchFault: PropTypes.func,
+  dismissError: PropTypes.func
 }

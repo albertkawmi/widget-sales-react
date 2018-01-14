@@ -16,6 +16,8 @@ import {
   Sales,
 } from './routes'
 
+import ErrorMessage from './components/ErrorMessage'
+
 import './App.css'
 
 class App extends Component {
@@ -33,6 +35,8 @@ class App extends Component {
 const Page = () => (
   <div>
     <Header />
+
+    <ErrorMessage />
 
     <main>
       <Switch>
