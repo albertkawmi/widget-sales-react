@@ -22,3 +22,10 @@ tr:nth-child(even) {
 tr.selected {
   background: yellow
 }
+
+p.error {
+  background: tomato;
+  border: solid 1px crimson;
+  color: white;
+  padding: 1em;
+}

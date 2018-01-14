@@ -6,7 +6,7 @@ export default class Store extends React.Component {
   state = {
     clients: [],
     sales: [],
-    errors: [],
+    error: '',
     isLoading: false
   }
 
@@ -32,8 +32,8 @@ export default class Store extends React.Component {
           })
         })
         .catch(error => this.setState({
-          isLoading: false,
-          errors: [error, ...this.state.errors],
+          error: error.toString(),
+          isLoading: false
         }))
     })
   }
@@ -47,7 +47,7 @@ Store.childContextTypes = {
   isLoading: PropTypes.bool,
   clients: PropTypes.array,
   sales: PropTypes.array,
-  errors: PropTypes.array,
+  error: PropTypes.string,
   fetchClients: PropTypes.func,
   fetchSales: PropTypes.func,
   fetchFault: PropTypes.func

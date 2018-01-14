@@ -9,10 +9,12 @@ export class Fault extends React.Component {
     this.context.fetchFault()
   }
   render() {
+    const { error } = this.context
     return (
       <div>
         <h2>A Faulty Page</h2>
         <p>When something goes wrong you'll see an error message.</p>
+        {error && <p className="error">{error}</p>}
       </div>
     )
   }
