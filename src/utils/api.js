@@ -2,7 +2,10 @@ const BASE_API_URL = 'http://localhost:4000'
 
 const fetchJson = path =>
   fetch([BASE_API_URL, path].join(''))
-    .then(r => r.json())
+    .then(response => {
+      if (!response.ok) throw new Error(response.statusText)
+      return response.json()
+    })
 
 const endpoints = {
   get: {
