@@ -35,7 +35,7 @@ class App extends Component {
 }
 
 const Page = () => (
-  <div class="page">
+  <div className="page">
     <Header />
 
     <ErrorMessage />

@@ -1,4 +1,6 @@
-const BASE_API_URL = 'http://localhost:4000'
+import { DEFAULT_API_URL } from './config'
+
+const BASE_API_URL = process.env.REACT_APP_API_URL || DEFAULT_API_URL
 
 const fetchJson = path =>
   fetch([BASE_API_URL, path].join(''))
