@@ -56,7 +56,9 @@ const Header = () => (
   <header>
     <img className="logo" src={logo} alt="WidgetSales Logo"/>
     <Link to="/">
-      <h1>Widget<span className="title-highlight">Sales</span></h1>
+      <h1>
+        Widget<span className="title-highlight">Sales</span>
+      </h1>
     </Link>
     <Nav />
   </header>
