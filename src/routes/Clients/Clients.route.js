@@ -1,6 +1,5 @@
 import React from 'react'
 import ClientsTable from '../../components/ClientsTable'
-import SalesTable from '../../components/SalesTable'
 import Store from '../../components/Store'
 
 export class Clients extends React.Component {
@@ -36,10 +35,10 @@ export class Clients extends React.Component {
     const { match: { params: { clientId } } } = this.props
     const selectedId = Number(clientId)
 
-    const selectedClientIsValid = Boolean(clientId) &&
-      clients.some(({ id }) => id === selectedId)
+    const selectedClient= Boolean(clientId) &&
+      clients.find(({ id }) => id === selectedId)
 
-    const filteredSales = selectedClientIsValid &&
+    const filteredSales = selectedClient &&
       sales.filter(sale => sale.clientId === selectedId)
 
     return (
@@ -50,12 +49,34 @@ export class Clients extends React.Component {
           selectedId={selectedId}
         />
 
-        {selectedClientIsValid && <h2>Sales for Client No. {clientId}</h2>}
-
-        {selectedClientIsValid && <SalesTable sales={filteredSales} />}
+        <div className="sales">
+          {!selectedClient && <h3>Select a client above to view their purchases.</h3>}
+          {selectedClient && <SalesHeading client={selectedClient} sales={filteredSales}/>}
+          {selectedClient && <SalesCards sales={filteredSales} />}
+        </div>
       </div>
     )
   }
 }
+
+const SalesHeading = ({
+  client: { firstName, lastName, company },
+  sales
+}) => (
+  <h3><strong>{firstName} {lastName}</strong> of <strong>{company}</strong> has purchased <strong>{sales.length}</strong> widgets</h3>
+)
+
+const SalesCards = ({ sales }) => (
+  <ul className="sale-cards">
+    {sales.map(
+      sale => (
+        <li className="sale-card" key={sale.id}>
+          <strong>Sale ID: {sale.id}</strong><br />
+          {sale.productName} ({sale.size})
+        </li>
+      )
+    )}
+  </ul>
+)
 
 Clients.contextTypes = Store.childContextTypes
