@@ -12,9 +12,15 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "now-start": "cd build && serve -s ./",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "test:snapshots": "jest --updateSnapshot",
+    "test:coverage": "npm test -- --coverage",
+    "eslint": "eslint ./src",
+    "eject": "react-scripts eject",
+    "now": "now alias $(now --public) widget-sales-react",
+    "deploy": "npm run eslint && npm run test:coverage && npm run build && npm run now"
   },
   "repository": {
     "type": "git",
@@ -29,5 +35,11 @@
   "bugs": {
     "url": "https://github.com/albertkawmi/widget-sales-react/issues"
   },
-  "homepage": "https://github.com/albertkawmi/widget-sales-react#readme"
+  "homepage": ".",
+  "devDependencies": {
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "now": "^9.1.0",
+    "serve": "^6.4.8"
+  }
 }
