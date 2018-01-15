@@ -15,6 +15,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   text-shadow: 1px 1px silver;
+  font-size: 48px;
 }
 
 h2 {
@@ -162,4 +163,10 @@ tbody tr.selected {
   box-shadow: 1px 1px silver;
   padding: 1rem;
   flex-basis: 29%;
+}
+
+/* Helpers */
+
+.mr {
+  margin-right: 1rem;
 }
