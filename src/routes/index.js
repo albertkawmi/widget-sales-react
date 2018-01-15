@@ -1,5 +1,0 @@
-export * from './Clients'
-export * from './Fault'
-export * from './Home'
-export * from './NotFound'
-export * from './Sales'

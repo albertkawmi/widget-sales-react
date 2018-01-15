@@ -10,13 +10,11 @@ import {
   Switch
 } from 'react-router-dom'
 
-import {
-  Home,
-  Clients,
-  Fault,
-  NotFound,
-  Sales,
-} from './routes'
+import Home from './routes/Home'
+import Clients from './routes/Clients'
+import Fault from './routes/Fault'
+import NotFound from './routes/NotFound'
+import Sales from './routes/Sales'
 
 import ErrorMessage from './components/ErrorMessage'
 

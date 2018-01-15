@@ -2,7 +2,7 @@ import React from 'react'
 import ClientsTable from '../../components/ClientsTable'
 import Store from '../../components/Store'
 
-export class Clients extends React.Component {
+export default class Clients extends React.Component {
   componentWillMount() {
     this.fetchDataIfNeeded()
   }

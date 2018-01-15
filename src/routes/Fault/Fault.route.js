@@ -4,7 +4,7 @@ import Store from '../../components/Store'
 // This component hits an endpoint that always returns 500
 // in order to demonstrate basic error handling
 
-export class Fault extends React.Component {
+export default class Fault extends React.Component {
   componentWillMount() {
     this.context.fetchFault()
   }

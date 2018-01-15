@@ -2,7 +2,7 @@ import React from 'react'
 import Store from '../../components/Store'
 import SalesTable from '../../components/SalesTable'
 
-export class Sales extends React.Component {
+export default class Sales extends React.Component {
   componentWillMount() {
     const shouldFetch = !this.context.sales.length
     if (shouldFetch) this.context.fetchSales()

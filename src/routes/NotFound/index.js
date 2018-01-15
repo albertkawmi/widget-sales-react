@@ -1,1 +1,2 @@
-export * from './NotFound.route'
+import NotFound from './NotFound.route'
+export default NotFound

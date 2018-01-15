@@ -1,1 +1,2 @@
-export * from './Clients.route'
+import Clients from './Clients.route'
+export default Clients
