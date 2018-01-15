@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
 import Store from './components/Store'
+import logo from './images/logo.png'
 
 import {
   BrowserRouter as Router,
   Link,
+  NavLink,
   Route,
   Switch
 } from 'react-router-dom'
@@ -33,7 +35,7 @@ class App extends Component {
 }
 
 const Page = () => (
-  <div>
+  <div class="page">
     <Header />
 
     <ErrorMessage />
@@ -54,6 +56,7 @@ const Page = () => (
 
 const Header = () => (
   <header>
+    <img className="logo" src={logo} alt="WidgetSales Logo"/>
     <Link to="/">
       <h1>WidgetSales</h1>
     </Link>
@@ -69,29 +72,32 @@ const Footer = () => (
       &nbsp;|&nbsp;
       <a href="https://github.com/albertkawmi/widget-sales-api">widget-sales-api</a>
     </h6>
+    <h6>
+      <a href="#top">Top of page ⬆︎</a>
+    </h6>
   </footer>
 )
 
 const Nav = () => (
   <nav>
-    <ul>
-      <li>
-        <Link to={`/clients`}>
-          Clients
-        </Link>
-      </li>
-      <li>
-        <Link to={`/sales`}>
-          Sales
-        </Link>
-      </li>
-      <li>
-        <Link to={`/fault`}>
-          Fault
-        </Link>
-      </li>
-    </ul>
+    <StyledNavLink to="/clients">
+      Clients
+    </StyledNavLink>
+    <StyledNavLink to="/sales">
+      Sales
+    </StyledNavLink>
+    <StyledNavLink to="/fault">
+      Fault
+    </StyledNavLink>
   </nav>
+)
+
+const StyledNavLink = (props) => (
+  <NavLink
+    className="nav-link"
+    activeClassName="nav-link__active"
+    {...props}
+  />
 )
 
 export default App;

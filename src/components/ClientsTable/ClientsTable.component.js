@@ -42,7 +42,7 @@ const ClientRow = ({
     <td>{country}</td>
     <td>
       <Link to={`/clients/${id}`}>
-        <button>View Sales</button>
+        <button disabled={isSelected}>Select</button>
       </Link>
     </td>
   </tr>
