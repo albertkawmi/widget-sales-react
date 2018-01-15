@@ -16,6 +16,11 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   text-shadow: 1px 1px silver;
   font-size: 48px;
+  font-style: italic;
+}
+
+h1 .title-highlight {
+  color: #e8be1e;
 }
 
 h2 {
