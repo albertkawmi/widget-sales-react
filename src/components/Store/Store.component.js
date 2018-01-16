@@ -24,19 +24,19 @@ export default class Store extends React.Component {
   request = endpoint => {
     if (this.state.isLoading) return
 
-    this.setState({ isLoading: true }, () => {
-      api.get(endpoint)
-        .then(results => {
-          this.setState({
-            isLoading: false,
-            [endpoint]: results
-          })
+    this.setState({ isLoading: true })
+
+    return api.get(endpoint)
+      .then(results => {
+        this.setState({
+          isLoading: false,
+          [endpoint]: results
         })
-        .catch(error => this.setState({
-          error: error.toString(),
-          isLoading: false
-        }))
-    })
+      })
+      .catch(error => this.setState({
+        error: error.toString(),
+        isLoading: false
+      }))
   }
 
   render() {

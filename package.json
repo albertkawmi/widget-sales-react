@@ -41,5 +41,14 @@
     "enzyme-adapter-react-16": "^1.1.1",
     "now": "^9.1.0",
     "serve": "^6.4.8"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "**/*.{js,jsx}",
+      "!**/node_modules/**",
+      "!**/registerServiceWorker.js",
+      "!src/index.js",
+      "!coverage/**"
+    ]
   }
 }

@@ -1,12 +1,16 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Clients /> has not been changed unintentionally 1`] = `
+exports[`<Clients /> calls fetchClients if no existing clients data 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <BrowserRouter>
-    <Clients />
-</BrowserRouter>,
+  Symbol(enzyme.__unrendered__): <Clients
+    match={
+        Object {
+            "params": Object {},
+          }
+    }
+/>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -17,77 +21,167 @@ ShallowWrapper {
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "host",
     "props": Object {
-      "children": <Clients />,
-      "history": Object {
-        "action": "POP",
-        "block": [Function],
-        "createHref": [Function],
-        "go": [Function],
-        "goBack": [Function],
-        "goForward": [Function],
-        "length": 1,
-        "listen": [Function],
-        "location": Object {
-          "hash": "",
-          "pathname": "/",
-          "search": "",
-          "state": undefined,
-        },
-        "push": [Function],
-        "replace": [Function],
-      },
+      "children": Array [
+        <h2>
+          Clients
+</h2>,
+        <ClientsTable
+          clients={Array []}
+          selectedId={NaN}
+/>,
+        <div
+          className="sales"
+>
+          <h3>
+                    Select a client above to view their purchases.
+          </h3>
+</div>,
+      ],
     },
     "ref": null,
-    "rendered": Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {},
-      "ref": null,
-      "rendered": null,
-      "type": [Function],
-    },
-    "type": [Function],
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Clients",
+        },
+        "ref": null,
+        "rendered": "Clients",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "clients": Array [],
+          "selectedId": NaN,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h3>
+              Select a client above to view their purchases.
+</h3>,
+            false,
+            false,
+          ],
+          "className": "sales",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Select a client above to view their purchases.",
+            },
+            "ref": null,
+            "rendered": "Select a client above to view their purchases.",
+            "type": "h3",
+          },
+          false,
+          false,
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "host",
       "props": Object {
-        "children": <Clients />,
-        "history": Object {
-          "action": "POP",
-          "block": [Function],
-          "createHref": [Function],
-          "go": [Function],
-          "goBack": [Function],
-          "goForward": [Function],
-          "length": 1,
-          "listen": [Function],
-          "location": Object {
-            "hash": "",
-            "pathname": "/",
-            "search": "",
-            "state": undefined,
-          },
-          "push": [Function],
-          "replace": [Function],
-        },
+        "children": Array [
+          <h2>
+            Clients
+</h2>,
+          <ClientsTable
+            clients={Array []}
+            selectedId={NaN}
+/>,
+          <div
+            className="sales"
+>
+            <h3>
+                        Select a client above to view their purchases.
+            </h3>
+</div>,
+        ],
       },
       "ref": null,
-      "rendered": Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {},
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      "type": [Function],
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Clients",
+          },
+          "ref": null,
+          "rendered": "Clients",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "clients": Array [],
+            "selectedId": NaN,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h3>
+                Select a client above to view their purchases.
+</h3>,
+              false,
+              false,
+            ],
+            "className": "sales",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Select a client above to view their purchases.",
+              },
+              "ref": null,
+              "rendered": "Select a client above to view their purchases.",
+              "type": "h3",
+            },
+            false,
+            false,
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
     },
   ],
   Symbol(enzyme.__options__): Object {
@@ -95,6 +189,820 @@ ShallowWrapper {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
       },
+    },
+    "context": Object {
+      "clients": Array [],
+      "dismissError": [Function],
+      "error": "",
+      "fetchClients": [Function],
+      "fetchFault": [Function],
+      "fetchSales": [Function],
+      "isLoading": false,
+      "sales": Array [],
+    },
+  },
+}
+`;
+
+exports[`<Clients /> calls fetchSales if no existing sales data and there is a :clientId route param 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Clients
+    match={
+        Object {
+            "params": Object {
+              "clientId": 1,
+            },
+          }
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h2>
+          Clients
+</h2>,
+        <ClientsTable
+          clients={
+                    Array [
+                              Object {
+                                "id": 1,
+                              },
+                            ]
+          }
+          selectedId={1}
+/>,
+        <div
+          className="sales"
+>
+          <SalesHeading
+                    client={
+                              Object {
+                                        "id": 1,
+                                      }
+                    }
+                    sales={Array []}
+          />
+          <SalesCards
+                    sales={Array []}
+          />
+</div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Clients",
+        },
+        "ref": null,
+        "rendered": "Clients",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "clients": Array [
+            Object {
+              "id": 1,
+            },
+          ],
+          "selectedId": 1,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            false,
+            <SalesHeading
+              client={
+                            Object {
+                                          "id": 1,
+                                        }
+              }
+              sales={Array []}
+/>,
+            <SalesCards
+              sales={Array []}
+/>,
+          ],
+          "className": "sales",
+        },
+        "ref": null,
+        "rendered": Array [
+          false,
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "client": Object {
+                "id": 1,
+              },
+              "sales": Array [],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "sales": Array [],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h2>
+            Clients
+</h2>,
+          <ClientsTable
+            clients={
+                        Array [
+                                    Object {
+                                      "id": 1,
+                                    },
+                                  ]
+            }
+            selectedId={1}
+/>,
+          <div
+            className="sales"
+>
+            <SalesHeading
+                        client={
+                                    Object {
+                                                "id": 1,
+                                              }
+                        }
+                        sales={Array []}
+            />
+            <SalesCards
+                        sales={Array []}
+            />
+</div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Clients",
+          },
+          "ref": null,
+          "rendered": "Clients",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "clients": Array [
+              Object {
+                "id": 1,
+              },
+            ],
+            "selectedId": 1,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              false,
+              <SalesHeading
+                client={
+                                Object {
+                                                "id": 1,
+                                              }
+                }
+                sales={Array []}
+/>,
+              <SalesCards
+                sales={Array []}
+/>,
+            ],
+            "className": "sales",
+          },
+          "ref": null,
+          "rendered": Array [
+            false,
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "client": Object {
+                  "id": 1,
+                },
+                "sales": Array [],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "sales": Array [],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+    "context": Object {
+      "clients": Array [
+        Object {
+          "id": 1,
+        },
+      ],
+      "dismissError": [Function],
+      "error": "",
+      "fetchClients": [Function],
+      "fetchFault": [Function],
+      "fetchSales": [Function],
+      "isLoading": false,
+      "sales": Array [],
+    },
+  },
+}
+`;
+
+exports[`<Clients /> does not call fetchClients if there is any existing clients data 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Clients
+    match={
+        Object {
+            "params": Object {},
+          }
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h2>
+          Clients
+</h2>,
+        <ClientsTable
+          clients={
+                    Array [
+                              Object {
+                                "id": 1,
+                              },
+                            ]
+          }
+          selectedId={NaN}
+/>,
+        <div
+          className="sales"
+>
+          <h3>
+                    Select a client above to view their purchases.
+          </h3>
+</div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Clients",
+        },
+        "ref": null,
+        "rendered": "Clients",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "clients": Array [
+            Object {
+              "id": 1,
+            },
+          ],
+          "selectedId": NaN,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h3>
+              Select a client above to view their purchases.
+</h3>,
+            false,
+            false,
+          ],
+          "className": "sales",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Select a client above to view their purchases.",
+            },
+            "ref": null,
+            "rendered": "Select a client above to view their purchases.",
+            "type": "h3",
+          },
+          false,
+          false,
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h2>
+            Clients
+</h2>,
+          <ClientsTable
+            clients={
+                        Array [
+                                    Object {
+                                      "id": 1,
+                                    },
+                                  ]
+            }
+            selectedId={NaN}
+/>,
+          <div
+            className="sales"
+>
+            <h3>
+                        Select a client above to view their purchases.
+            </h3>
+</div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Clients",
+          },
+          "ref": null,
+          "rendered": "Clients",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "clients": Array [
+              Object {
+                "id": 1,
+              },
+            ],
+            "selectedId": NaN,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h3>
+                Select a client above to view their purchases.
+</h3>,
+              false,
+              false,
+            ],
+            "className": "sales",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Select a client above to view their purchases.",
+              },
+              "ref": null,
+              "rendered": "Select a client above to view their purchases.",
+              "type": "h3",
+            },
+            false,
+            false,
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+    "context": Object {
+      "clients": Array [
+        Object {
+          "id": 1,
+        },
+      ],
+      "dismissError": [Function],
+      "error": "",
+      "fetchClients": [Function],
+      "fetchFault": [Function],
+      "fetchSales": [Function],
+      "isLoading": false,
+      "sales": Array [],
+    },
+  },
+}
+`;
+
+exports[`<Clients /> does not call fetchSales if there is any existing sales data 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Clients
+    match={
+        Object {
+            "params": Object {
+              "clientId": 1,
+            },
+          }
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h2>
+          Clients
+</h2>,
+        <ClientsTable
+          clients={
+                    Array [
+                              Object {
+                                "id": 1,
+                              },
+                            ]
+          }
+          selectedId={1}
+/>,
+        <div
+          className="sales"
+>
+          <SalesHeading
+                    client={
+                              Object {
+                                        "id": 1,
+                                      }
+                    }
+                    sales={Array []}
+          />
+          <SalesCards
+                    sales={Array []}
+          />
+</div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Clients",
+        },
+        "ref": null,
+        "rendered": "Clients",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "clients": Array [
+            Object {
+              "id": 1,
+            },
+          ],
+          "selectedId": 1,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            false,
+            <SalesHeading
+              client={
+                            Object {
+                                          "id": 1,
+                                        }
+              }
+              sales={Array []}
+/>,
+            <SalesCards
+              sales={Array []}
+/>,
+          ],
+          "className": "sales",
+        },
+        "ref": null,
+        "rendered": Array [
+          false,
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "client": Object {
+                "id": 1,
+              },
+              "sales": Array [],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "sales": Array [],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h2>
+            Clients
+</h2>,
+          <ClientsTable
+            clients={
+                        Array [
+                                    Object {
+                                      "id": 1,
+                                    },
+                                  ]
+            }
+            selectedId={1}
+/>,
+          <div
+            className="sales"
+>
+            <SalesHeading
+                        client={
+                                    Object {
+                                                "id": 1,
+                                              }
+                        }
+                        sales={Array []}
+            />
+            <SalesCards
+                        sales={Array []}
+            />
+</div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Clients",
+          },
+          "ref": null,
+          "rendered": "Clients",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "clients": Array [
+              Object {
+                "id": 1,
+              },
+            ],
+            "selectedId": 1,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              false,
+              <SalesHeading
+                client={
+                                Object {
+                                                "id": 1,
+                                              }
+                }
+                sales={Array []}
+/>,
+              <SalesCards
+                sales={Array []}
+/>,
+            ],
+            "className": "sales",
+          },
+          "ref": null,
+          "rendered": Array [
+            false,
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "client": Object {
+                  "id": 1,
+                },
+                "sales": Array [],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "sales": Array [],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+    "context": Object {
+      "clients": Array [
+        Object {
+          "id": 1,
+        },
+      ],
+      "dismissError": [Function],
+      "error": "",
+      "fetchClients": [Function],
+      "fetchFault": [Function],
+      "fetchSales": [Function],
+      "isLoading": false,
+      "sales": Array [
+        Object {
+          "id": 42,
+        },
+      ],
     },
   },
 }
