@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 const ClientsTable = ({ clients, selectedId }) => (
-  <table className="clients-tbl" cellSpacing="0">
+  <table className="clients-table" cellSpacing="0">
     <thead>
       <tr>
         <th>ID</th>

@@ -24,7 +24,9 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <h2>
+        <h2
+          className="page-heading"
+>
           Clients
 </h2>,
         <ClientsTable
@@ -34,7 +36,9 @@ ShallowWrapper {
         <div
           className="sales"
 >
-          <h3>
+          <h3
+                    className="sales-summary"
+          >
                     Select a client above to view their purchases.
           </h3>
 </div>,
@@ -48,6 +52,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": "Clients",
+          "className": "page-heading",
         },
         "ref": null,
         "rendered": "Clients",
@@ -71,7 +76,9 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <h3>
+            <h3
+              className="sales-summary"
+>
               Select a client above to view their purchases.
 </h3>,
             false,
@@ -87,6 +94,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": "Select a client above to view their purchases.",
+              "className": "sales-summary",
             },
             "ref": null,
             "rendered": "Select a client above to view their purchases.",
@@ -107,7 +115,9 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <h2>
+          <h2
+            className="page-heading"
+>
             Clients
 </h2>,
           <ClientsTable
@@ -117,7 +127,9 @@ ShallowWrapper {
           <div
             className="sales"
 >
-            <h3>
+            <h3
+                        className="sales-summary"
+            >
                         Select a client above to view their purchases.
             </h3>
 </div>,
@@ -131,6 +143,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "Clients",
+            "className": "page-heading",
           },
           "ref": null,
           "rendered": "Clients",
@@ -154,7 +167,9 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              <h3>
+              <h3
+                className="sales-summary"
+>
                 Select a client above to view their purchases.
 </h3>,
               false,
@@ -170,6 +185,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": "Select a client above to view their purchases.",
+                "className": "sales-summary",
               },
               "ref": null,
               "rendered": "Select a client above to view their purchases.",
@@ -230,7 +246,9 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <h2>
+        <h2
+          className="page-heading"
+>
           Clients
 </h2>,
         <ClientsTable
@@ -268,6 +286,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": "Clients",
+          "className": "page-heading",
         },
         "ref": null,
         "rendered": "Clients",
@@ -351,7 +370,9 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <h2>
+          <h2
+            className="page-heading"
+>
             Clients
 </h2>,
           <ClientsTable
@@ -389,6 +410,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "Clients",
+            "className": "page-heading",
           },
           "ref": null,
           "rendered": "Clients",
@@ -514,7 +536,9 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <h2>
+        <h2
+          className="page-heading"
+>
           Clients
 </h2>,
         <ClientsTable
@@ -530,7 +554,9 @@ ShallowWrapper {
         <div
           className="sales"
 >
-          <h3>
+          <h3
+                    className="sales-summary"
+          >
                     Select a client above to view their purchases.
           </h3>
 </div>,
@@ -544,6 +570,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": "Clients",
+          "className": "page-heading",
         },
         "ref": null,
         "rendered": "Clients",
@@ -571,7 +598,9 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <h3>
+            <h3
+              className="sales-summary"
+>
               Select a client above to view their purchases.
 </h3>,
             false,
@@ -587,6 +616,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": "Select a client above to view their purchases.",
+              "className": "sales-summary",
             },
             "ref": null,
             "rendered": "Select a client above to view their purchases.",
@@ -607,7 +637,9 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <h2>
+          <h2
+            className="page-heading"
+>
             Clients
 </h2>,
           <ClientsTable
@@ -623,7 +655,9 @@ ShallowWrapper {
           <div
             className="sales"
 >
-            <h3>
+            <h3
+                        className="sales-summary"
+            >
                         Select a client above to view their purchases.
             </h3>
 </div>,
@@ -637,6 +671,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "Clients",
+            "className": "page-heading",
           },
           "ref": null,
           "rendered": "Clients",
@@ -664,7 +699,9 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              <h3>
+              <h3
+                className="sales-summary"
+>
                 Select a client above to view their purchases.
 </h3>,
               false,
@@ -680,6 +717,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": "Select a client above to view their purchases.",
+                "className": "sales-summary",
               },
               "ref": null,
               "rendered": "Select a client above to view their purchases.",
@@ -744,7 +782,9 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <h2>
+        <h2
+          className="page-heading"
+>
           Clients
 </h2>,
         <ClientsTable
@@ -782,6 +822,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": "Clients",
+          "className": "page-heading",
         },
         "ref": null,
         "rendered": "Clients",
@@ -865,7 +906,9 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <h2>
+          <h2
+            className="page-heading"
+>
             Clients
 </h2>,
           <ClientsTable
@@ -903,6 +946,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "Clients",
+            "className": "page-heading",
           },
           "ref": null,
           "rendered": "Clients",

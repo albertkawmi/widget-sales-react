@@ -50,7 +50,7 @@ export default class Clients extends React.Component {
         />
 
         <div className="sales">
-          {!selectedClient && <h3>Select a client above to view their purchases.</h3>}
+          {!selectedClient && <h3 className="sales-summary">Select a client above to view their purchases.</h3>}
           {selectedClient && <SalesHeading client={selectedClient} sales={filteredSales}/>}
           {selectedClient && <SalesCards sales={filteredSales} />}
         </div>

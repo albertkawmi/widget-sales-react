@@ -1243,6 +1243,7 @@ ShallowWrapper {
           />
 </tbody>,
       ],
+      "className": "sales-table",
     },
     "ref": null,
     "rendered": Array [
@@ -3981,6 +3982,7 @@ ShallowWrapper {
             />
 </tbody>,
         ],
+        "className": "sales-table",
       },
       "ref": null,
       "rendered": Array [

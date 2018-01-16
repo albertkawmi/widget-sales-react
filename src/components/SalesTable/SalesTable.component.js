@@ -1,7 +1,7 @@
 import React from 'react'
 
 const SalesTable = ({ sales }) => (
-  <table cellSpacing="0">
+  <table className="sales-table" cellSpacing="0">
     <thead>
       <tr>
         <th>ID</th>

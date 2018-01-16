@@ -1,5 +1,5 @@
-import { By } from 'selenium-webdriver'
-import { driver, load, rootEl } from '../helpers';
+import { By, until } from 'selenium-webdriver'
+import { defaultTimeout, driver, load, rootEl } from '../helpers'
 
 beforeAll(async () => {
   await load('clients')
@@ -11,32 +11,53 @@ describe('Clients Page', () => {
       .findElement(By.css('.page-heading'))
 
     expect(await heading.getText()).toBe('Clients')
-  });
+  })
 
   it('renders the table header row', async () => {
-    const headerRows = await rootEl().findElements('.clients-tbl > thead > tr')
+    const headerRows = await rootEl()
+      .findElements(By.css('.clients-table > thead > tr'))
+
     expect(headerRows.length).toBe(1)
   })
 
   it('renders rows for ten clients', async () => {
-    const bodyRows = await rootEl().findElements('.clients-tbl > tbody > tr')
-    expect(bodyRows.length).toBe(10)
+    const bodyRow = By.css('.clients-table > tbody > tr')
+
+    await driver.wait(
+      until.elementsLocated(bodyRow),
+      defaultTimeout
+    )
+
+    const rows = await rootEl().findElements(bodyRow)
+
+    expect(rows.length).toBe(10)
   })
 
-  it('shows the sales when you click on a client', async () => {
-    const button = await rootEl().findElement('.select-client-btn')
+  it('shows a summary of sales when a client is selected', async () => {
+    const salesSummary = By.css('.sales-summary')
+    const initialMessage = await rootEl()
+      .findElement(salesSummary)
+      .getText()
 
-    return await driver.wait(async () => {
-      await button.click()
-      const sales = await rootEl().findElement('.sales')
+    expect(initialMessage).toBe('Select a client above to view their purchases.')
 
-      return await sales.isDisplayed().then(async (salesAreVisible) => {
-        const message = await sales.findElement(By.css('.sales-summary'))
-        expect(salesAreVisible).toBe(true)
-        const validMessage = /^[A-Za-z\s]+ of [A-Za-z\s]+ has purchased \d+ widgets/
-        expect(await message.getText()).toMatch(validMessage)
-        return true
-      })
-    }, 5000)
+    await driver.wait(
+      until.elementsLocated(By.css('.clients-table > tbody > tr')),
+      defaultTimeout
+    )
+
+    await rootEl()
+      .findElement(By.css('.select-client-btn'))
+      .click()
+
+    const salesMessagePattern = /^[A-Za-z\s]+ of [A-Za-z\s]+ has purchased \d+ widgets/
+
+    await driver.wait(
+      until.elementTextMatches(
+        await rootEl().findElement(salesSummary),
+        salesMessagePattern
+      ),
+      defaultTimeout
+    )
   })
-});
+})

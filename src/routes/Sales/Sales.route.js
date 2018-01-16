@@ -11,7 +11,7 @@ export default class Sales extends React.Component {
   render() {
     return (
       <div>
-        <h2>All Sales</h2>
+        <h2 className="page-heading">All Sales</h2>
         <SalesTable sales={this.context.sales} />
       </div>
     )

@@ -1,4 +1,5 @@
-import { load, find, first } from '../helpers';
+import { By, until } from 'selenium-webdriver'
+import { defaultTimeout, driver, load, rootEl } from '../helpers'
 
 beforeAll(async () => {
   await load('sales')
@@ -6,17 +7,30 @@ beforeAll(async () => {
 
 describe('Sales Page', () => {
   it('has the correct header', async () => {
-    const text = await first('h2').then(h2 => h2.getText())
+    const pageHeading = await rootEl()
+      .findElement(By.css('.page-heading'))
+
+    const text = await pageHeading.getText()
     expect(text).toBe('All Sales')
-  });
+  })
 
   it('renders the table header row', async () => {
-    const headerRows = await find('thead > tr')
+    const headerRows = await rootEl()
+      .findElements(By.css('.sales-table > thead > tr'))
+
     expect(headerRows.length).toBe(1)
   })
 
   it('renders the table body', async () => {
-    const bodyRows = await find('tbody > tr')
-    expect(bodyRows.length).toBeGreaterThan(0)
+    const bodyRow = By.css('.sales-table > tbody > tr')
+
+    await driver.wait(
+      until.elementsLocated(bodyRow),
+      defaultTimeout
+    )
+
+    const rows = await rootEl().findElements(bodyRow)
+
+    expect(rows.length).toBeGreaterThan(0)
   })
-});
+})

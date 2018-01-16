@@ -222,6 +222,7 @@ ShallowWrapper {
           />
 </tbody>,
       ],
+      "className": "clients-table",
     },
     "ref": null,
     "rendered": Array [
@@ -770,6 +771,7 @@ ShallowWrapper {
             />
 </tbody>,
         ],
+        "className": "clients-table",
       },
       "ref": null,
       "rendered": Array [

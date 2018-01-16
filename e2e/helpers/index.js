@@ -1,4 +1,4 @@
-import { Builder, until } from 'selenium-webdriver'
+import { Builder, By, until } from 'selenium-webdriver'
 import chrome from 'selenium-webdriver/chrome'
 
 const rootSelector = { css: '#root' }
@@ -28,5 +28,5 @@ export const rootEl = () => driver.findElement(rootSelector)
 
 export const load = async (path) => {
   await driver.get(`${__baseUrl__}/${path}`)
-  await driver.wait(until.elementLocated(root), defaultTimeout)
+  await driver.wait(until.elementLocated(rootEl), defaultTimeout)
 }
