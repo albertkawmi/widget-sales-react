@@ -1,12 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<NotFound /> has not been changed unintentionally 1`] = `
+exports[`<NotFound /> renders a 404 page 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <BrowserRouter>
-    <NotFound />
-</BrowserRouter>,
+  Symbol(enzyme.__unrendered__): <NotFound />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -17,77 +15,193 @@ ShallowWrapper {
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "host",
     "props": Object {
-      "children": <NotFound />,
-      "history": Object {
-        "action": "POP",
-        "block": [Function],
-        "createHref": [Function],
-        "go": [Function],
-        "goBack": [Function],
-        "goForward": [Function],
-        "length": 1,
-        "listen": [Function],
-        "location": Object {
-          "hash": "",
-          "pathname": "/",
-          "search": "",
-          "state": undefined,
-        },
-        "push": [Function],
-        "replace": [Function],
-      },
+      "children": Array [
+        <h2>
+          Oops! The page you requested doesn't exist
+</h2>,
+        <p>
+          You can 
+          <a
+                    href="/"
+          >
+                    go back to the homepage
+          </a>
+           or, if you like code, 
+          <a
+                    href="https://github.com/albertkawmi/widget-sales-react"
+          >
+                    head to GitHub
+          </a>
+           to find out more about this app.
+</p>,
+      ],
     },
     "ref": null,
-    "rendered": Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "function",
-      "props": Object {},
-      "ref": null,
-      "rendered": null,
-      "type": [Function],
-    },
-    "type": [Function],
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Oops! The page you requested doesn't exist",
+        },
+        "ref": null,
+        "rendered": "Oops! The page you requested doesn't exist",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "You can ",
+            <a
+              href="/"
+>
+              go back to the homepage
+</a>,
+            " or, if you like code, ",
+            <a
+              href="https://github.com/albertkawmi/widget-sales-react"
+>
+              head to GitHub
+</a>,
+            " to find out more about this app.",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "You can ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "go back to the homepage",
+              "href": "/",
+            },
+            "ref": null,
+            "rendered": "go back to the homepage",
+            "type": "a",
+          },
+          " or, if you like code, ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "head to GitHub",
+              "href": "https://github.com/albertkawmi/widget-sales-react",
+            },
+            "ref": null,
+            "rendered": "head to GitHub",
+            "type": "a",
+          },
+          " to find out more about this app.",
+        ],
+        "type": "p",
+      },
+    ],
+    "type": "div",
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "host",
       "props": Object {
-        "children": <NotFound />,
-        "history": Object {
-          "action": "POP",
-          "block": [Function],
-          "createHref": [Function],
-          "go": [Function],
-          "goBack": [Function],
-          "goForward": [Function],
-          "length": 1,
-          "listen": [Function],
-          "location": Object {
-            "hash": "",
-            "pathname": "/",
-            "search": "",
-            "state": undefined,
-          },
-          "push": [Function],
-          "replace": [Function],
-        },
+        "children": Array [
+          <h2>
+            Oops! The page you requested doesn't exist
+</h2>,
+          <p>
+            You can 
+            <a
+                        href="/"
+            >
+                        go back to the homepage
+            </a>
+             or, if you like code, 
+            <a
+                        href="https://github.com/albertkawmi/widget-sales-react"
+            >
+                        head to GitHub
+            </a>
+             to find out more about this app.
+</p>,
+        ],
       },
       "ref": null,
-      "rendered": Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {},
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      "type": [Function],
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Oops! The page you requested doesn't exist",
+          },
+          "ref": null,
+          "rendered": "Oops! The page you requested doesn't exist",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "You can ",
+              <a
+                href="/"
+>
+                go back to the homepage
+</a>,
+              " or, if you like code, ",
+              <a
+                href="https://github.com/albertkawmi/widget-sales-react"
+>
+                head to GitHub
+</a>,
+              " to find out more about this app.",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "You can ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "go back to the homepage",
+                "href": "/",
+              },
+              "ref": null,
+              "rendered": "go back to the homepage",
+              "type": "a",
+            },
+            " or, if you like code, ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "head to GitHub",
+                "href": "https://github.com/albertkawmi/widget-sales-react",
+              },
+              "ref": null,
+              "rendered": "head to GitHub",
+              "type": "a",
+            },
+            " to find out more about this app.",
+          ],
+          "type": "p",
+        },
+      ],
+      "type": "div",
     },
   ],
   Symbol(enzyme.__options__): Object {

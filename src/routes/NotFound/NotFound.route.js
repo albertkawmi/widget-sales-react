@@ -1,7 +1,10 @@
 import React from 'react'
 
 const NotFound = () => (
-  <h2>Oops! The page you requested doesn't exist</h2>
+  <div>
+    <h2>Oops! The page you requested doesn't exist</h2>
+    <p>You can <a href="/">go back to the homepage</a> or, if you like code, <a href="https://github.com/albertkawmi/widget-sales-react">head to GitHub</a> to find out more about this app.</p>
+  </div>
 )
 
 export default NotFound
