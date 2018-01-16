@@ -1,0 +1,18 @@
+button {
+  background: white;
+  border: 0;
+  border: solid 1px silver;
+  border-bottom: solid 2px #2bafba;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: lemonchiffon;
+}
+
+button:disabled {
+  background: white;
+  border-bottom: solid 2px silver;
+  cursor: default;
+}

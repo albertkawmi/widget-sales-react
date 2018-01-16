@@ -1,0 +1,14 @@
+nav {
+  flex: 1;
+  text-align: right;
+}
+
+.nav-link {
+  padding: 0 1rem;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.nav-link__active {
+  text-decoration: underline;
+}

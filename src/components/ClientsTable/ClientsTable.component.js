@@ -1,5 +1,6 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import LinkButton from '../LinkButton'
+import './ClientsTable.css'
 
 const ClientsTable = ({ clients, selectedId }) => (
   <table className="clients-table" cellSpacing="0">
@@ -43,11 +44,12 @@ export function ClientRow({
       <td>{telephone}</td>
       <td>{country}</td>
       <td>
-        <Link to={`/clients/${id}`}>
-          <button className="select-client-btn" disabled={isSelected}>
-            Select
-          </button>
-        </Link>
+        <LinkButton
+          to={`/clients/${id}`}
+          text="Select"
+          options={{ disabled: isSelected }}
+          buttonClassName="select-client-btn"
+        />
       </td>
     </tr>
   )

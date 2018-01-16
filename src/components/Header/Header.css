@@ -1,0 +1,21 @@
+header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.logo {
+  width: 60px;
+  margin-right: 0.25rem;
+}
+
+.site-title {
+  font-weight: 800;
+  text-shadow: 1px 1px silver;
+  font-size: 48px;
+  font-style: italic;
+}
+
+.site-title__highlight {
+  color: #e8be1e;
+}

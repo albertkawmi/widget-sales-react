@@ -1,0 +1,15 @@
+.error {
+  display: flex;
+  background: tomato;
+  border: solid 1px crimson;
+  color: white;
+  padding: 1em;
+}
+
+.error__text {
+  flex: 1;
+}
+
+.error__dismiss {
+  cursor: pointer;
+}

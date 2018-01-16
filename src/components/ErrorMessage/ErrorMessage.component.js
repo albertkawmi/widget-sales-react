@@ -1,5 +1,6 @@
 import React from 'react'
 import Store from '../Store'
+import './ErrorMessage.css'
 
 export default class ErrorMessage extends React.Component {
   render() {
