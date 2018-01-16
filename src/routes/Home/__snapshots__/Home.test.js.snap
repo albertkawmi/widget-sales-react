@@ -18,40 +18,28 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <h2>
+        <h2
+          className="page-heading"
+>
           Welcome
 </h2>,
         <p>
           What would you like to do?
 </p>,
-        <Link
-          replace={false}
+        <LinkButton
+          buttonClassName="mr"
+          text="View all your Clients"
           to="/clients"
->
-          <button
-                    className="mr"
-          >
-                    View all your Clients
-          </button>
-</Link>,
-        <Link
-          replace={false}
+/>,
+        <LinkButton
+          buttonClassName="mr"
+          text="View all your Sales"
           to="/sales"
->
-          <button
-                    className="mr"
-          >
-                    View all your Sales
-          </button>
-</Link>,
-        <Link
-          replace={false}
+/>,
+        <LinkButton
+          text="Actually, I'd like to see an error page instead"
           to="/fault"
->
-          <button>
-                    Actually, I'd like to see an error page instead
-          </button>
-</Link>,
+/>,
       ],
       "className": "home",
     },
@@ -63,6 +51,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": "Welcome",
+          "className": "page-heading",
         },
         "ref": null,
         "rendered": "Welcome",
@@ -82,82 +71,39 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "function",
         "props": Object {
-          "children": <button
-            className="mr"
->
-            View all your Clients
-</button>,
-          "replace": false,
+          "buttonClassName": "mr",
+          "text": "View all your Clients",
           "to": "/clients",
         },
         "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "View all your Clients",
-            "className": "mr",
-          },
-          "ref": null,
-          "rendered": "View all your Clients",
-          "type": "button",
-        },
+        "rendered": null,
         "type": [Function],
       },
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "function",
         "props": Object {
-          "children": <button
-            className="mr"
->
-            View all your Sales
-</button>,
-          "replace": false,
+          "buttonClassName": "mr",
+          "text": "View all your Sales",
           "to": "/sales",
         },
         "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "View all your Sales",
-            "className": "mr",
-          },
-          "ref": null,
-          "rendered": "View all your Sales",
-          "type": "button",
-        },
+        "rendered": null,
         "type": [Function],
       },
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "function",
         "props": Object {
-          "children": <button>
-            Actually, I'd like to see an error page instead
-</button>,
-          "replace": false,
+          "text": "Actually, I'd like to see an error page instead",
           "to": "/fault",
         },
         "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "Actually, I'd like to see an error page instead",
-          },
-          "ref": null,
-          "rendered": "Actually, I'd like to see an error page instead",
-          "type": "button",
-        },
+        "rendered": null,
         "type": [Function],
       },
     ],
@@ -170,40 +116,28 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <h2>
+          <h2
+            className="page-heading"
+>
             Welcome
 </h2>,
           <p>
             What would you like to do?
 </p>,
-          <Link
-            replace={false}
+          <LinkButton
+            buttonClassName="mr"
+            text="View all your Clients"
             to="/clients"
->
-            <button
-                        className="mr"
-            >
-                        View all your Clients
-            </button>
-</Link>,
-          <Link
-            replace={false}
+/>,
+          <LinkButton
+            buttonClassName="mr"
+            text="View all your Sales"
             to="/sales"
->
-            <button
-                        className="mr"
-            >
-                        View all your Sales
-            </button>
-</Link>,
-          <Link
-            replace={false}
+/>,
+          <LinkButton
+            text="Actually, I'd like to see an error page instead"
             to="/fault"
->
-            <button>
-                        Actually, I'd like to see an error page instead
-            </button>
-</Link>,
+/>,
         ],
         "className": "home",
       },
@@ -215,6 +149,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "Welcome",
+            "className": "page-heading",
           },
           "ref": null,
           "rendered": "Welcome",
@@ -234,82 +169,39 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
-            "children": <button
-              className="mr"
->
-              View all your Clients
-</button>,
-            "replace": false,
+            "buttonClassName": "mr",
+            "text": "View all your Clients",
             "to": "/clients",
           },
           "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "View all your Clients",
-              "className": "mr",
-            },
-            "ref": null,
-            "rendered": "View all your Clients",
-            "type": "button",
-          },
+          "rendered": null,
           "type": [Function],
         },
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
-            "children": <button
-              className="mr"
->
-              View all your Sales
-</button>,
-            "replace": false,
+            "buttonClassName": "mr",
+            "text": "View all your Sales",
             "to": "/sales",
           },
           "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "View all your Sales",
-              "className": "mr",
-            },
-            "ref": null,
-            "rendered": "View all your Sales",
-            "type": "button",
-          },
+          "rendered": null,
           "type": [Function],
         },
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
-            "children": <button>
-              Actually, I'd like to see an error page instead
-</button>,
-            "replace": false,
+            "text": "Actually, I'd like to see an error page instead",
             "to": "/fault",
           },
           "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Actually, I'd like to see an error page instead",
-            },
-            "ref": null,
-            "rendered": "Actually, I'd like to see an error page instead",
-            "type": "button",
-          },
+          "rendered": null,
           "type": [Function],
         },
       ],

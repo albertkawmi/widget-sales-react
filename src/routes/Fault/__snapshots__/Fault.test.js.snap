@@ -18,7 +18,9 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <h2>
+        <h2
+          className="page-heading"
+>
           A Faulty Page
 </h2>,
         <p>
@@ -34,6 +36,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": "A Faulty Page",
+          "className": "page-heading",
         },
         "ref": null,
         "rendered": "A Faulty Page",
@@ -60,7 +63,9 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <h2>
+          <h2
+            className="page-heading"
+>
             A Faulty Page
 </h2>,
           <p>
@@ -76,6 +81,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "A Faulty Page",
+            "className": "page-heading",
           },
           "ref": null,
           "rendered": "A Faulty Page",

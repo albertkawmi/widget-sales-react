@@ -51,7 +51,7 @@ describe('<ClientsTable />', () => {
       <ClientRow isSelected={false} {...clientsData[0]} />
     )
     expect(
-      row.find('Link').prop('to')
+      row.find('LinkButton').prop('to')
     ).toBe('/clients/1')
   })
 })
