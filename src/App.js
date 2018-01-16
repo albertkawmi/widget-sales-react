@@ -1,11 +1,8 @@
 import React, { Component } from 'react'
 import Store from './components/Store'
-import logo from './images/logo.png'
 
 import {
   BrowserRouter as Router,
-  Link,
-  NavLink,
   Route,
   Switch
 } from 'react-router-dom'
@@ -16,6 +13,8 @@ import Fault from './routes/Fault'
 import NotFound from './routes/NotFound'
 import Sales from './routes/Sales'
 
+import Header from './components/Header'
+import Footer from './components/Footer'
 import ErrorMessage from './components/ErrorMessage'
 
 import './App.css'
@@ -50,54 +49,6 @@ const Page = () => (
 
     <Footer />
   </div>
-)
-
-const Header = () => (
-  <header>
-    <img className="logo" src={logo} alt="WidgetSales Logo"/>
-    <Link to="/">
-      <h1>
-        Widget<span className="title-highlight">Sales</span>
-      </h1>
-    </Link>
-    <Nav />
-  </header>
-)
-
-const Footer = () => (
-  <footer>
-    <h6>
-      WidgetSales on GitHub:&nbsp;
-      <a href="https://github.com/albertkawmi/widget-sales-react">widget-sales-react</a>
-      &nbsp;|&nbsp;
-      <a href="https://github.com/albertkawmi/widget-sales-api">widget-sales-api</a>
-    </h6>
-    <h6>
-      <a href="#top">Top of page ⬆︎</a>
-    </h6>
-  </footer>
-)
-
-const Nav = () => (
-  <nav>
-    <StyledNavLink to="/clients">
-      Clients
-    </StyledNavLink>
-    <StyledNavLink to="/sales">
-      Sales
-    </StyledNavLink>
-    <StyledNavLink to="/fault">
-      Fault
-    </StyledNavLink>
-  </nav>
-)
-
-const StyledNavLink = (props) => (
-  <NavLink
-    className="nav-link"
-    activeClassName="nav-link__active"
-    {...props}
-  />
 )
 
 export default App;
