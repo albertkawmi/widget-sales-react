@@ -24,7 +24,8 @@ const ClientsTable = ({ clients, selectedId }) => (
   </table>
 )
 
-const ClientRow = ({
+// Can't use an arrow function as Enzyme renders it 'Unknown'
+export function ClientRow({
   id,
   firstName,
   lastName,
@@ -32,20 +33,22 @@ const ClientRow = ({
   telephone,
   country,
   isSelected
-}) => (
-  <tr className={isSelected ? 'selected' : ''}>
-    <td>{id}</td>
-    <td>{firstName}</td>
-    <td>{lastName}</td>
-    <td>{company}</td>
-    <td>{telephone}</td>
-    <td>{country}</td>
-    <td>
-      <Link to={`/clients/${id}`}>
-        <button disabled={isSelected}>Select</button>
-      </Link>
-    </td>
-  </tr>
-)
+}) {
+  return (
+    <tr className={isSelected ? 'selected' : ''}>
+      <td>{id}</td>
+      <td>{firstName}</td>
+      <td>{lastName}</td>
+      <td>{company}</td>
+      <td>{telephone}</td>
+      <td>{country}</td>
+      <td>
+        <Link to={`/clients/${id}`}>
+          <button disabled={isSelected}>Select</button>
+        </Link>
+      </td>
+    </tr>
+  )
+}
 
 export default ClientsTable

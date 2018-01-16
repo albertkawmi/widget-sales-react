@@ -1,0 +1,1204 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ClientsTable /> renders clients data in a table 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ClientsTable
+    clients={
+        Array [
+            Object {
+              "company": "Dynazzy",
+              "country": "Nigeria",
+              "firstName": "Mariejeanne",
+              "id": 1,
+              "lastName": "Lush",
+              "telephone": "+234 494 203 0408",
+            },
+            Object {
+              "company": "Bluejam",
+              "country": "Zimbabwe",
+              "firstName": "Jonas",
+              "id": 2,
+              "lastName": "Jeannaud",
+              "telephone": "+263 706 597 3567",
+            },
+            Object {
+              "company": "Divape",
+              "country": "Philippines",
+              "firstName": "Raynell",
+              "id": 3,
+              "lastName": "Manning",
+              "telephone": "+63 672 620 4807",
+            },
+            Object {
+              "company": "Brightbean",
+              "country": "Sweden",
+              "firstName": "Orlan",
+              "id": 4,
+              "lastName": "Westbrook",
+              "telephone": "+46 709 539 1100",
+            },
+            Object {
+              "company": "Wikizz",
+              "country": "Indonesia",
+              "firstName": "Ivory",
+              "id": 5,
+              "lastName": "Plaister",
+              "telephone": "+62 443 276 2504",
+            },
+            Object {
+              "company": "Avamm",
+              "country": "China",
+              "firstName": "Lindsey",
+              "id": 6,
+              "lastName": "Revie",
+              "telephone": "+86 341 167 4508",
+            },
+            Object {
+              "company": "Mita",
+              "country": "Indonesia",
+              "firstName": "Constantin",
+              "id": 7,
+              "lastName": "Tyer",
+              "telephone": "+62 201 966 3247",
+            },
+            Object {
+              "company": "Quimm",
+              "country": "Poland",
+              "firstName": "Letizia",
+              "id": 8,
+              "lastName": "Emeney",
+              "telephone": "+48 944 486 3972",
+            },
+            Object {
+              "company": "Topicshots",
+              "country": "Portugal",
+              "firstName": "Rivkah",
+              "id": 9,
+              "lastName": "Sabberton",
+              "telephone": "+351 675 609 7738",
+            },
+            Object {
+              "company": "Browsedrive",
+              "country": "Dominican Republic",
+              "firstName": "Jaine",
+              "id": 10,
+              "lastName": "Hubback",
+              "telephone": "+1 411 500 2183",
+            },
+          ]
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "cellSpacing": "0",
+      "children": Array [
+        <thead>
+          <tr>
+                    <th>
+                              ID
+                    </th>
+                    <th>
+                              First Name
+                    </th>
+                    <th>
+                              Last Name
+                    </th>
+                    <th>
+                              Company
+                    </th>
+                    <th>
+                              Telephone
+                    </th>
+                    <th>
+                              Country
+                    </th>
+                    <th>
+                               
+                    </th>
+          </tr>
+</thead>,
+        <tbody>
+          <ClientRow
+                    company="Dynazzy"
+                    country="Nigeria"
+                    firstName="Mariejeanne"
+                    id={1}
+                    isSelected={false}
+                    lastName="Lush"
+                    telephone="+234 494 203 0408"
+          />
+          <ClientRow
+                    company="Bluejam"
+                    country="Zimbabwe"
+                    firstName="Jonas"
+                    id={2}
+                    isSelected={false}
+                    lastName="Jeannaud"
+                    telephone="+263 706 597 3567"
+          />
+          <ClientRow
+                    company="Divape"
+                    country="Philippines"
+                    firstName="Raynell"
+                    id={3}
+                    isSelected={false}
+                    lastName="Manning"
+                    telephone="+63 672 620 4807"
+          />
+          <ClientRow
+                    company="Brightbean"
+                    country="Sweden"
+                    firstName="Orlan"
+                    id={4}
+                    isSelected={false}
+                    lastName="Westbrook"
+                    telephone="+46 709 539 1100"
+          />
+          <ClientRow
+                    company="Wikizz"
+                    country="Indonesia"
+                    firstName="Ivory"
+                    id={5}
+                    isSelected={false}
+                    lastName="Plaister"
+                    telephone="+62 443 276 2504"
+          />
+          <ClientRow
+                    company="Avamm"
+                    country="China"
+                    firstName="Lindsey"
+                    id={6}
+                    isSelected={false}
+                    lastName="Revie"
+                    telephone="+86 341 167 4508"
+          />
+          <ClientRow
+                    company="Mita"
+                    country="Indonesia"
+                    firstName="Constantin"
+                    id={7}
+                    isSelected={false}
+                    lastName="Tyer"
+                    telephone="+62 201 966 3247"
+          />
+          <ClientRow
+                    company="Quimm"
+                    country="Poland"
+                    firstName="Letizia"
+                    id={8}
+                    isSelected={false}
+                    lastName="Emeney"
+                    telephone="+48 944 486 3972"
+          />
+          <ClientRow
+                    company="Topicshots"
+                    country="Portugal"
+                    firstName="Rivkah"
+                    id={9}
+                    isSelected={false}
+                    lastName="Sabberton"
+                    telephone="+351 675 609 7738"
+          />
+          <ClientRow
+                    company="Browsedrive"
+                    country="Dominican Republic"
+                    firstName="Jaine"
+                    id={10}
+                    isSelected={false}
+                    lastName="Hubback"
+                    telephone="+1 411 500 2183"
+          />
+</tbody>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <tr>
+            <th>
+                        ID
+            </th>
+            <th>
+                        First Name
+            </th>
+            <th>
+                        Last Name
+            </th>
+            <th>
+                        Company
+            </th>
+            <th>
+                        Telephone
+            </th>
+            <th>
+                        Country
+            </th>
+            <th>
+                         
+            </th>
+</tr>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <th>
+                ID
+</th>,
+              <th>
+                First Name
+</th>,
+              <th>
+                Last Name
+</th>,
+              <th>
+                Company
+</th>,
+              <th>
+                Telephone
+</th>,
+              <th>
+                Country
+</th>,
+              <th>
+                 
+</th>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "ID",
+              },
+              "ref": null,
+              "rendered": "ID",
+              "type": "th",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "First Name",
+              },
+              "ref": null,
+              "rendered": "First Name",
+              "type": "th",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Last Name",
+              },
+              "ref": null,
+              "rendered": "Last Name",
+              "type": "th",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Company",
+              },
+              "ref": null,
+              "rendered": "Company",
+              "type": "th",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Telephone",
+              },
+              "ref": null,
+              "rendered": "Telephone",
+              "type": "th",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Country",
+              },
+              "ref": null,
+              "rendered": "Country",
+              "type": "th",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": " ",
+              },
+              "ref": null,
+              "rendered": " ",
+              "type": "th",
+            },
+          ],
+          "type": "tr",
+        },
+        "type": "thead",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <ClientRow
+              company="Dynazzy"
+              country="Nigeria"
+              firstName="Mariejeanne"
+              id={1}
+              isSelected={false}
+              lastName="Lush"
+              telephone="+234 494 203 0408"
+/>,
+            <ClientRow
+              company="Bluejam"
+              country="Zimbabwe"
+              firstName="Jonas"
+              id={2}
+              isSelected={false}
+              lastName="Jeannaud"
+              telephone="+263 706 597 3567"
+/>,
+            <ClientRow
+              company="Divape"
+              country="Philippines"
+              firstName="Raynell"
+              id={3}
+              isSelected={false}
+              lastName="Manning"
+              telephone="+63 672 620 4807"
+/>,
+            <ClientRow
+              company="Brightbean"
+              country="Sweden"
+              firstName="Orlan"
+              id={4}
+              isSelected={false}
+              lastName="Westbrook"
+              telephone="+46 709 539 1100"
+/>,
+            <ClientRow
+              company="Wikizz"
+              country="Indonesia"
+              firstName="Ivory"
+              id={5}
+              isSelected={false}
+              lastName="Plaister"
+              telephone="+62 443 276 2504"
+/>,
+            <ClientRow
+              company="Avamm"
+              country="China"
+              firstName="Lindsey"
+              id={6}
+              isSelected={false}
+              lastName="Revie"
+              telephone="+86 341 167 4508"
+/>,
+            <ClientRow
+              company="Mita"
+              country="Indonesia"
+              firstName="Constantin"
+              id={7}
+              isSelected={false}
+              lastName="Tyer"
+              telephone="+62 201 966 3247"
+/>,
+            <ClientRow
+              company="Quimm"
+              country="Poland"
+              firstName="Letizia"
+              id={8}
+              isSelected={false}
+              lastName="Emeney"
+              telephone="+48 944 486 3972"
+/>,
+            <ClientRow
+              company="Topicshots"
+              country="Portugal"
+              firstName="Rivkah"
+              id={9}
+              isSelected={false}
+              lastName="Sabberton"
+              telephone="+351 675 609 7738"
+/>,
+            <ClientRow
+              company="Browsedrive"
+              country="Dominican Republic"
+              firstName="Jaine"
+              id={10}
+              isSelected={false}
+              lastName="Hubback"
+              telephone="+1 411 500 2183"
+/>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "function",
+            "props": Object {
+              "company": "Dynazzy",
+              "country": "Nigeria",
+              "firstName": "Mariejeanne",
+              "id": 1,
+              "isSelected": false,
+              "lastName": "Lush",
+              "telephone": "+234 494 203 0408",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "2",
+            "nodeType": "function",
+            "props": Object {
+              "company": "Bluejam",
+              "country": "Zimbabwe",
+              "firstName": "Jonas",
+              "id": 2,
+              "isSelected": false,
+              "lastName": "Jeannaud",
+              "telephone": "+263 706 597 3567",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "3",
+            "nodeType": "function",
+            "props": Object {
+              "company": "Divape",
+              "country": "Philippines",
+              "firstName": "Raynell",
+              "id": 3,
+              "isSelected": false,
+              "lastName": "Manning",
+              "telephone": "+63 672 620 4807",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "4",
+            "nodeType": "function",
+            "props": Object {
+              "company": "Brightbean",
+              "country": "Sweden",
+              "firstName": "Orlan",
+              "id": 4,
+              "isSelected": false,
+              "lastName": "Westbrook",
+              "telephone": "+46 709 539 1100",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "5",
+            "nodeType": "function",
+            "props": Object {
+              "company": "Wikizz",
+              "country": "Indonesia",
+              "firstName": "Ivory",
+              "id": 5,
+              "isSelected": false,
+              "lastName": "Plaister",
+              "telephone": "+62 443 276 2504",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "6",
+            "nodeType": "function",
+            "props": Object {
+              "company": "Avamm",
+              "country": "China",
+              "firstName": "Lindsey",
+              "id": 6,
+              "isSelected": false,
+              "lastName": "Revie",
+              "telephone": "+86 341 167 4508",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "7",
+            "nodeType": "function",
+            "props": Object {
+              "company": "Mita",
+              "country": "Indonesia",
+              "firstName": "Constantin",
+              "id": 7,
+              "isSelected": false,
+              "lastName": "Tyer",
+              "telephone": "+62 201 966 3247",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "8",
+            "nodeType": "function",
+            "props": Object {
+              "company": "Quimm",
+              "country": "Poland",
+              "firstName": "Letizia",
+              "id": 8,
+              "isSelected": false,
+              "lastName": "Emeney",
+              "telephone": "+48 944 486 3972",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "9",
+            "nodeType": "function",
+            "props": Object {
+              "company": "Topicshots",
+              "country": "Portugal",
+              "firstName": "Rivkah",
+              "id": 9,
+              "isSelected": false,
+              "lastName": "Sabberton",
+              "telephone": "+351 675 609 7738",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "10",
+            "nodeType": "function",
+            "props": Object {
+              "company": "Browsedrive",
+              "country": "Dominican Republic",
+              "firstName": "Jaine",
+              "id": 10,
+              "isSelected": false,
+              "lastName": "Hubback",
+              "telephone": "+1 411 500 2183",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "tbody",
+      },
+    ],
+    "type": "table",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "cellSpacing": "0",
+        "children": Array [
+          <thead>
+            <tr>
+                        <th>
+                                    ID
+                        </th>
+                        <th>
+                                    First Name
+                        </th>
+                        <th>
+                                    Last Name
+                        </th>
+                        <th>
+                                    Company
+                        </th>
+                        <th>
+                                    Telephone
+                        </th>
+                        <th>
+                                    Country
+                        </th>
+                        <th>
+                                     
+                        </th>
+            </tr>
+</thead>,
+          <tbody>
+            <ClientRow
+                        company="Dynazzy"
+                        country="Nigeria"
+                        firstName="Mariejeanne"
+                        id={1}
+                        isSelected={false}
+                        lastName="Lush"
+                        telephone="+234 494 203 0408"
+            />
+            <ClientRow
+                        company="Bluejam"
+                        country="Zimbabwe"
+                        firstName="Jonas"
+                        id={2}
+                        isSelected={false}
+                        lastName="Jeannaud"
+                        telephone="+263 706 597 3567"
+            />
+            <ClientRow
+                        company="Divape"
+                        country="Philippines"
+                        firstName="Raynell"
+                        id={3}
+                        isSelected={false}
+                        lastName="Manning"
+                        telephone="+63 672 620 4807"
+            />
+            <ClientRow
+                        company="Brightbean"
+                        country="Sweden"
+                        firstName="Orlan"
+                        id={4}
+                        isSelected={false}
+                        lastName="Westbrook"
+                        telephone="+46 709 539 1100"
+            />
+            <ClientRow
+                        company="Wikizz"
+                        country="Indonesia"
+                        firstName="Ivory"
+                        id={5}
+                        isSelected={false}
+                        lastName="Plaister"
+                        telephone="+62 443 276 2504"
+            />
+            <ClientRow
+                        company="Avamm"
+                        country="China"
+                        firstName="Lindsey"
+                        id={6}
+                        isSelected={false}
+                        lastName="Revie"
+                        telephone="+86 341 167 4508"
+            />
+            <ClientRow
+                        company="Mita"
+                        country="Indonesia"
+                        firstName="Constantin"
+                        id={7}
+                        isSelected={false}
+                        lastName="Tyer"
+                        telephone="+62 201 966 3247"
+            />
+            <ClientRow
+                        company="Quimm"
+                        country="Poland"
+                        firstName="Letizia"
+                        id={8}
+                        isSelected={false}
+                        lastName="Emeney"
+                        telephone="+48 944 486 3972"
+            />
+            <ClientRow
+                        company="Topicshots"
+                        country="Portugal"
+                        firstName="Rivkah"
+                        id={9}
+                        isSelected={false}
+                        lastName="Sabberton"
+                        telephone="+351 675 609 7738"
+            />
+            <ClientRow
+                        company="Browsedrive"
+                        country="Dominican Republic"
+                        firstName="Jaine"
+                        id={10}
+                        isSelected={false}
+                        lastName="Hubback"
+                        telephone="+1 411 500 2183"
+            />
+</tbody>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <tr>
+              <th>
+                            ID
+              </th>
+              <th>
+                            First Name
+              </th>
+              <th>
+                            Last Name
+              </th>
+              <th>
+                            Company
+              </th>
+              <th>
+                            Telephone
+              </th>
+              <th>
+                            Country
+              </th>
+              <th>
+                             
+              </th>
+</tr>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <th>
+                  ID
+</th>,
+                <th>
+                  First Name
+</th>,
+                <th>
+                  Last Name
+</th>,
+                <th>
+                  Company
+</th>,
+                <th>
+                  Telephone
+</th>,
+                <th>
+                  Country
+</th>,
+                <th>
+                   
+</th>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "ID",
+                },
+                "ref": null,
+                "rendered": "ID",
+                "type": "th",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "First Name",
+                },
+                "ref": null,
+                "rendered": "First Name",
+                "type": "th",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Last Name",
+                },
+                "ref": null,
+                "rendered": "Last Name",
+                "type": "th",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Company",
+                },
+                "ref": null,
+                "rendered": "Company",
+                "type": "th",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Telephone",
+                },
+                "ref": null,
+                "rendered": "Telephone",
+                "type": "th",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Country",
+                },
+                "ref": null,
+                "rendered": "Country",
+                "type": "th",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": " ",
+                },
+                "ref": null,
+                "rendered": " ",
+                "type": "th",
+              },
+            ],
+            "type": "tr",
+          },
+          "type": "thead",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <ClientRow
+                company="Dynazzy"
+                country="Nigeria"
+                firstName="Mariejeanne"
+                id={1}
+                isSelected={false}
+                lastName="Lush"
+                telephone="+234 494 203 0408"
+/>,
+              <ClientRow
+                company="Bluejam"
+                country="Zimbabwe"
+                firstName="Jonas"
+                id={2}
+                isSelected={false}
+                lastName="Jeannaud"
+                telephone="+263 706 597 3567"
+/>,
+              <ClientRow
+                company="Divape"
+                country="Philippines"
+                firstName="Raynell"
+                id={3}
+                isSelected={false}
+                lastName="Manning"
+                telephone="+63 672 620 4807"
+/>,
+              <ClientRow
+                company="Brightbean"
+                country="Sweden"
+                firstName="Orlan"
+                id={4}
+                isSelected={false}
+                lastName="Westbrook"
+                telephone="+46 709 539 1100"
+/>,
+              <ClientRow
+                company="Wikizz"
+                country="Indonesia"
+                firstName="Ivory"
+                id={5}
+                isSelected={false}
+                lastName="Plaister"
+                telephone="+62 443 276 2504"
+/>,
+              <ClientRow
+                company="Avamm"
+                country="China"
+                firstName="Lindsey"
+                id={6}
+                isSelected={false}
+                lastName="Revie"
+                telephone="+86 341 167 4508"
+/>,
+              <ClientRow
+                company="Mita"
+                country="Indonesia"
+                firstName="Constantin"
+                id={7}
+                isSelected={false}
+                lastName="Tyer"
+                telephone="+62 201 966 3247"
+/>,
+              <ClientRow
+                company="Quimm"
+                country="Poland"
+                firstName="Letizia"
+                id={8}
+                isSelected={false}
+                lastName="Emeney"
+                telephone="+48 944 486 3972"
+/>,
+              <ClientRow
+                company="Topicshots"
+                country="Portugal"
+                firstName="Rivkah"
+                id={9}
+                isSelected={false}
+                lastName="Sabberton"
+                telephone="+351 675 609 7738"
+/>,
+              <ClientRow
+                company="Browsedrive"
+                country="Dominican Republic"
+                firstName="Jaine"
+                id={10}
+                isSelected={false}
+                lastName="Hubback"
+                telephone="+1 411 500 2183"
+/>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "function",
+              "props": Object {
+                "company": "Dynazzy",
+                "country": "Nigeria",
+                "firstName": "Mariejeanne",
+                "id": 1,
+                "isSelected": false,
+                "lastName": "Lush",
+                "telephone": "+234 494 203 0408",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "2",
+              "nodeType": "function",
+              "props": Object {
+                "company": "Bluejam",
+                "country": "Zimbabwe",
+                "firstName": "Jonas",
+                "id": 2,
+                "isSelected": false,
+                "lastName": "Jeannaud",
+                "telephone": "+263 706 597 3567",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "3",
+              "nodeType": "function",
+              "props": Object {
+                "company": "Divape",
+                "country": "Philippines",
+                "firstName": "Raynell",
+                "id": 3,
+                "isSelected": false,
+                "lastName": "Manning",
+                "telephone": "+63 672 620 4807",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "4",
+              "nodeType": "function",
+              "props": Object {
+                "company": "Brightbean",
+                "country": "Sweden",
+                "firstName": "Orlan",
+                "id": 4,
+                "isSelected": false,
+                "lastName": "Westbrook",
+                "telephone": "+46 709 539 1100",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "5",
+              "nodeType": "function",
+              "props": Object {
+                "company": "Wikizz",
+                "country": "Indonesia",
+                "firstName": "Ivory",
+                "id": 5,
+                "isSelected": false,
+                "lastName": "Plaister",
+                "telephone": "+62 443 276 2504",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "6",
+              "nodeType": "function",
+              "props": Object {
+                "company": "Avamm",
+                "country": "China",
+                "firstName": "Lindsey",
+                "id": 6,
+                "isSelected": false,
+                "lastName": "Revie",
+                "telephone": "+86 341 167 4508",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "7",
+              "nodeType": "function",
+              "props": Object {
+                "company": "Mita",
+                "country": "Indonesia",
+                "firstName": "Constantin",
+                "id": 7,
+                "isSelected": false,
+                "lastName": "Tyer",
+                "telephone": "+62 201 966 3247",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "8",
+              "nodeType": "function",
+              "props": Object {
+                "company": "Quimm",
+                "country": "Poland",
+                "firstName": "Letizia",
+                "id": 8,
+                "isSelected": false,
+                "lastName": "Emeney",
+                "telephone": "+48 944 486 3972",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "9",
+              "nodeType": "function",
+              "props": Object {
+                "company": "Topicshots",
+                "country": "Portugal",
+                "firstName": "Rivkah",
+                "id": 9,
+                "isSelected": false,
+                "lastName": "Sabberton",
+                "telephone": "+351 675 609 7738",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "10",
+              "nodeType": "function",
+              "props": Object {
+                "company": "Browsedrive",
+                "country": "Dominican Republic",
+                "firstName": "Jaine",
+                "id": 10,
+                "isSelected": false,
+                "lastName": "Hubback",
+                "telephone": "+1 411 500 2183",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "tbody",
+        },
+      ],
+      "type": "table",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

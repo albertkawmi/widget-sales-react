@@ -1,0 +1,6104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SalesTable /> renders sales data in a table 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SalesTable
+    sales={
+        Array [
+            Object {
+              "clientId": 7,
+              "id": 1,
+              "productName": "Plain Widget",
+              "size": "small",
+            },
+            Object {
+              "clientId": 7,
+              "id": 2,
+              "productName": "Super Widget",
+              "size": "medium",
+            },
+            Object {
+              "clientId": 10,
+              "id": 3,
+              "productName": "Plain Widget",
+              "size": "medium",
+            },
+            Object {
+              "clientId": 2,
+              "id": 4,
+              "productName": "Classic Widget",
+              "size": "large",
+            },
+            Object {
+              "clientId": 2,
+              "id": 5,
+              "productName": "Double Widget",
+              "size": "medium",
+            },
+            Object {
+              "clientId": 2,
+              "id": 6,
+              "productName": "Plain Widget",
+              "size": "small",
+            },
+            Object {
+              "clientId": 10,
+              "id": 7,
+              "productName": "Classic Widget",
+              "size": "medium",
+            },
+            Object {
+              "clientId": 7,
+              "id": 8,
+              "productName": "Super Widget",
+              "size": "small",
+            },
+            Object {
+              "clientId": 3,
+              "id": 9,
+              "productName": "Legacy Widget",
+              "size": "large",
+            },
+            Object {
+              "clientId": 10,
+              "id": 10,
+              "productName": "Double Widget",
+              "size": "large",
+            },
+            Object {
+              "clientId": 6,
+              "id": 11,
+              "productName": "Modern Widget",
+              "size": "large",
+            },
+            Object {
+              "clientId": 2,
+              "id": 12,
+              "productName": "Super Widget",
+              "size": "medium",
+            },
+            Object {
+              "clientId": 2,
+              "id": 13,
+              "productName": "Classic Widget",
+              "size": "small",
+            },
+            Object {
+              "clientId": 3,
+              "id": 14,
+              "productName": "Legacy Widget",
+              "size": "medium",
+            },
+            Object {
+              "clientId": 5,
+              "id": 15,
+              "productName": "Legacy Widget",
+              "size": "small",
+            },
+            Object {
+              "clientId": 9,
+              "id": 16,
+              "productName": "Super Widget",
+              "size": "large",
+            },
+            Object {
+              "clientId": 6,
+              "id": 17,
+              "productName": "Super Widget",
+              "size": "small",
+            },
+            Object {
+              "clientId": 10,
+              "id": 18,
+              "productName": "Plain Widget",
+              "size": "large",
+            },
+            Object {
+              "clientId": 6,
+              "id": 19,
+              "productName": "Modern Widget",
+              "size": "medium",
+            },
+            Object {
+              "clientId": 1,
+              "id": 20,
+              "productName": "Plain Widget",
+              "size": "small",
+            },
+            Object {
+              "clientId": 1,
+              "id": 21,
+              "productName": "Double Widget",
+              "size": "large",
+            },
+            Object {
+              "clientId": 2,
+              "id": 22,
+              "productName": "Super Widget",
+              "size": "large",
+            },
+            Object {
+              "clientId": 9,
+              "id": 23,
+              "productName": "Classic Widget",
+              "size": "small",
+            },
+            Object {
+              "clientId": 1,
+              "id": 24,
+              "productName": "Modern Widget",
+              "size": "medium",
+            },
+            Object {
+              "clientId": 3,
+              "id": 25,
+              "productName": "Plain Widget",
+              "size": "medium",
+            },
+            Object {
+              "clientId": 8,
+              "id": 26,
+              "productName": "Classic Widget",
+              "size": "small",
+            },
+            Object {
+              "clientId": 6,
+              "id": 27,
+              "productName": "Double Widget",
+              "size": "medium",
+            },
+            Object {
+              "clientId": 10,
+              "id": 28,
+              "productName": "Double Widget",
+              "size": "large",
+            },
+            Object {
+              "clientId": 10,
+              "id": 29,
+              "productName": "Legacy Widget",
+              "size": "large",
+            },
+            Object {
+              "clientId": 3,
+              "id": 30,
+              "productName": "Plain Widget",
+              "size": "small",
+            },
+            Object {
+              "clientId": 1,
+              "id": 31,
+              "productName": "Plain Widget",
+              "size": "large",
+            },
+            Object {
+              "clientId": 1,
+              "id": 32,
+              "productName": "Classic Widget",
+              "size": "large",
+            },
+            Object {
+              "clientId": 6,
+              "id": 33,
+              "productName": "Legacy Widget",
+              "size": "small",
+            },
+            Object {
+              "clientId": 6,
+              "id": 34,
+              "productName": "Double Widget",
+              "size": "medium",
+            },
+            Object {
+              "clientId": 10,
+              "id": 35,
+              "productName": "Classic Widget",
+              "size": "small",
+            },
+            Object {
+              "clientId": 2,
+              "id": 36,
+              "productName": "Classic Widget",
+              "size": "large",
+            },
+            Object {
+              "clientId": 4,
+              "id": 37,
+              "productName": "Classic Widget",
+              "size": "medium",
+            },
+            Object {
+              "clientId": 4,
+              "id": 38,
+              "productName": "Modern Widget",
+              "size": "medium",
+            },
+            Object {
+              "clientId": 7,
+              "id": 39,
+              "productName": "Legacy Widget",
+              "size": "medium",
+            },
+            Object {
+              "clientId": 8,
+              "id": 40,
+              "productName": "Double Widget",
+              "size": "small",
+            },
+            Object {
+              "clientId": 9,
+              "id": 41,
+              "productName": "Modern Widget",
+              "size": "large",
+            },
+            Object {
+              "clientId": 4,
+              "id": 42,
+              "productName": "Super Widget",
+              "size": "medium",
+            },
+            Object {
+              "clientId": 5,
+              "id": 43,
+              "productName": "Modern Widget",
+              "size": "small",
+            },
+            Object {
+              "clientId": 1,
+              "id": 44,
+              "productName": "Double Widget",
+              "size": "small",
+            },
+            Object {
+              "clientId": 6,
+              "id": 45,
+              "productName": "Plain Widget",
+              "size": "small",
+            },
+            Object {
+              "clientId": 2,
+              "id": 46,
+              "productName": "Modern Widget",
+              "size": "medium",
+            },
+            Object {
+              "clientId": 6,
+              "id": 47,
+              "productName": "Classic Widget",
+              "size": "small",
+            },
+            Object {
+              "clientId": 8,
+              "id": 48,
+              "productName": "Plain Widget",
+              "size": "small",
+            },
+            Object {
+              "clientId": 6,
+              "id": 49,
+              "productName": "Legacy Widget",
+              "size": "small",
+            },
+            Object {
+              "clientId": 10,
+              "id": 50,
+              "productName": "Classic Widget",
+              "size": "large",
+            },
+            Object {
+              "clientId": 1,
+              "id": 51,
+              "productName": "Double Widget",
+              "size": "small",
+            },
+            Object {
+              "clientId": 8,
+              "id": 52,
+              "productName": "Modern Widget",
+              "size": "large",
+            },
+            Object {
+              "clientId": 4,
+              "id": 53,
+              "productName": "Double Widget",
+              "size": "medium",
+            },
+            Object {
+              "clientId": 3,
+              "id": 54,
+              "productName": "Classic Widget",
+              "size": "small",
+            },
+            Object {
+              "clientId": 1,
+              "id": 55,
+              "productName": "Modern Widget",
+              "size": "medium",
+            },
+            Object {
+              "clientId": 5,
+              "id": 56,
+              "productName": "Legacy Widget",
+              "size": "medium",
+            },
+            Object {
+              "clientId": 10,
+              "id": 57,
+              "productName": "Double Widget",
+              "size": "medium",
+            },
+            Object {
+              "clientId": 2,
+              "id": 58,
+              "productName": "Legacy Widget",
+              "size": "medium",
+            },
+            Object {
+              "clientId": 4,
+              "id": 59,
+              "productName": "Legacy Widget",
+              "size": "large",
+            },
+            Object {
+              "clientId": 9,
+              "id": 60,
+              "productName": "Classic Widget",
+              "size": "medium",
+            },
+            Object {
+              "clientId": 2,
+              "id": 61,
+              "productName": "Super Widget",
+              "size": "large",
+            },
+            Object {
+              "clientId": 1,
+              "id": 62,
+              "productName": "Modern Widget",
+              "size": "medium",
+            },
+            Object {
+              "clientId": 10,
+              "id": 63,
+              "productName": "Legacy Widget",
+              "size": "large",
+            },
+            Object {
+              "clientId": 10,
+              "id": 64,
+              "productName": "Plain Widget",
+              "size": "large",
+            },
+            Object {
+              "clientId": 4,
+              "id": 65,
+              "productName": "Legacy Widget",
+              "size": "large",
+            },
+            Object {
+              "clientId": 7,
+              "id": 66,
+              "productName": "Classic Widget",
+              "size": "medium",
+            },
+            Object {
+              "clientId": 3,
+              "id": 67,
+              "productName": "Classic Widget",
+              "size": "large",
+            },
+            Object {
+              "clientId": 6,
+              "id": 68,
+              "productName": "Double Widget",
+              "size": "small",
+            },
+            Object {
+              "clientId": 8,
+              "id": 69,
+              "productName": "Double Widget",
+              "size": "large",
+            },
+            Object {
+              "clientId": 9,
+              "id": 70,
+              "productName": "Classic Widget",
+              "size": "small",
+            },
+            Object {
+              "clientId": 1,
+              "id": 71,
+              "productName": "Legacy Widget",
+              "size": "large",
+            },
+            Object {
+              "clientId": 10,
+              "id": 72,
+              "productName": "Legacy Widget",
+              "size": "medium",
+            },
+            Object {
+              "clientId": 6,
+              "id": 73,
+              "productName": "Plain Widget",
+              "size": "small",
+            },
+            Object {
+              "clientId": 8,
+              "id": 74,
+              "productName": "Classic Widget",
+              "size": "medium",
+            },
+            Object {
+              "clientId": 2,
+              "id": 75,
+              "productName": "Modern Widget",
+              "size": "medium",
+            },
+            Object {
+              "clientId": 1,
+              "id": 76,
+              "productName": "Double Widget",
+              "size": "large",
+            },
+            Object {
+              "clientId": 8,
+              "id": 77,
+              "productName": "Legacy Widget",
+              "size": "small",
+            },
+            Object {
+              "clientId": 10,
+              "id": 78,
+              "productName": "Super Widget",
+              "size": "medium",
+            },
+            Object {
+              "clientId": 2,
+              "id": 79,
+              "productName": "Double Widget",
+              "size": "medium",
+            },
+            Object {
+              "clientId": 7,
+              "id": 80,
+              "productName": "Plain Widget",
+              "size": "small",
+            },
+            Object {
+              "clientId": 8,
+              "id": 81,
+              "productName": "Modern Widget",
+              "size": "medium",
+            },
+            Object {
+              "clientId": 1,
+              "id": 82,
+              "productName": "Classic Widget",
+              "size": "small",
+            },
+            Object {
+              "clientId": 3,
+              "id": 83,
+              "productName": "Modern Widget",
+              "size": "small",
+            },
+            Object {
+              "clientId": 5,
+              "id": 84,
+              "productName": "Super Widget",
+              "size": "large",
+            },
+            Object {
+              "clientId": 10,
+              "id": 85,
+              "productName": "Double Widget",
+              "size": "small",
+            },
+            Object {
+              "clientId": 9,
+              "id": 86,
+              "productName": "Super Widget",
+              "size": "medium",
+            },
+            Object {
+              "clientId": 8,
+              "id": 87,
+              "productName": "Classic Widget",
+              "size": "small",
+            },
+            Object {
+              "clientId": 8,
+              "id": 88,
+              "productName": "Legacy Widget",
+              "size": "large",
+            },
+            Object {
+              "clientId": 4,
+              "id": 89,
+              "productName": "Classic Widget",
+              "size": "large",
+            },
+            Object {
+              "clientId": 10,
+              "id": 90,
+              "productName": "Modern Widget",
+              "size": "small",
+            },
+            Object {
+              "clientId": 10,
+              "id": 91,
+              "productName": "Legacy Widget",
+              "size": "large",
+            },
+            Object {
+              "clientId": 2,
+              "id": 92,
+              "productName": "Modern Widget",
+              "size": "medium",
+            },
+            Object {
+              "clientId": 8,
+              "id": 93,
+              "productName": "Classic Widget",
+              "size": "large",
+            },
+            Object {
+              "clientId": 1,
+              "id": 94,
+              "productName": "Super Widget",
+              "size": "medium",
+            },
+            Object {
+              "clientId": 4,
+              "id": 95,
+              "productName": "Double Widget",
+              "size": "small",
+            },
+            Object {
+              "clientId": 8,
+              "id": 96,
+              "productName": "Double Widget",
+              "size": "medium",
+            },
+            Object {
+              "clientId": 4,
+              "id": 97,
+              "productName": "Legacy Widget",
+              "size": "medium",
+            },
+            Object {
+              "clientId": 10,
+              "id": 98,
+              "productName": "Legacy Widget",
+              "size": "large",
+            },
+            Object {
+              "clientId": 2,
+              "id": 99,
+              "productName": "Plain Widget",
+              "size": "small",
+            },
+            Object {
+              "clientId": 2,
+              "id": 100,
+              "productName": "Classic Widget",
+              "size": "large",
+            },
+          ]
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "cellSpacing": "0",
+      "children": Array [
+        <thead>
+          <tr>
+                    <th>
+                              ID
+                    </th>
+                    <th>
+                              Client ID
+                    </th>
+                    <th>
+                              Product Name
+                    </th>
+                    <th>
+                              Size
+                    </th>
+          </tr>
+</thead>,
+        <tbody>
+          <SalesRow
+                    clientId={7}
+                    id={1}
+                    productName="Plain Widget"
+                    size="small"
+          />
+          <SalesRow
+                    clientId={7}
+                    id={2}
+                    productName="Super Widget"
+                    size="medium"
+          />
+          <SalesRow
+                    clientId={10}
+                    id={3}
+                    productName="Plain Widget"
+                    size="medium"
+          />
+          <SalesRow
+                    clientId={2}
+                    id={4}
+                    productName="Classic Widget"
+                    size="large"
+          />
+          <SalesRow
+                    clientId={2}
+                    id={5}
+                    productName="Double Widget"
+                    size="medium"
+          />
+          <SalesRow
+                    clientId={2}
+                    id={6}
+                    productName="Plain Widget"
+                    size="small"
+          />
+          <SalesRow
+                    clientId={10}
+                    id={7}
+                    productName="Classic Widget"
+                    size="medium"
+          />
+          <SalesRow
+                    clientId={7}
+                    id={8}
+                    productName="Super Widget"
+                    size="small"
+          />
+          <SalesRow
+                    clientId={3}
+                    id={9}
+                    productName="Legacy Widget"
+                    size="large"
+          />
+          <SalesRow
+                    clientId={10}
+                    id={10}
+                    productName="Double Widget"
+                    size="large"
+          />
+          <SalesRow
+                    clientId={6}
+                    id={11}
+                    productName="Modern Widget"
+                    size="large"
+          />
+          <SalesRow
+                    clientId={2}
+                    id={12}
+                    productName="Super Widget"
+                    size="medium"
+          />
+          <SalesRow
+                    clientId={2}
+                    id={13}
+                    productName="Classic Widget"
+                    size="small"
+          />
+          <SalesRow
+                    clientId={3}
+                    id={14}
+                    productName="Legacy Widget"
+                    size="medium"
+          />
+          <SalesRow
+                    clientId={5}
+                    id={15}
+                    productName="Legacy Widget"
+                    size="small"
+          />
+          <SalesRow
+                    clientId={9}
+                    id={16}
+                    productName="Super Widget"
+                    size="large"
+          />
+          <SalesRow
+                    clientId={6}
+                    id={17}
+                    productName="Super Widget"
+                    size="small"
+          />
+          <SalesRow
+                    clientId={10}
+                    id={18}
+                    productName="Plain Widget"
+                    size="large"
+          />
+          <SalesRow
+                    clientId={6}
+                    id={19}
+                    productName="Modern Widget"
+                    size="medium"
+          />
+          <SalesRow
+                    clientId={1}
+                    id={20}
+                    productName="Plain Widget"
+                    size="small"
+          />
+          <SalesRow
+                    clientId={1}
+                    id={21}
+                    productName="Double Widget"
+                    size="large"
+          />
+          <SalesRow
+                    clientId={2}
+                    id={22}
+                    productName="Super Widget"
+                    size="large"
+          />
+          <SalesRow
+                    clientId={9}
+                    id={23}
+                    productName="Classic Widget"
+                    size="small"
+          />
+          <SalesRow
+                    clientId={1}
+                    id={24}
+                    productName="Modern Widget"
+                    size="medium"
+          />
+          <SalesRow
+                    clientId={3}
+                    id={25}
+                    productName="Plain Widget"
+                    size="medium"
+          />
+          <SalesRow
+                    clientId={8}
+                    id={26}
+                    productName="Classic Widget"
+                    size="small"
+          />
+          <SalesRow
+                    clientId={6}
+                    id={27}
+                    productName="Double Widget"
+                    size="medium"
+          />
+          <SalesRow
+                    clientId={10}
+                    id={28}
+                    productName="Double Widget"
+                    size="large"
+          />
+          <SalesRow
+                    clientId={10}
+                    id={29}
+                    productName="Legacy Widget"
+                    size="large"
+          />
+          <SalesRow
+                    clientId={3}
+                    id={30}
+                    productName="Plain Widget"
+                    size="small"
+          />
+          <SalesRow
+                    clientId={1}
+                    id={31}
+                    productName="Plain Widget"
+                    size="large"
+          />
+          <SalesRow
+                    clientId={1}
+                    id={32}
+                    productName="Classic Widget"
+                    size="large"
+          />
+          <SalesRow
+                    clientId={6}
+                    id={33}
+                    productName="Legacy Widget"
+                    size="small"
+          />
+          <SalesRow
+                    clientId={6}
+                    id={34}
+                    productName="Double Widget"
+                    size="medium"
+          />
+          <SalesRow
+                    clientId={10}
+                    id={35}
+                    productName="Classic Widget"
+                    size="small"
+          />
+          <SalesRow
+                    clientId={2}
+                    id={36}
+                    productName="Classic Widget"
+                    size="large"
+          />
+          <SalesRow
+                    clientId={4}
+                    id={37}
+                    productName="Classic Widget"
+                    size="medium"
+          />
+          <SalesRow
+                    clientId={4}
+                    id={38}
+                    productName="Modern Widget"
+                    size="medium"
+          />
+          <SalesRow
+                    clientId={7}
+                    id={39}
+                    productName="Legacy Widget"
+                    size="medium"
+          />
+          <SalesRow
+                    clientId={8}
+                    id={40}
+                    productName="Double Widget"
+                    size="small"
+          />
+          <SalesRow
+                    clientId={9}
+                    id={41}
+                    productName="Modern Widget"
+                    size="large"
+          />
+          <SalesRow
+                    clientId={4}
+                    id={42}
+                    productName="Super Widget"
+                    size="medium"
+          />
+          <SalesRow
+                    clientId={5}
+                    id={43}
+                    productName="Modern Widget"
+                    size="small"
+          />
+          <SalesRow
+                    clientId={1}
+                    id={44}
+                    productName="Double Widget"
+                    size="small"
+          />
+          <SalesRow
+                    clientId={6}
+                    id={45}
+                    productName="Plain Widget"
+                    size="small"
+          />
+          <SalesRow
+                    clientId={2}
+                    id={46}
+                    productName="Modern Widget"
+                    size="medium"
+          />
+          <SalesRow
+                    clientId={6}
+                    id={47}
+                    productName="Classic Widget"
+                    size="small"
+          />
+          <SalesRow
+                    clientId={8}
+                    id={48}
+                    productName="Plain Widget"
+                    size="small"
+          />
+          <SalesRow
+                    clientId={6}
+                    id={49}
+                    productName="Legacy Widget"
+                    size="small"
+          />
+          <SalesRow
+                    clientId={10}
+                    id={50}
+                    productName="Classic Widget"
+                    size="large"
+          />
+          <SalesRow
+                    clientId={1}
+                    id={51}
+                    productName="Double Widget"
+                    size="small"
+          />
+          <SalesRow
+                    clientId={8}
+                    id={52}
+                    productName="Modern Widget"
+                    size="large"
+          />
+          <SalesRow
+                    clientId={4}
+                    id={53}
+                    productName="Double Widget"
+                    size="medium"
+          />
+          <SalesRow
+                    clientId={3}
+                    id={54}
+                    productName="Classic Widget"
+                    size="small"
+          />
+          <SalesRow
+                    clientId={1}
+                    id={55}
+                    productName="Modern Widget"
+                    size="medium"
+          />
+          <SalesRow
+                    clientId={5}
+                    id={56}
+                    productName="Legacy Widget"
+                    size="medium"
+          />
+          <SalesRow
+                    clientId={10}
+                    id={57}
+                    productName="Double Widget"
+                    size="medium"
+          />
+          <SalesRow
+                    clientId={2}
+                    id={58}
+                    productName="Legacy Widget"
+                    size="medium"
+          />
+          <SalesRow
+                    clientId={4}
+                    id={59}
+                    productName="Legacy Widget"
+                    size="large"
+          />
+          <SalesRow
+                    clientId={9}
+                    id={60}
+                    productName="Classic Widget"
+                    size="medium"
+          />
+          <SalesRow
+                    clientId={2}
+                    id={61}
+                    productName="Super Widget"
+                    size="large"
+          />
+          <SalesRow
+                    clientId={1}
+                    id={62}
+                    productName="Modern Widget"
+                    size="medium"
+          />
+          <SalesRow
+                    clientId={10}
+                    id={63}
+                    productName="Legacy Widget"
+                    size="large"
+          />
+          <SalesRow
+                    clientId={10}
+                    id={64}
+                    productName="Plain Widget"
+                    size="large"
+          />
+          <SalesRow
+                    clientId={4}
+                    id={65}
+                    productName="Legacy Widget"
+                    size="large"
+          />
+          <SalesRow
+                    clientId={7}
+                    id={66}
+                    productName="Classic Widget"
+                    size="medium"
+          />
+          <SalesRow
+                    clientId={3}
+                    id={67}
+                    productName="Classic Widget"
+                    size="large"
+          />
+          <SalesRow
+                    clientId={6}
+                    id={68}
+                    productName="Double Widget"
+                    size="small"
+          />
+          <SalesRow
+                    clientId={8}
+                    id={69}
+                    productName="Double Widget"
+                    size="large"
+          />
+          <SalesRow
+                    clientId={9}
+                    id={70}
+                    productName="Classic Widget"
+                    size="small"
+          />
+          <SalesRow
+                    clientId={1}
+                    id={71}
+                    productName="Legacy Widget"
+                    size="large"
+          />
+          <SalesRow
+                    clientId={10}
+                    id={72}
+                    productName="Legacy Widget"
+                    size="medium"
+          />
+          <SalesRow
+                    clientId={6}
+                    id={73}
+                    productName="Plain Widget"
+                    size="small"
+          />
+          <SalesRow
+                    clientId={8}
+                    id={74}
+                    productName="Classic Widget"
+                    size="medium"
+          />
+          <SalesRow
+                    clientId={2}
+                    id={75}
+                    productName="Modern Widget"
+                    size="medium"
+          />
+          <SalesRow
+                    clientId={1}
+                    id={76}
+                    productName="Double Widget"
+                    size="large"
+          />
+          <SalesRow
+                    clientId={8}
+                    id={77}
+                    productName="Legacy Widget"
+                    size="small"
+          />
+          <SalesRow
+                    clientId={10}
+                    id={78}
+                    productName="Super Widget"
+                    size="medium"
+          />
+          <SalesRow
+                    clientId={2}
+                    id={79}
+                    productName="Double Widget"
+                    size="medium"
+          />
+          <SalesRow
+                    clientId={7}
+                    id={80}
+                    productName="Plain Widget"
+                    size="small"
+          />
+          <SalesRow
+                    clientId={8}
+                    id={81}
+                    productName="Modern Widget"
+                    size="medium"
+          />
+          <SalesRow
+                    clientId={1}
+                    id={82}
+                    productName="Classic Widget"
+                    size="small"
+          />
+          <SalesRow
+                    clientId={3}
+                    id={83}
+                    productName="Modern Widget"
+                    size="small"
+          />
+          <SalesRow
+                    clientId={5}
+                    id={84}
+                    productName="Super Widget"
+                    size="large"
+          />
+          <SalesRow
+                    clientId={10}
+                    id={85}
+                    productName="Double Widget"
+                    size="small"
+          />
+          <SalesRow
+                    clientId={9}
+                    id={86}
+                    productName="Super Widget"
+                    size="medium"
+          />
+          <SalesRow
+                    clientId={8}
+                    id={87}
+                    productName="Classic Widget"
+                    size="small"
+          />
+          <SalesRow
+                    clientId={8}
+                    id={88}
+                    productName="Legacy Widget"
+                    size="large"
+          />
+          <SalesRow
+                    clientId={4}
+                    id={89}
+                    productName="Classic Widget"
+                    size="large"
+          />
+          <SalesRow
+                    clientId={10}
+                    id={90}
+                    productName="Modern Widget"
+                    size="small"
+          />
+          <SalesRow
+                    clientId={10}
+                    id={91}
+                    productName="Legacy Widget"
+                    size="large"
+          />
+          <SalesRow
+                    clientId={2}
+                    id={92}
+                    productName="Modern Widget"
+                    size="medium"
+          />
+          <SalesRow
+                    clientId={8}
+                    id={93}
+                    productName="Classic Widget"
+                    size="large"
+          />
+          <SalesRow
+                    clientId={1}
+                    id={94}
+                    productName="Super Widget"
+                    size="medium"
+          />
+          <SalesRow
+                    clientId={4}
+                    id={95}
+                    productName="Double Widget"
+                    size="small"
+          />
+          <SalesRow
+                    clientId={8}
+                    id={96}
+                    productName="Double Widget"
+                    size="medium"
+          />
+          <SalesRow
+                    clientId={4}
+                    id={97}
+                    productName="Legacy Widget"
+                    size="medium"
+          />
+          <SalesRow
+                    clientId={10}
+                    id={98}
+                    productName="Legacy Widget"
+                    size="large"
+          />
+          <SalesRow
+                    clientId={2}
+                    id={99}
+                    productName="Plain Widget"
+                    size="small"
+          />
+          <SalesRow
+                    clientId={2}
+                    id={100}
+                    productName="Classic Widget"
+                    size="large"
+          />
+</tbody>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <tr>
+            <th>
+                        ID
+            </th>
+            <th>
+                        Client ID
+            </th>
+            <th>
+                        Product Name
+            </th>
+            <th>
+                        Size
+            </th>
+</tr>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <th>
+                ID
+</th>,
+              <th>
+                Client ID
+</th>,
+              <th>
+                Product Name
+</th>,
+              <th>
+                Size
+</th>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "ID",
+              },
+              "ref": null,
+              "rendered": "ID",
+              "type": "th",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Client ID",
+              },
+              "ref": null,
+              "rendered": "Client ID",
+              "type": "th",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Product Name",
+              },
+              "ref": null,
+              "rendered": "Product Name",
+              "type": "th",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Size",
+              },
+              "ref": null,
+              "rendered": "Size",
+              "type": "th",
+            },
+          ],
+          "type": "tr",
+        },
+        "type": "thead",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <SalesRow
+              clientId={7}
+              id={1}
+              productName="Plain Widget"
+              size="small"
+/>,
+            <SalesRow
+              clientId={7}
+              id={2}
+              productName="Super Widget"
+              size="medium"
+/>,
+            <SalesRow
+              clientId={10}
+              id={3}
+              productName="Plain Widget"
+              size="medium"
+/>,
+            <SalesRow
+              clientId={2}
+              id={4}
+              productName="Classic Widget"
+              size="large"
+/>,
+            <SalesRow
+              clientId={2}
+              id={5}
+              productName="Double Widget"
+              size="medium"
+/>,
+            <SalesRow
+              clientId={2}
+              id={6}
+              productName="Plain Widget"
+              size="small"
+/>,
+            <SalesRow
+              clientId={10}
+              id={7}
+              productName="Classic Widget"
+              size="medium"
+/>,
+            <SalesRow
+              clientId={7}
+              id={8}
+              productName="Super Widget"
+              size="small"
+/>,
+            <SalesRow
+              clientId={3}
+              id={9}
+              productName="Legacy Widget"
+              size="large"
+/>,
+            <SalesRow
+              clientId={10}
+              id={10}
+              productName="Double Widget"
+              size="large"
+/>,
+            <SalesRow
+              clientId={6}
+              id={11}
+              productName="Modern Widget"
+              size="large"
+/>,
+            <SalesRow
+              clientId={2}
+              id={12}
+              productName="Super Widget"
+              size="medium"
+/>,
+            <SalesRow
+              clientId={2}
+              id={13}
+              productName="Classic Widget"
+              size="small"
+/>,
+            <SalesRow
+              clientId={3}
+              id={14}
+              productName="Legacy Widget"
+              size="medium"
+/>,
+            <SalesRow
+              clientId={5}
+              id={15}
+              productName="Legacy Widget"
+              size="small"
+/>,
+            <SalesRow
+              clientId={9}
+              id={16}
+              productName="Super Widget"
+              size="large"
+/>,
+            <SalesRow
+              clientId={6}
+              id={17}
+              productName="Super Widget"
+              size="small"
+/>,
+            <SalesRow
+              clientId={10}
+              id={18}
+              productName="Plain Widget"
+              size="large"
+/>,
+            <SalesRow
+              clientId={6}
+              id={19}
+              productName="Modern Widget"
+              size="medium"
+/>,
+            <SalesRow
+              clientId={1}
+              id={20}
+              productName="Plain Widget"
+              size="small"
+/>,
+            <SalesRow
+              clientId={1}
+              id={21}
+              productName="Double Widget"
+              size="large"
+/>,
+            <SalesRow
+              clientId={2}
+              id={22}
+              productName="Super Widget"
+              size="large"
+/>,
+            <SalesRow
+              clientId={9}
+              id={23}
+              productName="Classic Widget"
+              size="small"
+/>,
+            <SalesRow
+              clientId={1}
+              id={24}
+              productName="Modern Widget"
+              size="medium"
+/>,
+            <SalesRow
+              clientId={3}
+              id={25}
+              productName="Plain Widget"
+              size="medium"
+/>,
+            <SalesRow
+              clientId={8}
+              id={26}
+              productName="Classic Widget"
+              size="small"
+/>,
+            <SalesRow
+              clientId={6}
+              id={27}
+              productName="Double Widget"
+              size="medium"
+/>,
+            <SalesRow
+              clientId={10}
+              id={28}
+              productName="Double Widget"
+              size="large"
+/>,
+            <SalesRow
+              clientId={10}
+              id={29}
+              productName="Legacy Widget"
+              size="large"
+/>,
+            <SalesRow
+              clientId={3}
+              id={30}
+              productName="Plain Widget"
+              size="small"
+/>,
+            <SalesRow
+              clientId={1}
+              id={31}
+              productName="Plain Widget"
+              size="large"
+/>,
+            <SalesRow
+              clientId={1}
+              id={32}
+              productName="Classic Widget"
+              size="large"
+/>,
+            <SalesRow
+              clientId={6}
+              id={33}
+              productName="Legacy Widget"
+              size="small"
+/>,
+            <SalesRow
+              clientId={6}
+              id={34}
+              productName="Double Widget"
+              size="medium"
+/>,
+            <SalesRow
+              clientId={10}
+              id={35}
+              productName="Classic Widget"
+              size="small"
+/>,
+            <SalesRow
+              clientId={2}
+              id={36}
+              productName="Classic Widget"
+              size="large"
+/>,
+            <SalesRow
+              clientId={4}
+              id={37}
+              productName="Classic Widget"
+              size="medium"
+/>,
+            <SalesRow
+              clientId={4}
+              id={38}
+              productName="Modern Widget"
+              size="medium"
+/>,
+            <SalesRow
+              clientId={7}
+              id={39}
+              productName="Legacy Widget"
+              size="medium"
+/>,
+            <SalesRow
+              clientId={8}
+              id={40}
+              productName="Double Widget"
+              size="small"
+/>,
+            <SalesRow
+              clientId={9}
+              id={41}
+              productName="Modern Widget"
+              size="large"
+/>,
+            <SalesRow
+              clientId={4}
+              id={42}
+              productName="Super Widget"
+              size="medium"
+/>,
+            <SalesRow
+              clientId={5}
+              id={43}
+              productName="Modern Widget"
+              size="small"
+/>,
+            <SalesRow
+              clientId={1}
+              id={44}
+              productName="Double Widget"
+              size="small"
+/>,
+            <SalesRow
+              clientId={6}
+              id={45}
+              productName="Plain Widget"
+              size="small"
+/>,
+            <SalesRow
+              clientId={2}
+              id={46}
+              productName="Modern Widget"
+              size="medium"
+/>,
+            <SalesRow
+              clientId={6}
+              id={47}
+              productName="Classic Widget"
+              size="small"
+/>,
+            <SalesRow
+              clientId={8}
+              id={48}
+              productName="Plain Widget"
+              size="small"
+/>,
+            <SalesRow
+              clientId={6}
+              id={49}
+              productName="Legacy Widget"
+              size="small"
+/>,
+            <SalesRow
+              clientId={10}
+              id={50}
+              productName="Classic Widget"
+              size="large"
+/>,
+            <SalesRow
+              clientId={1}
+              id={51}
+              productName="Double Widget"
+              size="small"
+/>,
+            <SalesRow
+              clientId={8}
+              id={52}
+              productName="Modern Widget"
+              size="large"
+/>,
+            <SalesRow
+              clientId={4}
+              id={53}
+              productName="Double Widget"
+              size="medium"
+/>,
+            <SalesRow
+              clientId={3}
+              id={54}
+              productName="Classic Widget"
+              size="small"
+/>,
+            <SalesRow
+              clientId={1}
+              id={55}
+              productName="Modern Widget"
+              size="medium"
+/>,
+            <SalesRow
+              clientId={5}
+              id={56}
+              productName="Legacy Widget"
+              size="medium"
+/>,
+            <SalesRow
+              clientId={10}
+              id={57}
+              productName="Double Widget"
+              size="medium"
+/>,
+            <SalesRow
+              clientId={2}
+              id={58}
+              productName="Legacy Widget"
+              size="medium"
+/>,
+            <SalesRow
+              clientId={4}
+              id={59}
+              productName="Legacy Widget"
+              size="large"
+/>,
+            <SalesRow
+              clientId={9}
+              id={60}
+              productName="Classic Widget"
+              size="medium"
+/>,
+            <SalesRow
+              clientId={2}
+              id={61}
+              productName="Super Widget"
+              size="large"
+/>,
+            <SalesRow
+              clientId={1}
+              id={62}
+              productName="Modern Widget"
+              size="medium"
+/>,
+            <SalesRow
+              clientId={10}
+              id={63}
+              productName="Legacy Widget"
+              size="large"
+/>,
+            <SalesRow
+              clientId={10}
+              id={64}
+              productName="Plain Widget"
+              size="large"
+/>,
+            <SalesRow
+              clientId={4}
+              id={65}
+              productName="Legacy Widget"
+              size="large"
+/>,
+            <SalesRow
+              clientId={7}
+              id={66}
+              productName="Classic Widget"
+              size="medium"
+/>,
+            <SalesRow
+              clientId={3}
+              id={67}
+              productName="Classic Widget"
+              size="large"
+/>,
+            <SalesRow
+              clientId={6}
+              id={68}
+              productName="Double Widget"
+              size="small"
+/>,
+            <SalesRow
+              clientId={8}
+              id={69}
+              productName="Double Widget"
+              size="large"
+/>,
+            <SalesRow
+              clientId={9}
+              id={70}
+              productName="Classic Widget"
+              size="small"
+/>,
+            <SalesRow
+              clientId={1}
+              id={71}
+              productName="Legacy Widget"
+              size="large"
+/>,
+            <SalesRow
+              clientId={10}
+              id={72}
+              productName="Legacy Widget"
+              size="medium"
+/>,
+            <SalesRow
+              clientId={6}
+              id={73}
+              productName="Plain Widget"
+              size="small"
+/>,
+            <SalesRow
+              clientId={8}
+              id={74}
+              productName="Classic Widget"
+              size="medium"
+/>,
+            <SalesRow
+              clientId={2}
+              id={75}
+              productName="Modern Widget"
+              size="medium"
+/>,
+            <SalesRow
+              clientId={1}
+              id={76}
+              productName="Double Widget"
+              size="large"
+/>,
+            <SalesRow
+              clientId={8}
+              id={77}
+              productName="Legacy Widget"
+              size="small"
+/>,
+            <SalesRow
+              clientId={10}
+              id={78}
+              productName="Super Widget"
+              size="medium"
+/>,
+            <SalesRow
+              clientId={2}
+              id={79}
+              productName="Double Widget"
+              size="medium"
+/>,
+            <SalesRow
+              clientId={7}
+              id={80}
+              productName="Plain Widget"
+              size="small"
+/>,
+            <SalesRow
+              clientId={8}
+              id={81}
+              productName="Modern Widget"
+              size="medium"
+/>,
+            <SalesRow
+              clientId={1}
+              id={82}
+              productName="Classic Widget"
+              size="small"
+/>,
+            <SalesRow
+              clientId={3}
+              id={83}
+              productName="Modern Widget"
+              size="small"
+/>,
+            <SalesRow
+              clientId={5}
+              id={84}
+              productName="Super Widget"
+              size="large"
+/>,
+            <SalesRow
+              clientId={10}
+              id={85}
+              productName="Double Widget"
+              size="small"
+/>,
+            <SalesRow
+              clientId={9}
+              id={86}
+              productName="Super Widget"
+              size="medium"
+/>,
+            <SalesRow
+              clientId={8}
+              id={87}
+              productName="Classic Widget"
+              size="small"
+/>,
+            <SalesRow
+              clientId={8}
+              id={88}
+              productName="Legacy Widget"
+              size="large"
+/>,
+            <SalesRow
+              clientId={4}
+              id={89}
+              productName="Classic Widget"
+              size="large"
+/>,
+            <SalesRow
+              clientId={10}
+              id={90}
+              productName="Modern Widget"
+              size="small"
+/>,
+            <SalesRow
+              clientId={10}
+              id={91}
+              productName="Legacy Widget"
+              size="large"
+/>,
+            <SalesRow
+              clientId={2}
+              id={92}
+              productName="Modern Widget"
+              size="medium"
+/>,
+            <SalesRow
+              clientId={8}
+              id={93}
+              productName="Classic Widget"
+              size="large"
+/>,
+            <SalesRow
+              clientId={1}
+              id={94}
+              productName="Super Widget"
+              size="medium"
+/>,
+            <SalesRow
+              clientId={4}
+              id={95}
+              productName="Double Widget"
+              size="small"
+/>,
+            <SalesRow
+              clientId={8}
+              id={96}
+              productName="Double Widget"
+              size="medium"
+/>,
+            <SalesRow
+              clientId={4}
+              id={97}
+              productName="Legacy Widget"
+              size="medium"
+/>,
+            <SalesRow
+              clientId={10}
+              id={98}
+              productName="Legacy Widget"
+              size="large"
+/>,
+            <SalesRow
+              clientId={2}
+              id={99}
+              productName="Plain Widget"
+              size="small"
+/>,
+            <SalesRow
+              clientId={2}
+              id={100}
+              productName="Classic Widget"
+              size="large"
+/>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 7,
+              "id": 1,
+              "productName": "Plain Widget",
+              "size": "small",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "2",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 7,
+              "id": 2,
+              "productName": "Super Widget",
+              "size": "medium",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "3",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 10,
+              "id": 3,
+              "productName": "Plain Widget",
+              "size": "medium",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "4",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 2,
+              "id": 4,
+              "productName": "Classic Widget",
+              "size": "large",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "5",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 2,
+              "id": 5,
+              "productName": "Double Widget",
+              "size": "medium",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "6",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 2,
+              "id": 6,
+              "productName": "Plain Widget",
+              "size": "small",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "7",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 10,
+              "id": 7,
+              "productName": "Classic Widget",
+              "size": "medium",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "8",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 7,
+              "id": 8,
+              "productName": "Super Widget",
+              "size": "small",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "9",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 3,
+              "id": 9,
+              "productName": "Legacy Widget",
+              "size": "large",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "10",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 10,
+              "id": 10,
+              "productName": "Double Widget",
+              "size": "large",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "11",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 6,
+              "id": 11,
+              "productName": "Modern Widget",
+              "size": "large",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "12",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 2,
+              "id": 12,
+              "productName": "Super Widget",
+              "size": "medium",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "13",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 2,
+              "id": 13,
+              "productName": "Classic Widget",
+              "size": "small",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "14",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 3,
+              "id": 14,
+              "productName": "Legacy Widget",
+              "size": "medium",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "15",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 5,
+              "id": 15,
+              "productName": "Legacy Widget",
+              "size": "small",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "16",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 9,
+              "id": 16,
+              "productName": "Super Widget",
+              "size": "large",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "17",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 6,
+              "id": 17,
+              "productName": "Super Widget",
+              "size": "small",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "18",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 10,
+              "id": 18,
+              "productName": "Plain Widget",
+              "size": "large",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "19",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 6,
+              "id": 19,
+              "productName": "Modern Widget",
+              "size": "medium",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "20",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 1,
+              "id": 20,
+              "productName": "Plain Widget",
+              "size": "small",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "21",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 1,
+              "id": 21,
+              "productName": "Double Widget",
+              "size": "large",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "22",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 2,
+              "id": 22,
+              "productName": "Super Widget",
+              "size": "large",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "23",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 9,
+              "id": 23,
+              "productName": "Classic Widget",
+              "size": "small",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "24",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 1,
+              "id": 24,
+              "productName": "Modern Widget",
+              "size": "medium",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "25",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 3,
+              "id": 25,
+              "productName": "Plain Widget",
+              "size": "medium",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "26",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 8,
+              "id": 26,
+              "productName": "Classic Widget",
+              "size": "small",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "27",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 6,
+              "id": 27,
+              "productName": "Double Widget",
+              "size": "medium",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "28",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 10,
+              "id": 28,
+              "productName": "Double Widget",
+              "size": "large",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "29",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 10,
+              "id": 29,
+              "productName": "Legacy Widget",
+              "size": "large",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "30",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 3,
+              "id": 30,
+              "productName": "Plain Widget",
+              "size": "small",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "31",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 1,
+              "id": 31,
+              "productName": "Plain Widget",
+              "size": "large",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "32",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 1,
+              "id": 32,
+              "productName": "Classic Widget",
+              "size": "large",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "33",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 6,
+              "id": 33,
+              "productName": "Legacy Widget",
+              "size": "small",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "34",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 6,
+              "id": 34,
+              "productName": "Double Widget",
+              "size": "medium",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "35",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 10,
+              "id": 35,
+              "productName": "Classic Widget",
+              "size": "small",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "36",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 2,
+              "id": 36,
+              "productName": "Classic Widget",
+              "size": "large",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "37",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 4,
+              "id": 37,
+              "productName": "Classic Widget",
+              "size": "medium",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "38",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 4,
+              "id": 38,
+              "productName": "Modern Widget",
+              "size": "medium",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "39",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 7,
+              "id": 39,
+              "productName": "Legacy Widget",
+              "size": "medium",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "40",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 8,
+              "id": 40,
+              "productName": "Double Widget",
+              "size": "small",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "41",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 9,
+              "id": 41,
+              "productName": "Modern Widget",
+              "size": "large",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "42",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 4,
+              "id": 42,
+              "productName": "Super Widget",
+              "size": "medium",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "43",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 5,
+              "id": 43,
+              "productName": "Modern Widget",
+              "size": "small",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "44",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 1,
+              "id": 44,
+              "productName": "Double Widget",
+              "size": "small",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "45",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 6,
+              "id": 45,
+              "productName": "Plain Widget",
+              "size": "small",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "46",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 2,
+              "id": 46,
+              "productName": "Modern Widget",
+              "size": "medium",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "47",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 6,
+              "id": 47,
+              "productName": "Classic Widget",
+              "size": "small",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "48",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 8,
+              "id": 48,
+              "productName": "Plain Widget",
+              "size": "small",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "49",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 6,
+              "id": 49,
+              "productName": "Legacy Widget",
+              "size": "small",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "50",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 10,
+              "id": 50,
+              "productName": "Classic Widget",
+              "size": "large",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "51",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 1,
+              "id": 51,
+              "productName": "Double Widget",
+              "size": "small",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "52",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 8,
+              "id": 52,
+              "productName": "Modern Widget",
+              "size": "large",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "53",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 4,
+              "id": 53,
+              "productName": "Double Widget",
+              "size": "medium",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "54",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 3,
+              "id": 54,
+              "productName": "Classic Widget",
+              "size": "small",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "55",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 1,
+              "id": 55,
+              "productName": "Modern Widget",
+              "size": "medium",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "56",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 5,
+              "id": 56,
+              "productName": "Legacy Widget",
+              "size": "medium",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "57",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 10,
+              "id": 57,
+              "productName": "Double Widget",
+              "size": "medium",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "58",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 2,
+              "id": 58,
+              "productName": "Legacy Widget",
+              "size": "medium",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "59",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 4,
+              "id": 59,
+              "productName": "Legacy Widget",
+              "size": "large",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "60",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 9,
+              "id": 60,
+              "productName": "Classic Widget",
+              "size": "medium",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "61",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 2,
+              "id": 61,
+              "productName": "Super Widget",
+              "size": "large",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "62",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 1,
+              "id": 62,
+              "productName": "Modern Widget",
+              "size": "medium",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "63",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 10,
+              "id": 63,
+              "productName": "Legacy Widget",
+              "size": "large",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "64",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 10,
+              "id": 64,
+              "productName": "Plain Widget",
+              "size": "large",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "65",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 4,
+              "id": 65,
+              "productName": "Legacy Widget",
+              "size": "large",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "66",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 7,
+              "id": 66,
+              "productName": "Classic Widget",
+              "size": "medium",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "67",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 3,
+              "id": 67,
+              "productName": "Classic Widget",
+              "size": "large",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "68",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 6,
+              "id": 68,
+              "productName": "Double Widget",
+              "size": "small",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "69",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 8,
+              "id": 69,
+              "productName": "Double Widget",
+              "size": "large",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "70",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 9,
+              "id": 70,
+              "productName": "Classic Widget",
+              "size": "small",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "71",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 1,
+              "id": 71,
+              "productName": "Legacy Widget",
+              "size": "large",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "72",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 10,
+              "id": 72,
+              "productName": "Legacy Widget",
+              "size": "medium",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "73",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 6,
+              "id": 73,
+              "productName": "Plain Widget",
+              "size": "small",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "74",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 8,
+              "id": 74,
+              "productName": "Classic Widget",
+              "size": "medium",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "75",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 2,
+              "id": 75,
+              "productName": "Modern Widget",
+              "size": "medium",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "76",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 1,
+              "id": 76,
+              "productName": "Double Widget",
+              "size": "large",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "77",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 8,
+              "id": 77,
+              "productName": "Legacy Widget",
+              "size": "small",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "78",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 10,
+              "id": 78,
+              "productName": "Super Widget",
+              "size": "medium",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "79",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 2,
+              "id": 79,
+              "productName": "Double Widget",
+              "size": "medium",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "80",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 7,
+              "id": 80,
+              "productName": "Plain Widget",
+              "size": "small",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "81",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 8,
+              "id": 81,
+              "productName": "Modern Widget",
+              "size": "medium",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "82",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 1,
+              "id": 82,
+              "productName": "Classic Widget",
+              "size": "small",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "83",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 3,
+              "id": 83,
+              "productName": "Modern Widget",
+              "size": "small",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "84",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 5,
+              "id": 84,
+              "productName": "Super Widget",
+              "size": "large",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "85",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 10,
+              "id": 85,
+              "productName": "Double Widget",
+              "size": "small",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "86",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 9,
+              "id": 86,
+              "productName": "Super Widget",
+              "size": "medium",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "87",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 8,
+              "id": 87,
+              "productName": "Classic Widget",
+              "size": "small",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "88",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 8,
+              "id": 88,
+              "productName": "Legacy Widget",
+              "size": "large",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "89",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 4,
+              "id": 89,
+              "productName": "Classic Widget",
+              "size": "large",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "90",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 10,
+              "id": 90,
+              "productName": "Modern Widget",
+              "size": "small",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "91",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 10,
+              "id": 91,
+              "productName": "Legacy Widget",
+              "size": "large",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "92",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 2,
+              "id": 92,
+              "productName": "Modern Widget",
+              "size": "medium",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "93",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 8,
+              "id": 93,
+              "productName": "Classic Widget",
+              "size": "large",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "94",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 1,
+              "id": 94,
+              "productName": "Super Widget",
+              "size": "medium",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "95",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 4,
+              "id": 95,
+              "productName": "Double Widget",
+              "size": "small",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "96",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 8,
+              "id": 96,
+              "productName": "Double Widget",
+              "size": "medium",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "97",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 4,
+              "id": 97,
+              "productName": "Legacy Widget",
+              "size": "medium",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "98",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 10,
+              "id": 98,
+              "productName": "Legacy Widget",
+              "size": "large",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "99",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 2,
+              "id": 99,
+              "productName": "Plain Widget",
+              "size": "small",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "100",
+            "nodeType": "function",
+            "props": Object {
+              "clientId": 2,
+              "id": 100,
+              "productName": "Classic Widget",
+              "size": "large",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "tbody",
+      },
+    ],
+    "type": "table",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "cellSpacing": "0",
+        "children": Array [
+          <thead>
+            <tr>
+                        <th>
+                                    ID
+                        </th>
+                        <th>
+                                    Client ID
+                        </th>
+                        <th>
+                                    Product Name
+                        </th>
+                        <th>
+                                    Size
+                        </th>
+            </tr>
+</thead>,
+          <tbody>
+            <SalesRow
+                        clientId={7}
+                        id={1}
+                        productName="Plain Widget"
+                        size="small"
+            />
+            <SalesRow
+                        clientId={7}
+                        id={2}
+                        productName="Super Widget"
+                        size="medium"
+            />
+            <SalesRow
+                        clientId={10}
+                        id={3}
+                        productName="Plain Widget"
+                        size="medium"
+            />
+            <SalesRow
+                        clientId={2}
+                        id={4}
+                        productName="Classic Widget"
+                        size="large"
+            />
+            <SalesRow
+                        clientId={2}
+                        id={5}
+                        productName="Double Widget"
+                        size="medium"
+            />
+            <SalesRow
+                        clientId={2}
+                        id={6}
+                        productName="Plain Widget"
+                        size="small"
+            />
+            <SalesRow
+                        clientId={10}
+                        id={7}
+                        productName="Classic Widget"
+                        size="medium"
+            />
+            <SalesRow
+                        clientId={7}
+                        id={8}
+                        productName="Super Widget"
+                        size="small"
+            />
+            <SalesRow
+                        clientId={3}
+                        id={9}
+                        productName="Legacy Widget"
+                        size="large"
+            />
+            <SalesRow
+                        clientId={10}
+                        id={10}
+                        productName="Double Widget"
+                        size="large"
+            />
+            <SalesRow
+                        clientId={6}
+                        id={11}
+                        productName="Modern Widget"
+                        size="large"
+            />
+            <SalesRow
+                        clientId={2}
+                        id={12}
+                        productName="Super Widget"
+                        size="medium"
+            />
+            <SalesRow
+                        clientId={2}
+                        id={13}
+                        productName="Classic Widget"
+                        size="small"
+            />
+            <SalesRow
+                        clientId={3}
+                        id={14}
+                        productName="Legacy Widget"
+                        size="medium"
+            />
+            <SalesRow
+                        clientId={5}
+                        id={15}
+                        productName="Legacy Widget"
+                        size="small"
+            />
+            <SalesRow
+                        clientId={9}
+                        id={16}
+                        productName="Super Widget"
+                        size="large"
+            />
+            <SalesRow
+                        clientId={6}
+                        id={17}
+                        productName="Super Widget"
+                        size="small"
+            />
+            <SalesRow
+                        clientId={10}
+                        id={18}
+                        productName="Plain Widget"
+                        size="large"
+            />
+            <SalesRow
+                        clientId={6}
+                        id={19}
+                        productName="Modern Widget"
+                        size="medium"
+            />
+            <SalesRow
+                        clientId={1}
+                        id={20}
+                        productName="Plain Widget"
+                        size="small"
+            />
+            <SalesRow
+                        clientId={1}
+                        id={21}
+                        productName="Double Widget"
+                        size="large"
+            />
+            <SalesRow
+                        clientId={2}
+                        id={22}
+                        productName="Super Widget"
+                        size="large"
+            />
+            <SalesRow
+                        clientId={9}
+                        id={23}
+                        productName="Classic Widget"
+                        size="small"
+            />
+            <SalesRow
+                        clientId={1}
+                        id={24}
+                        productName="Modern Widget"
+                        size="medium"
+            />
+            <SalesRow
+                        clientId={3}
+                        id={25}
+                        productName="Plain Widget"
+                        size="medium"
+            />
+            <SalesRow
+                        clientId={8}
+                        id={26}
+                        productName="Classic Widget"
+                        size="small"
+            />
+            <SalesRow
+                        clientId={6}
+                        id={27}
+                        productName="Double Widget"
+                        size="medium"
+            />
+            <SalesRow
+                        clientId={10}
+                        id={28}
+                        productName="Double Widget"
+                        size="large"
+            />
+            <SalesRow
+                        clientId={10}
+                        id={29}
+                        productName="Legacy Widget"
+                        size="large"
+            />
+            <SalesRow
+                        clientId={3}
+                        id={30}
+                        productName="Plain Widget"
+                        size="small"
+            />
+            <SalesRow
+                        clientId={1}
+                        id={31}
+                        productName="Plain Widget"
+                        size="large"
+            />
+            <SalesRow
+                        clientId={1}
+                        id={32}
+                        productName="Classic Widget"
+                        size="large"
+            />
+            <SalesRow
+                        clientId={6}
+                        id={33}
+                        productName="Legacy Widget"
+                        size="small"
+            />
+            <SalesRow
+                        clientId={6}
+                        id={34}
+                        productName="Double Widget"
+                        size="medium"
+            />
+            <SalesRow
+                        clientId={10}
+                        id={35}
+                        productName="Classic Widget"
+                        size="small"
+            />
+            <SalesRow
+                        clientId={2}
+                        id={36}
+                        productName="Classic Widget"
+                        size="large"
+            />
+            <SalesRow
+                        clientId={4}
+                        id={37}
+                        productName="Classic Widget"
+                        size="medium"
+            />
+            <SalesRow
+                        clientId={4}
+                        id={38}
+                        productName="Modern Widget"
+                        size="medium"
+            />
+            <SalesRow
+                        clientId={7}
+                        id={39}
+                        productName="Legacy Widget"
+                        size="medium"
+            />
+            <SalesRow
+                        clientId={8}
+                        id={40}
+                        productName="Double Widget"
+                        size="small"
+            />
+            <SalesRow
+                        clientId={9}
+                        id={41}
+                        productName="Modern Widget"
+                        size="large"
+            />
+            <SalesRow
+                        clientId={4}
+                        id={42}
+                        productName="Super Widget"
+                        size="medium"
+            />
+            <SalesRow
+                        clientId={5}
+                        id={43}
+                        productName="Modern Widget"
+                        size="small"
+            />
+            <SalesRow
+                        clientId={1}
+                        id={44}
+                        productName="Double Widget"
+                        size="small"
+            />
+            <SalesRow
+                        clientId={6}
+                        id={45}
+                        productName="Plain Widget"
+                        size="small"
+            />
+            <SalesRow
+                        clientId={2}
+                        id={46}
+                        productName="Modern Widget"
+                        size="medium"
+            />
+            <SalesRow
+                        clientId={6}
+                        id={47}
+                        productName="Classic Widget"
+                        size="small"
+            />
+            <SalesRow
+                        clientId={8}
+                        id={48}
+                        productName="Plain Widget"
+                        size="small"
+            />
+            <SalesRow
+                        clientId={6}
+                        id={49}
+                        productName="Legacy Widget"
+                        size="small"
+            />
+            <SalesRow
+                        clientId={10}
+                        id={50}
+                        productName="Classic Widget"
+                        size="large"
+            />
+            <SalesRow
+                        clientId={1}
+                        id={51}
+                        productName="Double Widget"
+                        size="small"
+            />
+            <SalesRow
+                        clientId={8}
+                        id={52}
+                        productName="Modern Widget"
+                        size="large"
+            />
+            <SalesRow
+                        clientId={4}
+                        id={53}
+                        productName="Double Widget"
+                        size="medium"
+            />
+            <SalesRow
+                        clientId={3}
+                        id={54}
+                        productName="Classic Widget"
+                        size="small"
+            />
+            <SalesRow
+                        clientId={1}
+                        id={55}
+                        productName="Modern Widget"
+                        size="medium"
+            />
+            <SalesRow
+                        clientId={5}
+                        id={56}
+                        productName="Legacy Widget"
+                        size="medium"
+            />
+            <SalesRow
+                        clientId={10}
+                        id={57}
+                        productName="Double Widget"
+                        size="medium"
+            />
+            <SalesRow
+                        clientId={2}
+                        id={58}
+                        productName="Legacy Widget"
+                        size="medium"
+            />
+            <SalesRow
+                        clientId={4}
+                        id={59}
+                        productName="Legacy Widget"
+                        size="large"
+            />
+            <SalesRow
+                        clientId={9}
+                        id={60}
+                        productName="Classic Widget"
+                        size="medium"
+            />
+            <SalesRow
+                        clientId={2}
+                        id={61}
+                        productName="Super Widget"
+                        size="large"
+            />
+            <SalesRow
+                        clientId={1}
+                        id={62}
+                        productName="Modern Widget"
+                        size="medium"
+            />
+            <SalesRow
+                        clientId={10}
+                        id={63}
+                        productName="Legacy Widget"
+                        size="large"
+            />
+            <SalesRow
+                        clientId={10}
+                        id={64}
+                        productName="Plain Widget"
+                        size="large"
+            />
+            <SalesRow
+                        clientId={4}
+                        id={65}
+                        productName="Legacy Widget"
+                        size="large"
+            />
+            <SalesRow
+                        clientId={7}
+                        id={66}
+                        productName="Classic Widget"
+                        size="medium"
+            />
+            <SalesRow
+                        clientId={3}
+                        id={67}
+                        productName="Classic Widget"
+                        size="large"
+            />
+            <SalesRow
+                        clientId={6}
+                        id={68}
+                        productName="Double Widget"
+                        size="small"
+            />
+            <SalesRow
+                        clientId={8}
+                        id={69}
+                        productName="Double Widget"
+                        size="large"
+            />
+            <SalesRow
+                        clientId={9}
+                        id={70}
+                        productName="Classic Widget"
+                        size="small"
+            />
+            <SalesRow
+                        clientId={1}
+                        id={71}
+                        productName="Legacy Widget"
+                        size="large"
+            />
+            <SalesRow
+                        clientId={10}
+                        id={72}
+                        productName="Legacy Widget"
+                        size="medium"
+            />
+            <SalesRow
+                        clientId={6}
+                        id={73}
+                        productName="Plain Widget"
+                        size="small"
+            />
+            <SalesRow
+                        clientId={8}
+                        id={74}
+                        productName="Classic Widget"
+                        size="medium"
+            />
+            <SalesRow
+                        clientId={2}
+                        id={75}
+                        productName="Modern Widget"
+                        size="medium"
+            />
+            <SalesRow
+                        clientId={1}
+                        id={76}
+                        productName="Double Widget"
+                        size="large"
+            />
+            <SalesRow
+                        clientId={8}
+                        id={77}
+                        productName="Legacy Widget"
+                        size="small"
+            />
+            <SalesRow
+                        clientId={10}
+                        id={78}
+                        productName="Super Widget"
+                        size="medium"
+            />
+            <SalesRow
+                        clientId={2}
+                        id={79}
+                        productName="Double Widget"
+                        size="medium"
+            />
+            <SalesRow
+                        clientId={7}
+                        id={80}
+                        productName="Plain Widget"
+                        size="small"
+            />
+            <SalesRow
+                        clientId={8}
+                        id={81}
+                        productName="Modern Widget"
+                        size="medium"
+            />
+            <SalesRow
+                        clientId={1}
+                        id={82}
+                        productName="Classic Widget"
+                        size="small"
+            />
+            <SalesRow
+                        clientId={3}
+                        id={83}
+                        productName="Modern Widget"
+                        size="small"
+            />
+            <SalesRow
+                        clientId={5}
+                        id={84}
+                        productName="Super Widget"
+                        size="large"
+            />
+            <SalesRow
+                        clientId={10}
+                        id={85}
+                        productName="Double Widget"
+                        size="small"
+            />
+            <SalesRow
+                        clientId={9}
+                        id={86}
+                        productName="Super Widget"
+                        size="medium"
+            />
+            <SalesRow
+                        clientId={8}
+                        id={87}
+                        productName="Classic Widget"
+                        size="small"
+            />
+            <SalesRow
+                        clientId={8}
+                        id={88}
+                        productName="Legacy Widget"
+                        size="large"
+            />
+            <SalesRow
+                        clientId={4}
+                        id={89}
+                        productName="Classic Widget"
+                        size="large"
+            />
+            <SalesRow
+                        clientId={10}
+                        id={90}
+                        productName="Modern Widget"
+                        size="small"
+            />
+            <SalesRow
+                        clientId={10}
+                        id={91}
+                        productName="Legacy Widget"
+                        size="large"
+            />
+            <SalesRow
+                        clientId={2}
+                        id={92}
+                        productName="Modern Widget"
+                        size="medium"
+            />
+            <SalesRow
+                        clientId={8}
+                        id={93}
+                        productName="Classic Widget"
+                        size="large"
+            />
+            <SalesRow
+                        clientId={1}
+                        id={94}
+                        productName="Super Widget"
+                        size="medium"
+            />
+            <SalesRow
+                        clientId={4}
+                        id={95}
+                        productName="Double Widget"
+                        size="small"
+            />
+            <SalesRow
+                        clientId={8}
+                        id={96}
+                        productName="Double Widget"
+                        size="medium"
+            />
+            <SalesRow
+                        clientId={4}
+                        id={97}
+                        productName="Legacy Widget"
+                        size="medium"
+            />
+            <SalesRow
+                        clientId={10}
+                        id={98}
+                        productName="Legacy Widget"
+                        size="large"
+            />
+            <SalesRow
+                        clientId={2}
+                        id={99}
+                        productName="Plain Widget"
+                        size="small"
+            />
+            <SalesRow
+                        clientId={2}
+                        id={100}
+                        productName="Classic Widget"
+                        size="large"
+            />
+</tbody>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <tr>
+              <th>
+                            ID
+              </th>
+              <th>
+                            Client ID
+              </th>
+              <th>
+                            Product Name
+              </th>
+              <th>
+                            Size
+              </th>
+</tr>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <th>
+                  ID
+</th>,
+                <th>
+                  Client ID
+</th>,
+                <th>
+                  Product Name
+</th>,
+                <th>
+                  Size
+</th>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "ID",
+                },
+                "ref": null,
+                "rendered": "ID",
+                "type": "th",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Client ID",
+                },
+                "ref": null,
+                "rendered": "Client ID",
+                "type": "th",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Product Name",
+                },
+                "ref": null,
+                "rendered": "Product Name",
+                "type": "th",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Size",
+                },
+                "ref": null,
+                "rendered": "Size",
+                "type": "th",
+              },
+            ],
+            "type": "tr",
+          },
+          "type": "thead",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <SalesRow
+                clientId={7}
+                id={1}
+                productName="Plain Widget"
+                size="small"
+/>,
+              <SalesRow
+                clientId={7}
+                id={2}
+                productName="Super Widget"
+                size="medium"
+/>,
+              <SalesRow
+                clientId={10}
+                id={3}
+                productName="Plain Widget"
+                size="medium"
+/>,
+              <SalesRow
+                clientId={2}
+                id={4}
+                productName="Classic Widget"
+                size="large"
+/>,
+              <SalesRow
+                clientId={2}
+                id={5}
+                productName="Double Widget"
+                size="medium"
+/>,
+              <SalesRow
+                clientId={2}
+                id={6}
+                productName="Plain Widget"
+                size="small"
+/>,
+              <SalesRow
+                clientId={10}
+                id={7}
+                productName="Classic Widget"
+                size="medium"
+/>,
+              <SalesRow
+                clientId={7}
+                id={8}
+                productName="Super Widget"
+                size="small"
+/>,
+              <SalesRow
+                clientId={3}
+                id={9}
+                productName="Legacy Widget"
+                size="large"
+/>,
+              <SalesRow
+                clientId={10}
+                id={10}
+                productName="Double Widget"
+                size="large"
+/>,
+              <SalesRow
+                clientId={6}
+                id={11}
+                productName="Modern Widget"
+                size="large"
+/>,
+              <SalesRow
+                clientId={2}
+                id={12}
+                productName="Super Widget"
+                size="medium"
+/>,
+              <SalesRow
+                clientId={2}
+                id={13}
+                productName="Classic Widget"
+                size="small"
+/>,
+              <SalesRow
+                clientId={3}
+                id={14}
+                productName="Legacy Widget"
+                size="medium"
+/>,
+              <SalesRow
+                clientId={5}
+                id={15}
+                productName="Legacy Widget"
+                size="small"
+/>,
+              <SalesRow
+                clientId={9}
+                id={16}
+                productName="Super Widget"
+                size="large"
+/>,
+              <SalesRow
+                clientId={6}
+                id={17}
+                productName="Super Widget"
+                size="small"
+/>,
+              <SalesRow
+                clientId={10}
+                id={18}
+                productName="Plain Widget"
+                size="large"
+/>,
+              <SalesRow
+                clientId={6}
+                id={19}
+                productName="Modern Widget"
+                size="medium"
+/>,
+              <SalesRow
+                clientId={1}
+                id={20}
+                productName="Plain Widget"
+                size="small"
+/>,
+              <SalesRow
+                clientId={1}
+                id={21}
+                productName="Double Widget"
+                size="large"
+/>,
+              <SalesRow
+                clientId={2}
+                id={22}
+                productName="Super Widget"
+                size="large"
+/>,
+              <SalesRow
+                clientId={9}
+                id={23}
+                productName="Classic Widget"
+                size="small"
+/>,
+              <SalesRow
+                clientId={1}
+                id={24}
+                productName="Modern Widget"
+                size="medium"
+/>,
+              <SalesRow
+                clientId={3}
+                id={25}
+                productName="Plain Widget"
+                size="medium"
+/>,
+              <SalesRow
+                clientId={8}
+                id={26}
+                productName="Classic Widget"
+                size="small"
+/>,
+              <SalesRow
+                clientId={6}
+                id={27}
+                productName="Double Widget"
+                size="medium"
+/>,
+              <SalesRow
+                clientId={10}
+                id={28}
+                productName="Double Widget"
+                size="large"
+/>,
+              <SalesRow
+                clientId={10}
+                id={29}
+                productName="Legacy Widget"
+                size="large"
+/>,
+              <SalesRow
+                clientId={3}
+                id={30}
+                productName="Plain Widget"
+                size="small"
+/>,
+              <SalesRow
+                clientId={1}
+                id={31}
+                productName="Plain Widget"
+                size="large"
+/>,
+              <SalesRow
+                clientId={1}
+                id={32}
+                productName="Classic Widget"
+                size="large"
+/>,
+              <SalesRow
+                clientId={6}
+                id={33}
+                productName="Legacy Widget"
+                size="small"
+/>,
+              <SalesRow
+                clientId={6}
+                id={34}
+                productName="Double Widget"
+                size="medium"
+/>,
+              <SalesRow
+                clientId={10}
+                id={35}
+                productName="Classic Widget"
+                size="small"
+/>,
+              <SalesRow
+                clientId={2}
+                id={36}
+                productName="Classic Widget"
+                size="large"
+/>,
+              <SalesRow
+                clientId={4}
+                id={37}
+                productName="Classic Widget"
+                size="medium"
+/>,
+              <SalesRow
+                clientId={4}
+                id={38}
+                productName="Modern Widget"
+                size="medium"
+/>,
+              <SalesRow
+                clientId={7}
+                id={39}
+                productName="Legacy Widget"
+                size="medium"
+/>,
+              <SalesRow
+                clientId={8}
+                id={40}
+                productName="Double Widget"
+                size="small"
+/>,
+              <SalesRow
+                clientId={9}
+                id={41}
+                productName="Modern Widget"
+                size="large"
+/>,
+              <SalesRow
+                clientId={4}
+                id={42}
+                productName="Super Widget"
+                size="medium"
+/>,
+              <SalesRow
+                clientId={5}
+                id={43}
+                productName="Modern Widget"
+                size="small"
+/>,
+              <SalesRow
+                clientId={1}
+                id={44}
+                productName="Double Widget"
+                size="small"
+/>,
+              <SalesRow
+                clientId={6}
+                id={45}
+                productName="Plain Widget"
+                size="small"
+/>,
+              <SalesRow
+                clientId={2}
+                id={46}
+                productName="Modern Widget"
+                size="medium"
+/>,
+              <SalesRow
+                clientId={6}
+                id={47}
+                productName="Classic Widget"
+                size="small"
+/>,
+              <SalesRow
+                clientId={8}
+                id={48}
+                productName="Plain Widget"
+                size="small"
+/>,
+              <SalesRow
+                clientId={6}
+                id={49}
+                productName="Legacy Widget"
+                size="small"
+/>,
+              <SalesRow
+                clientId={10}
+                id={50}
+                productName="Classic Widget"
+                size="large"
+/>,
+              <SalesRow
+                clientId={1}
+                id={51}
+                productName="Double Widget"
+                size="small"
+/>,
+              <SalesRow
+                clientId={8}
+                id={52}
+                productName="Modern Widget"
+                size="large"
+/>,
+              <SalesRow
+                clientId={4}
+                id={53}
+                productName="Double Widget"
+                size="medium"
+/>,
+              <SalesRow
+                clientId={3}
+                id={54}
+                productName="Classic Widget"
+                size="small"
+/>,
+              <SalesRow
+                clientId={1}
+                id={55}
+                productName="Modern Widget"
+                size="medium"
+/>,
+              <SalesRow
+                clientId={5}
+                id={56}
+                productName="Legacy Widget"
+                size="medium"
+/>,
+              <SalesRow
+                clientId={10}
+                id={57}
+                productName="Double Widget"
+                size="medium"
+/>,
+              <SalesRow
+                clientId={2}
+                id={58}
+                productName="Legacy Widget"
+                size="medium"
+/>,
+              <SalesRow
+                clientId={4}
+                id={59}
+                productName="Legacy Widget"
+                size="large"
+/>,
+              <SalesRow
+                clientId={9}
+                id={60}
+                productName="Classic Widget"
+                size="medium"
+/>,
+              <SalesRow
+                clientId={2}
+                id={61}
+                productName="Super Widget"
+                size="large"
+/>,
+              <SalesRow
+                clientId={1}
+                id={62}
+                productName="Modern Widget"
+                size="medium"
+/>,
+              <SalesRow
+                clientId={10}
+                id={63}
+                productName="Legacy Widget"
+                size="large"
+/>,
+              <SalesRow
+                clientId={10}
+                id={64}
+                productName="Plain Widget"
+                size="large"
+/>,
+              <SalesRow
+                clientId={4}
+                id={65}
+                productName="Legacy Widget"
+                size="large"
+/>,
+              <SalesRow
+                clientId={7}
+                id={66}
+                productName="Classic Widget"
+                size="medium"
+/>,
+              <SalesRow
+                clientId={3}
+                id={67}
+                productName="Classic Widget"
+                size="large"
+/>,
+              <SalesRow
+                clientId={6}
+                id={68}
+                productName="Double Widget"
+                size="small"
+/>,
+              <SalesRow
+                clientId={8}
+                id={69}
+                productName="Double Widget"
+                size="large"
+/>,
+              <SalesRow
+                clientId={9}
+                id={70}
+                productName="Classic Widget"
+                size="small"
+/>,
+              <SalesRow
+                clientId={1}
+                id={71}
+                productName="Legacy Widget"
+                size="large"
+/>,
+              <SalesRow
+                clientId={10}
+                id={72}
+                productName="Legacy Widget"
+                size="medium"
+/>,
+              <SalesRow
+                clientId={6}
+                id={73}
+                productName="Plain Widget"
+                size="small"
+/>,
+              <SalesRow
+                clientId={8}
+                id={74}
+                productName="Classic Widget"
+                size="medium"
+/>,
+              <SalesRow
+                clientId={2}
+                id={75}
+                productName="Modern Widget"
+                size="medium"
+/>,
+              <SalesRow
+                clientId={1}
+                id={76}
+                productName="Double Widget"
+                size="large"
+/>,
+              <SalesRow
+                clientId={8}
+                id={77}
+                productName="Legacy Widget"
+                size="small"
+/>,
+              <SalesRow
+                clientId={10}
+                id={78}
+                productName="Super Widget"
+                size="medium"
+/>,
+              <SalesRow
+                clientId={2}
+                id={79}
+                productName="Double Widget"
+                size="medium"
+/>,
+              <SalesRow
+                clientId={7}
+                id={80}
+                productName="Plain Widget"
+                size="small"
+/>,
+              <SalesRow
+                clientId={8}
+                id={81}
+                productName="Modern Widget"
+                size="medium"
+/>,
+              <SalesRow
+                clientId={1}
+                id={82}
+                productName="Classic Widget"
+                size="small"
+/>,
+              <SalesRow
+                clientId={3}
+                id={83}
+                productName="Modern Widget"
+                size="small"
+/>,
+              <SalesRow
+                clientId={5}
+                id={84}
+                productName="Super Widget"
+                size="large"
+/>,
+              <SalesRow
+                clientId={10}
+                id={85}
+                productName="Double Widget"
+                size="small"
+/>,
+              <SalesRow
+                clientId={9}
+                id={86}
+                productName="Super Widget"
+                size="medium"
+/>,
+              <SalesRow
+                clientId={8}
+                id={87}
+                productName="Classic Widget"
+                size="small"
+/>,
+              <SalesRow
+                clientId={8}
+                id={88}
+                productName="Legacy Widget"
+                size="large"
+/>,
+              <SalesRow
+                clientId={4}
+                id={89}
+                productName="Classic Widget"
+                size="large"
+/>,
+              <SalesRow
+                clientId={10}
+                id={90}
+                productName="Modern Widget"
+                size="small"
+/>,
+              <SalesRow
+                clientId={10}
+                id={91}
+                productName="Legacy Widget"
+                size="large"
+/>,
+              <SalesRow
+                clientId={2}
+                id={92}
+                productName="Modern Widget"
+                size="medium"
+/>,
+              <SalesRow
+                clientId={8}
+                id={93}
+                productName="Classic Widget"
+                size="large"
+/>,
+              <SalesRow
+                clientId={1}
+                id={94}
+                productName="Super Widget"
+                size="medium"
+/>,
+              <SalesRow
+                clientId={4}
+                id={95}
+                productName="Double Widget"
+                size="small"
+/>,
+              <SalesRow
+                clientId={8}
+                id={96}
+                productName="Double Widget"
+                size="medium"
+/>,
+              <SalesRow
+                clientId={4}
+                id={97}
+                productName="Legacy Widget"
+                size="medium"
+/>,
+              <SalesRow
+                clientId={10}
+                id={98}
+                productName="Legacy Widget"
+                size="large"
+/>,
+              <SalesRow
+                clientId={2}
+                id={99}
+                productName="Plain Widget"
+                size="small"
+/>,
+              <SalesRow
+                clientId={2}
+                id={100}
+                productName="Classic Widget"
+                size="large"
+/>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 7,
+                "id": 1,
+                "productName": "Plain Widget",
+                "size": "small",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "2",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 7,
+                "id": 2,
+                "productName": "Super Widget",
+                "size": "medium",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "3",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 10,
+                "id": 3,
+                "productName": "Plain Widget",
+                "size": "medium",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "4",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 2,
+                "id": 4,
+                "productName": "Classic Widget",
+                "size": "large",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "5",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 2,
+                "id": 5,
+                "productName": "Double Widget",
+                "size": "medium",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "6",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 2,
+                "id": 6,
+                "productName": "Plain Widget",
+                "size": "small",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "7",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 10,
+                "id": 7,
+                "productName": "Classic Widget",
+                "size": "medium",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "8",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 7,
+                "id": 8,
+                "productName": "Super Widget",
+                "size": "small",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "9",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 3,
+                "id": 9,
+                "productName": "Legacy Widget",
+                "size": "large",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "10",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 10,
+                "id": 10,
+                "productName": "Double Widget",
+                "size": "large",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "11",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 6,
+                "id": 11,
+                "productName": "Modern Widget",
+                "size": "large",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "12",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 2,
+                "id": 12,
+                "productName": "Super Widget",
+                "size": "medium",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "13",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 2,
+                "id": 13,
+                "productName": "Classic Widget",
+                "size": "small",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "14",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 3,
+                "id": 14,
+                "productName": "Legacy Widget",
+                "size": "medium",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "15",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 5,
+                "id": 15,
+                "productName": "Legacy Widget",
+                "size": "small",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "16",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 9,
+                "id": 16,
+                "productName": "Super Widget",
+                "size": "large",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "17",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 6,
+                "id": 17,
+                "productName": "Super Widget",
+                "size": "small",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "18",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 10,
+                "id": 18,
+                "productName": "Plain Widget",
+                "size": "large",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "19",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 6,
+                "id": 19,
+                "productName": "Modern Widget",
+                "size": "medium",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "20",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 1,
+                "id": 20,
+                "productName": "Plain Widget",
+                "size": "small",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "21",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 1,
+                "id": 21,
+                "productName": "Double Widget",
+                "size": "large",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "22",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 2,
+                "id": 22,
+                "productName": "Super Widget",
+                "size": "large",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "23",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 9,
+                "id": 23,
+                "productName": "Classic Widget",
+                "size": "small",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "24",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 1,
+                "id": 24,
+                "productName": "Modern Widget",
+                "size": "medium",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "25",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 3,
+                "id": 25,
+                "productName": "Plain Widget",
+                "size": "medium",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "26",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 8,
+                "id": 26,
+                "productName": "Classic Widget",
+                "size": "small",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "27",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 6,
+                "id": 27,
+                "productName": "Double Widget",
+                "size": "medium",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "28",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 10,
+                "id": 28,
+                "productName": "Double Widget",
+                "size": "large",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "29",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 10,
+                "id": 29,
+                "productName": "Legacy Widget",
+                "size": "large",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "30",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 3,
+                "id": 30,
+                "productName": "Plain Widget",
+                "size": "small",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "31",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 1,
+                "id": 31,
+                "productName": "Plain Widget",
+                "size": "large",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "32",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 1,
+                "id": 32,
+                "productName": "Classic Widget",
+                "size": "large",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "33",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 6,
+                "id": 33,
+                "productName": "Legacy Widget",
+                "size": "small",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "34",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 6,
+                "id": 34,
+                "productName": "Double Widget",
+                "size": "medium",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "35",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 10,
+                "id": 35,
+                "productName": "Classic Widget",
+                "size": "small",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "36",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 2,
+                "id": 36,
+                "productName": "Classic Widget",
+                "size": "large",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "37",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 4,
+                "id": 37,
+                "productName": "Classic Widget",
+                "size": "medium",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "38",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 4,
+                "id": 38,
+                "productName": "Modern Widget",
+                "size": "medium",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "39",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 7,
+                "id": 39,
+                "productName": "Legacy Widget",
+                "size": "medium",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "40",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 8,
+                "id": 40,
+                "productName": "Double Widget",
+                "size": "small",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "41",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 9,
+                "id": 41,
+                "productName": "Modern Widget",
+                "size": "large",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "42",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 4,
+                "id": 42,
+                "productName": "Super Widget",
+                "size": "medium",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "43",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 5,
+                "id": 43,
+                "productName": "Modern Widget",
+                "size": "small",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "44",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 1,
+                "id": 44,
+                "productName": "Double Widget",
+                "size": "small",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "45",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 6,
+                "id": 45,
+                "productName": "Plain Widget",
+                "size": "small",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "46",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 2,
+                "id": 46,
+                "productName": "Modern Widget",
+                "size": "medium",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "47",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 6,
+                "id": 47,
+                "productName": "Classic Widget",
+                "size": "small",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "48",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 8,
+                "id": 48,
+                "productName": "Plain Widget",
+                "size": "small",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "49",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 6,
+                "id": 49,
+                "productName": "Legacy Widget",
+                "size": "small",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "50",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 10,
+                "id": 50,
+                "productName": "Classic Widget",
+                "size": "large",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "51",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 1,
+                "id": 51,
+                "productName": "Double Widget",
+                "size": "small",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "52",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 8,
+                "id": 52,
+                "productName": "Modern Widget",
+                "size": "large",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "53",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 4,
+                "id": 53,
+                "productName": "Double Widget",
+                "size": "medium",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "54",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 3,
+                "id": 54,
+                "productName": "Classic Widget",
+                "size": "small",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "55",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 1,
+                "id": 55,
+                "productName": "Modern Widget",
+                "size": "medium",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "56",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 5,
+                "id": 56,
+                "productName": "Legacy Widget",
+                "size": "medium",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "57",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 10,
+                "id": 57,
+                "productName": "Double Widget",
+                "size": "medium",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "58",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 2,
+                "id": 58,
+                "productName": "Legacy Widget",
+                "size": "medium",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "59",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 4,
+                "id": 59,
+                "productName": "Legacy Widget",
+                "size": "large",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "60",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 9,
+                "id": 60,
+                "productName": "Classic Widget",
+                "size": "medium",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "61",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 2,
+                "id": 61,
+                "productName": "Super Widget",
+                "size": "large",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "62",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 1,
+                "id": 62,
+                "productName": "Modern Widget",
+                "size": "medium",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "63",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 10,
+                "id": 63,
+                "productName": "Legacy Widget",
+                "size": "large",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "64",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 10,
+                "id": 64,
+                "productName": "Plain Widget",
+                "size": "large",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "65",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 4,
+                "id": 65,
+                "productName": "Legacy Widget",
+                "size": "large",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "66",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 7,
+                "id": 66,
+                "productName": "Classic Widget",
+                "size": "medium",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "67",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 3,
+                "id": 67,
+                "productName": "Classic Widget",
+                "size": "large",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "68",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 6,
+                "id": 68,
+                "productName": "Double Widget",
+                "size": "small",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "69",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 8,
+                "id": 69,
+                "productName": "Double Widget",
+                "size": "large",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "70",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 9,
+                "id": 70,
+                "productName": "Classic Widget",
+                "size": "small",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "71",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 1,
+                "id": 71,
+                "productName": "Legacy Widget",
+                "size": "large",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "72",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 10,
+                "id": 72,
+                "productName": "Legacy Widget",
+                "size": "medium",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "73",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 6,
+                "id": 73,
+                "productName": "Plain Widget",
+                "size": "small",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "74",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 8,
+                "id": 74,
+                "productName": "Classic Widget",
+                "size": "medium",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "75",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 2,
+                "id": 75,
+                "productName": "Modern Widget",
+                "size": "medium",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "76",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 1,
+                "id": 76,
+                "productName": "Double Widget",
+                "size": "large",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "77",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 8,
+                "id": 77,
+                "productName": "Legacy Widget",
+                "size": "small",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "78",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 10,
+                "id": 78,
+                "productName": "Super Widget",
+                "size": "medium",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "79",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 2,
+                "id": 79,
+                "productName": "Double Widget",
+                "size": "medium",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "80",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 7,
+                "id": 80,
+                "productName": "Plain Widget",
+                "size": "small",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "81",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 8,
+                "id": 81,
+                "productName": "Modern Widget",
+                "size": "medium",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "82",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 1,
+                "id": 82,
+                "productName": "Classic Widget",
+                "size": "small",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "83",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 3,
+                "id": 83,
+                "productName": "Modern Widget",
+                "size": "small",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "84",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 5,
+                "id": 84,
+                "productName": "Super Widget",
+                "size": "large",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "85",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 10,
+                "id": 85,
+                "productName": "Double Widget",
+                "size": "small",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "86",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 9,
+                "id": 86,
+                "productName": "Super Widget",
+                "size": "medium",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "87",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 8,
+                "id": 87,
+                "productName": "Classic Widget",
+                "size": "small",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "88",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 8,
+                "id": 88,
+                "productName": "Legacy Widget",
+                "size": "large",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "89",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 4,
+                "id": 89,
+                "productName": "Classic Widget",
+                "size": "large",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "90",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 10,
+                "id": 90,
+                "productName": "Modern Widget",
+                "size": "small",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "91",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 10,
+                "id": 91,
+                "productName": "Legacy Widget",
+                "size": "large",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "92",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 2,
+                "id": 92,
+                "productName": "Modern Widget",
+                "size": "medium",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "93",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 8,
+                "id": 93,
+                "productName": "Classic Widget",
+                "size": "large",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "94",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 1,
+                "id": 94,
+                "productName": "Super Widget",
+                "size": "medium",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "95",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 4,
+                "id": 95,
+                "productName": "Double Widget",
+                "size": "small",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "96",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 8,
+                "id": 96,
+                "productName": "Double Widget",
+                "size": "medium",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "97",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 4,
+                "id": 97,
+                "productName": "Legacy Widget",
+                "size": "medium",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "98",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 10,
+                "id": 98,
+                "productName": "Legacy Widget",
+                "size": "large",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "99",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 2,
+                "id": 99,
+                "productName": "Plain Widget",
+                "size": "small",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "100",
+              "nodeType": "function",
+              "props": Object {
+                "clientId": 2,
+                "id": 100,
+                "productName": "Classic Widget",
+                "size": "large",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "tbody",
+        },
+      ],
+      "type": "table",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
