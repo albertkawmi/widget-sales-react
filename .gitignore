@@ -9,6 +9,9 @@
 # production
 /build
 
+# selenium drivers
+/e2e/selenium
+
 # misc
 .DS_Store
 .env
