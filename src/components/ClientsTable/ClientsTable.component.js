@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 const ClientsTable = ({ clients, selectedId }) => (
-  <table cellSpacing="0">
+  <table className="clients-tbl" cellSpacing="0">
     <thead>
       <tr>
         <th>ID</th>
@@ -44,7 +44,9 @@ export function ClientRow({
       <td>{country}</td>
       <td>
         <Link to={`/clients/${id}`}>
-          <button disabled={isSelected}>Select</button>
+          <button className="select-client-btn" disabled={isSelected}>
+            Select
+          </button>
         </Link>
       </td>
     </tr>

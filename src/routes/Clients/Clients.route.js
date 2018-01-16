@@ -43,7 +43,7 @@ export default class Clients extends React.Component {
 
     return (
       <div>
-        <h2>Clients</h2>
+        <h2 className="page-heading">Clients</h2>
         <ClientsTable
           clients={this.context.clients || []}
           selectedId={selectedId}
@@ -64,7 +64,9 @@ const SalesHeading = ({
   client: { firstName, lastName, company },
   sales
 }) => (
-  <h3><strong>{firstName} {lastName}</strong> of <strong>{company}</strong> has purchased <strong>{sales.length}</strong> widgets</h3>
+  <h3 className="sales-summary">
+    <strong>{firstName} {lastName}</strong> of <strong>{company}</strong> has purchased <strong>{sales.length}</strong> widgets
+  </h3>
 )
 
 const SalesCards = ({ sales }) => (

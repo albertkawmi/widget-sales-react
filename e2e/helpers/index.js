@@ -26,11 +26,7 @@ export const defaultTimeout = 10e3
 
 export const root = () => driver.findElement(rootSelector)
 
-export const first = selector => root().findElement(selector)
-
-export const find = selector => root().findElements(selector)
-
-export const load = async () => {
-  await driver.get(`${__baseUrl__}/`)
+export const load = async (path) => {
+  await driver.get(`${__baseUrl__}/${path}`)
   await driver.wait(until.elementLocated(root), defaultTimeout)
 }

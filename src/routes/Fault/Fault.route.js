@@ -11,7 +11,7 @@ export default class Fault extends React.Component {
   render() {
     return (
       <div>
-        <h2>A Faulty Page</h2>
+        <h2 className="page-heading">A Faulty Page</h2>
         <p>When something goes wrong you'll see an error message.</p>
       </div>
     )
