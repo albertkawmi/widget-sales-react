@@ -1,7 +1,7 @@
 {
-  "setupTestFrameworkScriptFile": "./setupTests.js",
+  "setupTestFrameworkScriptFile": "./e2eSetup.js",
   "testMatch": [
-    "**/specs/**/*.js"
+    "**/e2e/tests/**/*.test.js"
   ],
   "transform": {
     "\\.js$": "react-scripts/config/jest/babelTransform"
