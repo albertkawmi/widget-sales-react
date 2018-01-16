@@ -59,6 +59,7 @@ export default class Clients extends React.Component {
   }
 }
 
+// TODO move these into separate component files
 const SalesHeading = ({
   client: { firstName, lastName, company },
   sales
