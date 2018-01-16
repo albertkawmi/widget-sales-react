@@ -26,7 +26,7 @@ describe('Fault Page', () => {
       .findElement(error)
       .getText()
 
-    expect(errorMessage).toMatch(/^Error/)
+    expect(errorMessage).toMatch(/^Sorry, this page always errors out!/)
 
     await rootEl()
       .findElement(By.css('.error__dismiss'))

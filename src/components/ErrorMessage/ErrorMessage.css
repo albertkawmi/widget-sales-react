@@ -6,10 +6,18 @@
   padding: 1em;
 }
 
+.error__heading {
+  color: white;
+  font-weight: bold;
+}
+
 .error__text {
   flex: 1;
 }
 
 .error__dismiss {
   cursor: pointer;
+  background: none;
+  border: 0;
+  color: white;
 }

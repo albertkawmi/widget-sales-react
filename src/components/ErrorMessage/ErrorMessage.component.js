@@ -9,7 +9,8 @@ export default class ErrorMessage extends React.Component {
 
     return (
       <div className="error">
-        <div className="error__text">{error}</div>
+        <h4 className="error__heading">Sorry, this page always errors out!</h4>
+        <span className="error__text">&nbsp;({error})</span>
         <div className="error__dismiss" onClick={dismissError}>
           <span role="img" aria-label="Dismiss Error">✖</span>
         </div>
