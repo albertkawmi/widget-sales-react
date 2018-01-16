@@ -2,6 +2,11 @@ import api from './api'
 
 const mockErrorMsg = 'Something went wrong'
 const mockError = new Error(mockErrorMsg)
+const mockApiError = {
+  ok: false,
+  statusText: mockErrorMsg
+}
+
 const mockApiData = ['usually an array']
 
 const mockApiResponse = {
@@ -9,24 +14,13 @@ const mockApiResponse = {
   json: () => Promise.resolve(mockApiData)
 }
 
-const mockApiError = {
-  ok: false,
-  statusText: mockErrorMsg
-}
-
-const clientsRoute = 'https://widget-sales-api.now.sh/clients'
-const salesRoute = 'https://widget-sales-api.now.sh/sales'
-const faultRoute = 'https://widget-sales-api.now.sh/fault'
-
 const mockFetch = url => {
-  switch (url) {
-    case clientsRoute:
-    case salesRoute:
-      return Promise.resolve(mockApiResponse)
-    case faultRoute:
-    default:
-      return Promise.resolve(mockApiError)
-  }
+  const salesOrClients =
+    /\/sales$/.test(url) ||
+    /\/clients$/.test(url)
+
+  if (salesOrClients) return Promise.resolve(mockApiResponse)
+  return Promise.resolve(mockApiError)
 }
 
 const fetchSpy = jest.spyOn(global, 'fetch')
@@ -36,7 +30,22 @@ beforeEach(() => {
   jest.clearAllMocks()
 })
 
+afterEach(() => {
+  // app uses default API URL if REACT_APP_API_URL is not defined
+  delete process.env.REACT_APP_API_URL
+})
+
 describe('api.get', () => {
+  it('uses the REACT_APP_API_URL environment variable if available', () => {
+    process.env.REACT_APP_API_URL = 'https://a.test.url'
+    return api.get('clients')
+    .then(() => {
+        expect(fetchSpy).toHaveBeenCalledWith(
+          'https://a.test.url/clients'
+        )
+      })
+  })
+
   it('calls fetch on the clients endpoint', () => {
     return api.get('clients')
       .then(() => {
