@@ -638,6 +638,9 @@ ShallowWrapper {
                     <th>
                               Size
                     </th>
+                    <th>
+                              Price
+                    </th>
           </tr>
 </thead>,
         <tbody>
@@ -1265,6 +1268,9 @@ ShallowWrapper {
             <th>
                         Size
             </th>
+            <th>
+                        Price
+            </th>
 </tr>,
         },
         "ref": null,
@@ -1285,6 +1291,9 @@ ShallowWrapper {
 </th>,
               <th>
                 Size
+</th>,
+              <th>
+                Price
 </th>,
             ],
           },
@@ -1332,6 +1341,17 @@ ShallowWrapper {
               },
               "ref": null,
               "rendered": "Size",
+              "type": "th",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Price",
+              },
+              "ref": null,
+              "rendered": "Price",
               "type": "th",
             },
           ],
@@ -3377,6 +3397,9 @@ ShallowWrapper {
                         <th>
                                     Size
                         </th>
+                        <th>
+                                    Price
+                        </th>
             </tr>
 </thead>,
           <tbody>
@@ -4004,6 +4027,9 @@ ShallowWrapper {
               <th>
                             Size
               </th>
+              <th>
+                            Price
+              </th>
 </tr>,
           },
           "ref": null,
@@ -4024,6 +4050,9 @@ ShallowWrapper {
 </th>,
                 <th>
                   Size
+</th>,
+                <th>
+                  Price
 </th>,
               ],
             },
@@ -4071,6 +4100,17 @@ ShallowWrapper {
                 },
                 "ref": null,
                 "rendered": "Size",
+                "type": "th",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Price",
+                },
+                "ref": null,
+                "rendered": "Price",
                 "type": "th",
               },
             ],
