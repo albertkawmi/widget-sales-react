@@ -7,10 +7,6 @@ button {
   cursor: pointer;
 }
 
-button:hover {
-  background: lemonchiffon;
-}
-
 button:disabled {
   background: white;
   border-bottom: solid 2px silver;

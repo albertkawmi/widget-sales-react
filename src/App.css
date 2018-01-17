@@ -18,8 +18,12 @@ h6 {
   font-size: 14px;
 }
 
-div {
+div, main, header, footer, section {
   box-sizing: border-box;
+}
+
+button {
+  padding: 0.5rem;
 }
 
 /*
@@ -27,15 +31,19 @@ div {
  */
 
 main {
-  margin: 1rem 0;
   padding: 0.5rem;
 }
 
 .page-heading {
-  margin: 2rem 0;
+  margin: 1rem 0;
   padding: 0.5rem;
   color: rgb(50, 50, 50);
   border-bottom: solid 2px #e8be1e;
+  text-align: center;
+}
+
+.home {
+  text-align: center;
 }
 
 /*
@@ -72,12 +80,6 @@ tbody tr.selected {
   margin: 0 auto;
 }
 
-.table-wrap {
-  width: 100%;
-  overflow-y: auto;
-  overflow-x: scroll;
-}
-
 .ml {
   margin-left: 1rem;
 }
@@ -92,4 +94,8 @@ tbody tr.selected {
 
 .mb {
   margin-bottom: 1rem;
+}
+
+.inset {
+  padding: 0.5rem;
 }

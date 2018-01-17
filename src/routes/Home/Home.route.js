@@ -8,16 +8,17 @@ const Home = () => (
     <LinkButton
       to="/clients"
       text="View all your Clients"
-      buttonClassName="mr"
+      buttonClassName="mr mt"
     />
     <LinkButton
       to="/sales"
       text="View all your Sales"
-      buttonClassName="mr"
+      buttonClassName="mr mt"
     />
     <LinkButton
       to="/fault"
       text="Actually, I'd like to see an error page instead"
+      buttonClassName="mr mt"
     />
   </div>
 )

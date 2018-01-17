@@ -27,16 +27,17 @@ ShallowWrapper {
           What would you like to do?
 </p>,
         <LinkButton
-          buttonClassName="mr"
+          buttonClassName="mr mt"
           text="View all your Clients"
           to="/clients"
 />,
         <LinkButton
-          buttonClassName="mr"
+          buttonClassName="mr mt"
           text="View all your Sales"
           to="/sales"
 />,
         <LinkButton
+          buttonClassName="mr mt"
           text="Actually, I'd like to see an error page instead"
           to="/fault"
 />,
@@ -73,7 +74,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "function",
         "props": Object {
-          "buttonClassName": "mr",
+          "buttonClassName": "mr mt",
           "text": "View all your Clients",
           "to": "/clients",
         },
@@ -86,7 +87,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "function",
         "props": Object {
-          "buttonClassName": "mr",
+          "buttonClassName": "mr mt",
           "text": "View all your Sales",
           "to": "/sales",
         },
@@ -99,6 +100,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "function",
         "props": Object {
+          "buttonClassName": "mr mt",
           "text": "Actually, I'd like to see an error page instead",
           "to": "/fault",
         },
@@ -125,16 +127,17 @@ ShallowWrapper {
             What would you like to do?
 </p>,
           <LinkButton
-            buttonClassName="mr"
+            buttonClassName="mr mt"
             text="View all your Clients"
             to="/clients"
 />,
           <LinkButton
-            buttonClassName="mr"
+            buttonClassName="mr mt"
             text="View all your Sales"
             to="/sales"
 />,
           <LinkButton
+            buttonClassName="mr mt"
             text="Actually, I'd like to see an error page instead"
             to="/fault"
 />,
@@ -171,7 +174,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "function",
           "props": Object {
-            "buttonClassName": "mr",
+            "buttonClassName": "mr mt",
             "text": "View all your Clients",
             "to": "/clients",
           },
@@ -184,7 +187,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "function",
           "props": Object {
-            "buttonClassName": "mr",
+            "buttonClassName": "mr mt",
             "text": "View all your Sales",
             "to": "/sales",
           },
@@ -197,6 +200,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "function",
           "props": Object {
+            "buttonClassName": "mr mt",
             "text": "Actually, I'd like to see an error page instead",
             "to": "/fault",
           },

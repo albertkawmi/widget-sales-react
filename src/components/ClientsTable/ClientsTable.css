@@ -1,3 +1,9 @@
+.table-wrap {
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: scroll;
+}
+
 .sales {
   padding: 1rem;
   margin-top: 2rem;
@@ -21,5 +27,22 @@
   border: solid 1px whitesmoke;
   box-shadow: 1px 1px silver;
   padding: 1rem;
-  flex-basis: 29%;
+  flex-basis: calc((100% / 3) - 2rem);
+}
+
+@media (max-width: 800px) {
+  .table-wrap {
+    max-height: 12rem;
+    border: solid 1px silver;
+  }
+
+  .sale-card {
+    flex-basis: calc((100% / 2) - 2rem);
+  }
+}
+
+@media (max-width: 400px) {
+  .sale-card {
+    flex-basis: calc(100% - 2rem);
+  }
 }

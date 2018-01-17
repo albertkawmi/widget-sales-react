@@ -12,7 +12,7 @@ export default class Fault extends React.Component {
     return (
       <div>
         <h2 className="page-heading">A Faulty Page</h2>
-        <p>To demonstrate error handling, this page makes a request to an endpoint that always returns a 500 error. Once the response comes back, a red error message will appear above and stay on screen until  it's dismissed.</p>
+        <p>To demonstrate error handling, this page makes a request to an endpoint that eventually returns a 500 error. Once the response comes back, a red error message will appear above and stay on screen until  it's dismissed.</p>
       </div>
     )
   }

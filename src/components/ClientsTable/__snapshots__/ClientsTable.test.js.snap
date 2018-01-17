@@ -109,6 +109,9 @@ ShallowWrapper {
         <thead>
                 <tr>
                         <th>
+                                 
+                        </th>
+                        <th>
                                 ID
                         </th>
                         <th>
@@ -125,9 +128,6 @@ ShallowWrapper {
                         </th>
                         <th>
                                 Country
-                        </th>
-                        <th>
-                                 
                         </th>
                 </tr>
         </thead>
@@ -237,6 +237,9 @@ ShallowWrapper {
           <thead>
             <tr>
                         <th>
+                                     
+                        </th>
+                        <th>
                                     ID
                         </th>
                         <th>
@@ -253,9 +256,6 @@ ShallowWrapper {
                         </th>
                         <th>
                                     Country
-                        </th>
-                        <th>
-                                     
                         </th>
             </tr>
 </thead>,
@@ -363,6 +363,9 @@ ShallowWrapper {
           "props": Object {
             "children": <tr>
               <th>
+                             
+              </th>
+              <th>
                             ID
               </th>
               <th>
@@ -380,9 +383,6 @@ ShallowWrapper {
               <th>
                             Country
               </th>
-              <th>
-                             
-              </th>
 </tr>,
           },
           "ref": null,
@@ -392,6 +392,9 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": Array [
+                <th>
+                   
+</th>,
                 <th>
                   ID
 </th>,
@@ -410,13 +413,21 @@ ShallowWrapper {
                 <th>
                   Country
 </th>,
-                <th>
-                   
-</th>,
               ],
             },
             "ref": null,
             "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": " ",
+                },
+                "ref": null,
+                "rendered": " ",
+                "type": "th",
+              },
               Object {
                 "instance": null,
                 "key": undefined,
@@ -481,17 +492,6 @@ ShallowWrapper {
                 },
                 "ref": null,
                 "rendered": "Country",
-                "type": "th",
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": " ",
-                },
-                "ref": null,
-                "rendered": " ",
                 "type": "th",
               },
             ],
@@ -790,6 +790,9 @@ ShallowWrapper {
           <thead>
                     <tr>
                               <th>
+                                         
+                              </th>
+                              <th>
                                         ID
                               </th>
                               <th>
@@ -806,9 +809,6 @@ ShallowWrapper {
                               </th>
                               <th>
                                         Country
-                              </th>
-                              <th>
-                                         
                               </th>
                     </tr>
           </thead>
@@ -918,6 +918,9 @@ ShallowWrapper {
             <thead>
               <tr>
                             <th>
+                                           
+                            </th>
+                            <th>
                                           ID
                             </th>
                             <th>
@@ -934,9 +937,6 @@ ShallowWrapper {
                             </th>
                             <th>
                                           Country
-                            </th>
-                            <th>
-                                           
                             </th>
               </tr>
 </thead>,
@@ -1044,6 +1044,9 @@ ShallowWrapper {
             "props": Object {
               "children": <tr>
                 <th>
+                                 
+                </th>
+                <th>
                                 ID
                 </th>
                 <th>
@@ -1061,9 +1064,6 @@ ShallowWrapper {
                 <th>
                                 Country
                 </th>
-                <th>
-                                 
-                </th>
 </tr>,
             },
             "ref": null,
@@ -1073,6 +1073,9 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": Array [
+                  <th>
+                     
+</th>,
                   <th>
                     ID
 </th>,
@@ -1091,13 +1094,21 @@ ShallowWrapper {
                   <th>
                     Country
 </th>,
-                  <th>
-                     
-</th>,
                 ],
               },
               "ref": null,
               "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": " ",
+                  },
+                  "ref": null,
+                  "rendered": " ",
+                  "type": "th",
+                },
                 Object {
                   "instance": null,
                   "key": undefined,
@@ -1162,17 +1173,6 @@ ShallowWrapper {
                   },
                   "ref": null,
                   "rendered": "Country",
-                  "type": "th",
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": " ",
-                  },
-                  "ref": null,
-                  "rendered": " ",
                   "type": "th",
                 },
               ],

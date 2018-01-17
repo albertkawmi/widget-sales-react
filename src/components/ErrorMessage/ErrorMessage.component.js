@@ -11,8 +11,8 @@ export default class ErrorMessage extends React.Component {
       <div className="error wrap">
         <div className="error__content">
           <h4 className="error__heading">
-            Sorry, this page always errors out!&nbsp;
-            <span className="error__text">({error})</span>
+            Sorry, something went wrong. The status text was:&nbsp;
+            <span className="error__text">{error}</span>
           </h4>
         </div>
         <div className="error__dismiss" onClick={dismissError}>

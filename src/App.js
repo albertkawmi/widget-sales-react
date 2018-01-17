@@ -12,6 +12,7 @@ import Clients from './routes/Clients'
 import Fault from './routes/Fault'
 import NotFound from './routes/NotFound'
 import Sales from './routes/Sales'
+import WhySoSlow from './routes/WhySoSlow'
 
 import Header from './components/Header'
 import Footer from './components/Footer'
@@ -37,12 +38,13 @@ const Page = () => (
 
     <ErrorMessage />
 
-    <main className="wrap">
+    <main className="wrap mb">
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/clients/:clientId?" component={Clients} />
         <Route path="/sales" component={Sales} />
         <Route path="/fault" component={Fault} />
+        <Route path="/why-so-slow" component={WhySoSlow} />
         <Route component={NotFound} />
       </Switch>
     </main>

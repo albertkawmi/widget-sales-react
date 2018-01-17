@@ -1,8 +1,8 @@
 footer {
   display: flex;
   justify-content: space-between;
-  margin-top: 2rem;
   padding: 0.5rem;
+  border-top: solid 2px #e8be1e;
 }
 
 .footer-link,

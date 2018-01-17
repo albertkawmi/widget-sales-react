@@ -1,6 +1,8 @@
 import React from 'react'
 import ClientsTable from '../../components/ClientsTable'
 import Store from '../../components/Store'
+import MobileInfo from '../../components/MobileInfo'
+import Spinner from '../../components/Spinner'
 
 export default class Clients extends React.Component {
   componentWillMount() {
@@ -43,6 +45,8 @@ export default class Clients extends React.Component {
 
     return (
       <div>
+        <MobileInfo />
+
         <h2 className="page-heading">Clients</h2>
         <ClientsTable
           clients={this.context.clients || []}
@@ -69,17 +73,19 @@ const SalesHeading = ({
   </h3>
 )
 
-const SalesCards = ({ sales }) => (
-  <ul className="sale-cards">
-    {sales.map(
-      sale => (
-        <li className="sale-card" key={sale.id}>
-          <strong>Sale ID: {sale.id}</strong><br />
-          {sale.productName} ({sale.size})
-        </li>
-      )
-    )}
-  </ul>
+const SalesCards = ({ sales = [] }) => (
+  sales.length ?
+    <ul className="sale-cards">
+      {sales.map(
+        sale => (
+          <li className="sale-card" key={sale.id}>
+            <strong>Sale ID: {sale.id}</strong><br />
+            {sale.productName} ({sale.size})
+          </li>
+        )
+      )}
+    </ul>
+    : <Spinner />
 )
 
 Clients.contextTypes = Store.childContextTypes

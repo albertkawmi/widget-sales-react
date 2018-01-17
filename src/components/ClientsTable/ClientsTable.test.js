@@ -17,16 +17,12 @@ describe('<ClientsTable />', () => {
     const table = Enzyme.shallow(
       <ClientsTable clients={clientsData} selectedId={3} />
     )
-    expect(
-      table.findWhere(row => row.prop('isSelected') === true).length
-    ).toBe(1)
 
-    const row = Enzyme.shallow(
-      <ClientRow isSelected={true} {...clientsData[0]} />
+    const selectedRows = table.findWhere(
+      row => row.prop('isSelected') === true
     )
-    expect(
-      row.find('tr.selected').length
-    ).toBe(1)
+
+    expect(selectedRows.length).toBe(1)
   })
 
   it('it does not highlight any row if there is no matching id', () => {
@@ -36,13 +32,6 @@ describe('<ClientsTable />', () => {
     )
     expect(
       table.findWhere(row => row.prop('isSelected') === true).length
-    ).toBe(0)
-
-    const row = Enzyme.shallow(
-      <ClientRow isSelected={false} {...clientsData[0]} />
-    )
-    expect(
-      row.find('tr.selected').length
     ).toBe(0)
   })
 

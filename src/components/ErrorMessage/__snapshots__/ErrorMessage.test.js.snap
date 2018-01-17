@@ -24,13 +24,11 @@ ShallowWrapper {
           <h4
                     className="error__heading"
           >
-                    Sorry, this page always errors out! 
+                    Sorry, something went wrong. The status text was: 
                     <span
                               className="error__text"
                     >
-                              (
                               An error message
-                              )
                     </span>
           </h4>
 </div>,
@@ -42,7 +40,7 @@ ShallowWrapper {
                     aria-label="Dismiss Error"
                     role="img"
           >
-                    ✖
+                    ✖︎
           </span>
 </div>,
       ],
@@ -58,13 +56,11 @@ ShallowWrapper {
           "children": <h4
             className="error__heading"
 >
-            Sorry, this page always errors out! 
+            Sorry, something went wrong. The status text was: 
             <span
                         className="error__text"
             >
-                        (
                         An error message
-                        )
             </span>
 </h4>,
           "className": "error__content",
@@ -76,38 +72,28 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              "Sorry, this page always errors out! ",
+              "Sorry, something went wrong. The status text was: ",
               <span
                 className="error__text"
 >
-                (
                 An error message
-                )
 </span>,
             ],
             "className": "error__heading",
           },
           "ref": null,
           "rendered": Array [
-            "Sorry, this page always errors out! ",
+            "Sorry, something went wrong. The status text was: ",
             Object {
               "instance": null,
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": Array [
-                  "(",
-                  "An error message",
-                  ")",
-                ],
+                "children": "An error message",
                 "className": "error__text",
               },
               "ref": null,
-              "rendered": Array [
-                "(",
-                "An error message",
-                ")",
-              ],
+              "rendered": "An error message",
               "type": "span",
             },
           ],
@@ -124,7 +110,7 @@ ShallowWrapper {
             aria-label="Dismiss Error"
             role="img"
 >
-            ✖
+            ✖︎
 </span>,
           "className": "error__dismiss",
           "onClick": undefined,
@@ -136,11 +122,11 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "aria-label": "Dismiss Error",
-            "children": "✖",
+            "children": "✖︎",
             "role": "img",
           },
           "ref": null,
-          "rendered": "✖",
+          "rendered": "✖︎",
           "type": "span",
         },
         "type": "div",
@@ -161,13 +147,11 @@ ShallowWrapper {
             <h4
                         className="error__heading"
             >
-                        Sorry, this page always errors out! 
+                        Sorry, something went wrong. The status text was: 
                         <span
                                     className="error__text"
                         >
-                                    (
                                     An error message
-                                    )
                         </span>
             </h4>
 </div>,
@@ -179,7 +163,7 @@ ShallowWrapper {
                         aria-label="Dismiss Error"
                         role="img"
             >
-                        ✖
+                        ✖︎
             </span>
 </div>,
         ],
@@ -195,13 +179,11 @@ ShallowWrapper {
             "children": <h4
               className="error__heading"
 >
-              Sorry, this page always errors out! 
+              Sorry, something went wrong. The status text was: 
               <span
                             className="error__text"
               >
-                            (
                             An error message
-                            )
               </span>
 </h4>,
             "className": "error__content",
@@ -213,38 +195,28 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": Array [
-                "Sorry, this page always errors out! ",
+                "Sorry, something went wrong. The status text was: ",
                 <span
                   className="error__text"
 >
-                  (
                   An error message
-                  )
 </span>,
               ],
               "className": "error__heading",
             },
             "ref": null,
             "rendered": Array [
-              "Sorry, this page always errors out! ",
+              "Sorry, something went wrong. The status text was: ",
               Object {
                 "instance": null,
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": Array [
-                    "(",
-                    "An error message",
-                    ")",
-                  ],
+                  "children": "An error message",
                   "className": "error__text",
                 },
                 "ref": null,
-                "rendered": Array [
-                  "(",
-                  "An error message",
-                  ")",
-                ],
+                "rendered": "An error message",
                 "type": "span",
               },
             ],
@@ -261,7 +233,7 @@ ShallowWrapper {
               aria-label="Dismiss Error"
               role="img"
 >
-              ✖
+              ✖︎
 </span>,
             "className": "error__dismiss",
             "onClick": undefined,
@@ -273,11 +245,11 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "aria-label": "Dismiss Error",
-              "children": "✖",
+              "children": "✖︎",
               "role": "img",
             },
             "ref": null,
-            "rendered": "✖",
+            "rendered": "✖︎",
             "type": "span",
           },
           "type": "div",
