@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "A simple React web UI for widget-sales-api",
   "private": true,
+  "engines": {
+    "node": "8.9.x"
+  },
   "dependencies": {
     "dotenv": "^4.0.0",
     "react": "16.2.0",
