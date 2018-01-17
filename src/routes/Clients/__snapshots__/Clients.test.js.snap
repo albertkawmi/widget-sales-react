@@ -233,7 +233,6 @@ ShallowWrapper {
       "fetchClients": [Function],
       "fetchFault": [Function],
       "fetchSales": [Function],
-      "isLoading": false,
       "sales": Array [],
     },
   },
@@ -545,7 +544,6 @@ ShallowWrapper {
       "fetchClients": [Function],
       "fetchFault": [Function],
       "fetchSales": [Function],
-      "isLoading": false,
       "sales": Array [],
     },
   },
@@ -809,7 +807,6 @@ ShallowWrapper {
       "fetchClients": [Function],
       "fetchFault": [Function],
       "fetchSales": [Function],
-      "isLoading": false,
       "sales": Array [],
     },
   },
@@ -1121,7 +1118,6 @@ ShallowWrapper {
       "fetchClients": [Function],
       "fetchFault": [Function],
       "fetchSales": [Function],
-      "isLoading": false,
       "sales": Array [
         Object {
           "id": 42,
