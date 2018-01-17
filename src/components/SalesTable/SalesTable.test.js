@@ -7,10 +7,24 @@ import salesData from '../../../mocks/sales.json'
 
 Enzyme.configure({ adapter: new Adapter() });
 
-const wrapper = Enzyme.shallow(<SalesTable sales={salesData} />)
-
 describe('<SalesTable />', () => {
+  it('renders a spinner if it has no data', () => {
+    const table = Enzyme.shallow(<SalesTable sales={[]} />)
+    expect(
+      table.find('Spinner').exists()
+    ).toBe(true)
+  })
+
   it('renders sales data in a table', () => {
-    expect(wrapper).toMatchSnapshot()
+    const table = Enzyme.shallow(
+      <SalesTable sales={salesData} />
+    )
+    expect(table).toMatchSnapshot()
+  })
+
+  it('renders even if clients prop is undefined', () => {
+    expect(
+      Enzyme.shallow(<SalesTable />)
+    ).toBeTruthy()
   })
 })
