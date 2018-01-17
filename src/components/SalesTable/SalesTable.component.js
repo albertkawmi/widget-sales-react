@@ -10,6 +10,7 @@ const SalesTable = ({ sales = [] }) => (
           <th>Client ID</th>
           <th>Product Name</th>
           <th>Size</th>
+          <th>Price</th>
         </tr>
       </thead>
       <tbody>
@@ -26,13 +27,15 @@ const SalesRow = ({
   id,
   clientId,
   productName,
-  size
+  size,
+  price
 }) => (
   <tr>
     <td>{id}</td>
     <td>{clientId}</td>
     <td>{productName}</td>
     <td>{size}</td>
+    <td>£{price}</td>
   </tr>
 )
 

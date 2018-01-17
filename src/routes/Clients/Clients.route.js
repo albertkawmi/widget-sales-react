@@ -78,7 +78,8 @@ const SalesCards = ({ sales = [] }) => (
         sale => (
           <li className="sale-card" key={sale.id}>
             <strong>Sale ID: {sale.id}</strong><br />
-            {sale.productName} ({sale.size})
+            {sale.productName} ({sale.size}) @&nbsp;
+            <em>£{sale.price}</em>
           </li>
         )
       )}
