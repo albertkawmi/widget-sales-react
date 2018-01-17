@@ -20,8 +20,6 @@ export default class Clients extends React.Component {
   }
 
   fetchDataIfNeeded = () => {
-    if (this.context.isLoading) return
-
     const { clients, sales, fetchClients, fetchSales } = this.context
     const { clientId } = this.props.match.params
 

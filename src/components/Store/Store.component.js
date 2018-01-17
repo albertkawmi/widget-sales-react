@@ -7,7 +7,6 @@ export default class Store extends React.Component {
     clients: [],
     sales: [],
     error: '',
-    isLoading: false
   }
 
   getChildContext = () => {
@@ -22,20 +21,12 @@ export default class Store extends React.Component {
   }
 
   request = endpoint => {
-    if (this.state.isLoading) return
-
-    this.setState({ isLoading: true })
-
     return api.get(endpoint)
-      .then(results => {
-        this.setState({
-          isLoading: false,
-          [endpoint]: results
-        })
-      })
+      .then(results => this.setState({
+        [endpoint]: results
+      }))
       .catch(error => this.setState({
         error: error.toString(),
-        isLoading: false
       }))
   }
 
@@ -45,7 +36,6 @@ export default class Store extends React.Component {
 }
 
 Store.childContextTypes = {
-  isLoading: PropTypes.bool,
   clients: PropTypes.array,
   sales: PropTypes.array,
   error: PropTypes.string,

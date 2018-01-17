@@ -73,17 +73,6 @@ describe('store.request', () => {
     jest.clearAllMocks()
   })
 
-  it('should return if already fetching data', () => {
-    instance.state = { ...instance.state, isLoading: true }
-    instance.request('clients')
-    expect(setStateSpy).not.toHaveBeenCalled()
-  })
-
-  it('should set loading state before fetching', () => {
-    instance.request('clients')
-    expect(setStateSpy).toHaveBeenCalledWith({ isLoading: true })
-  })
-
   it('should call api.get with the correct endpoint', () => {
     instance.request('clients')
     expect(apiGet).toHaveBeenCalledWith('clients')
@@ -98,15 +87,6 @@ describe('store.request', () => {
       })
   })
 
-  it('should set isLoading state to false on success', () => {
-    return instance.request('clients')
-      .then(() => {
-        expect(setStateSpy).toHaveBeenCalledWith(
-          expect.objectContaining({ isLoading: false })
-        )
-      })
-  })
-
   it('should set the error message state on failure', () => {
     apiGet = jest.spyOn(api, 'get')
       .mockImplementation(mockApiGetError)
@@ -115,18 +95,6 @@ describe('store.request', () => {
       .then(() => {
         expect(setStateSpy).toHaveBeenCalledWith(
           expect.objectContaining({ error: mockApiError.toString() })
-        )
-      })
-  })
-
-  it('should set isLoading state to false on failure', () => {
-    apiGet = jest.spyOn(api, 'get')
-      .mockImplementation(mockApiGetError)
-
-    return instance.request('clients', { mockError: true })
-      .then(() => {
-        expect(setStateSpy).toHaveBeenCalledWith(
-          expect.objectContaining({ isLoading: false })
         )
       })
   })
