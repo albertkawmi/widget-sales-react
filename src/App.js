@@ -37,7 +37,7 @@ const Page = () => (
 
     <ErrorMessage />
 
-    <main>
+    <main className="wrap">
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/clients/:clientId?" component={Clients} />

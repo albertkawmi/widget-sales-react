@@ -3,3 +3,9 @@ footer {
   justify-content: space-between;
   margin-top: 2rem;
 }
+
+.footer-link,
+.footer-link:visited,
+.footer-link:active {
+  color: #2bafba;
+}

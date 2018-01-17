@@ -2,6 +2,11 @@ header {
   display: flex;
   align-items: center;
   margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.header-bg {
+  background: rgb(50, 50, 50);
 }
 
 .logo {
@@ -11,11 +16,17 @@ header {
 
 .site-title {
   font-weight: 800;
-  text-shadow: 1px 1px silver;
   font-size: 48px;
   font-style: italic;
+  color: whitesmoke;
 }
 
 .site-title__highlight {
   color: #e8be1e;
+}
+
+.site-title-link,
+.site-title-link:active,
+.site-title-link:visited {
+  color: tomato;
 }
