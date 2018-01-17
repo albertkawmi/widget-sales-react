@@ -18,18 +18,22 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <h4
-          className="error__heading"
+        <div
+          className="error__content"
 >
-          Sorry, this page always errors out!
-</h4>,
-        <span
-          className="error__text"
->
-           (
-          An error message
-          )
-</span>,
+          <h4
+                    className="error__heading"
+          >
+                    Sorry, this page always errors out! 
+                    <span
+                              className="error__text"
+                    >
+                              (
+                              An error message
+                              )
+                    </span>
+          </h4>
+</div>,
         <div
           className="error__dismiss"
           onClick={undefined}
@@ -42,7 +46,7 @@ ShallowWrapper {
           </span>
 </div>,
       ],
-      "className": "error",
+      "className": "error wrap",
     },
     "ref": null,
     "rendered": Array [
@@ -51,32 +55,65 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "Sorry, this page always errors out!",
-          "className": "error__heading",
+          "children": <h4
+            className="error__heading"
+>
+            Sorry, this page always errors out! 
+            <span
+                        className="error__text"
+            >
+                        (
+                        An error message
+                        )
+            </span>
+</h4>,
+          "className": "error__content",
         },
         "ref": null,
-        "rendered": "Sorry, this page always errors out!",
-        "type": "h4",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [
-            " (",
-            "An error message",
-            ")",
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Sorry, this page always errors out! ",
+              <span
+                className="error__text"
+>
+                (
+                An error message
+                )
+</span>,
+            ],
+            "className": "error__heading",
+          },
+          "ref": null,
+          "rendered": Array [
+            "Sorry, this page always errors out! ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "(",
+                  "An error message",
+                  ")",
+                ],
+                "className": "error__text",
+              },
+              "ref": null,
+              "rendered": Array [
+                "(",
+                "An error message",
+                ")",
+              ],
+              "type": "span",
+            },
           ],
-          "className": "error__text",
+          "type": "h4",
         },
-        "ref": null,
-        "rendered": Array [
-          " (",
-          "An error message",
-          ")",
-        ],
-        "type": "span",
+        "type": "div",
       },
       Object {
         "instance": null,
@@ -118,18 +155,22 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <h4
-            className="error__heading"
+          <div
+            className="error__content"
 >
-            Sorry, this page always errors out!
-</h4>,
-          <span
-            className="error__text"
->
-             (
-            An error message
-            )
-</span>,
+            <h4
+                        className="error__heading"
+            >
+                        Sorry, this page always errors out! 
+                        <span
+                                    className="error__text"
+                        >
+                                    (
+                                    An error message
+                                    )
+                        </span>
+            </h4>
+</div>,
           <div
             className="error__dismiss"
             onClick={undefined}
@@ -142,7 +183,7 @@ ShallowWrapper {
             </span>
 </div>,
         ],
-        "className": "error",
+        "className": "error wrap",
       },
       "ref": null,
       "rendered": Array [
@@ -151,32 +192,65 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "Sorry, this page always errors out!",
-            "className": "error__heading",
+            "children": <h4
+              className="error__heading"
+>
+              Sorry, this page always errors out! 
+              <span
+                            className="error__text"
+              >
+                            (
+                            An error message
+                            )
+              </span>
+</h4>,
+            "className": "error__content",
           },
           "ref": null,
-          "rendered": "Sorry, this page always errors out!",
-          "type": "h4",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              " (",
-              "An error message",
-              ")",
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Sorry, this page always errors out! ",
+                <span
+                  className="error__text"
+>
+                  (
+                  An error message
+                  )
+</span>,
+              ],
+              "className": "error__heading",
+            },
+            "ref": null,
+            "rendered": Array [
+              "Sorry, this page always errors out! ",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "(",
+                    "An error message",
+                    ")",
+                  ],
+                  "className": "error__text",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "(",
+                  "An error message",
+                  ")",
+                ],
+                "type": "span",
+              },
             ],
-            "className": "error__text",
+            "type": "h4",
           },
-          "ref": null,
-          "rendered": Array [
-            " (",
-            "An error message",
-            ")",
-          ],
-          "type": "span",
+          "type": "div",
         },
         Object {
           "instance": null,

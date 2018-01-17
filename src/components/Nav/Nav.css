@@ -22,3 +22,17 @@ nav {
   color: whitesmoke;
   background: dimgrey;
 }
+
+@media (max-width: 700px) {
+  nav {
+    margin-top: 1rem;
+  }
+  .nav-link,
+  .nav-link:active,
+  .nav-link:visited {
+    text-align: center;
+    font-size: 16px;
+    margin: 0;
+    flex: 1;
+  }
+}

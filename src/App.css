@@ -28,6 +28,7 @@ div {
 
 main {
   margin: 1rem 0;
+  padding: 0.5rem;
 }
 
 .page-heading {
@@ -64,11 +65,17 @@ tbody tr.selected {
 }
 
 /*
- * Helper classes (more could be added if needed)
+ * Helper classes
  */
 .wrap {
   max-width: 1024px;
   margin: 0 auto;
+}
+
+.table-wrap {
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: scroll;
 }
 
 .ml {

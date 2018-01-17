@@ -3,26 +3,28 @@ import LinkButton from '../LinkButton'
 import './ClientsTable.css'
 
 const ClientsTable = ({ clients, selectedId }) => (
-  <table className="clients-table" cellSpacing="0">
-    <thead>
-      <tr>
-        <th>ID</th>
-        <th>First Name</th>
-        <th>Last Name</th>
-        <th>Company</th>
-        <th>Telephone</th>
-        <th>Country</th>
-        <th>&nbsp;</th>
-      </tr>
-    </thead>
-    <tbody>
-      {clients.map(client => <ClientRow
-        key={client.id}
-        isSelected={selectedId === client.id}
-        {...client}
-      />)}
-    </tbody>
-  </table>
+  <div className="table-wrap">
+    <table className="clients-table" cellSpacing="0">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Company</th>
+          <th>Telephone</th>
+          <th>Country</th>
+          <th>&nbsp;</th>
+        </tr>
+      </thead>
+      <tbody>
+        {clients.map(client => <ClientRow
+          key={client.id}
+          isSelected={selectedId === client.id}
+          {...client}
+        />)}
+      </tbody>
+    </table>
+  </div>
 )
 
 // Can't use an arrow function as Enzyme renders it 'Unknown'

@@ -30,3 +30,18 @@ header {
 .site-title-link:visited {
   color: tomato;
 }
+
+@media (max-width: 700px) {
+  header {
+    flex-direction: column;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .site-title {
+    display: inline;
+    font-size: 32px;
+  }
+}

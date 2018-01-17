@@ -4,7 +4,8 @@ import './Footer.css'
 const Footer = () => (
   <footer className="wrap mt mb">
     <h6 className="footer-text">
-      WidgetSales on GitHub:&nbsp;
+      WidgetSales on GitHub:
+      <br />
       <a className="footer-link" href="https://github.com/albertkawmi/widget-sales-react">widget-sales-react</a>
       &nbsp;|&nbsp;
       <a className="footer-link" href="https://github.com/albertkawmi/widget-sales-api">widget-sales-api</a>
