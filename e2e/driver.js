@@ -1,8 +1,8 @@
-import { Builder, By, until } from 'selenium-webdriver'
+/* globals __baseUrl__ */
+import { Builder, until } from 'selenium-webdriver'
 import chrome from 'selenium-webdriver/chrome'
 
-const rootSelector = { css: '#root' }
-
+// Setup a headless Chrome webdriver
 const options = new chrome.Options()
     .addArguments('headless')
     .addArguments('window-size=1200x600')
@@ -13,8 +13,9 @@ export const driver = new Builder()
   .usingServer('http://localhost:4444/wd/hub')
   .build()
 
+// Cleanup `process.on('exit')` event handlers to prevent a memory leak
+// caused by the combination of `jest` & `tmp`.
 afterAll(async () => {
-  // Cleanup `process.on('exit')` event handlers to prevent a memory leak caused by the combination of `jest` & `tmp`.
   for (const listener of process.listeners('exit')) {
     listener()
     process.removeListener('exit', listener)
@@ -22,9 +23,10 @@ afterAll(async () => {
   await driver.quit()
 })
 
+// Helpers
 export const defaultTimeout = 10e3
 
-export const rootEl = () => driver.findElement(rootSelector)
+export const rootEl = () => driver.findElement({ css: '#root' })
 
 export const load = async (path) => {
   await driver.get(`${__baseUrl__}/${path}`)

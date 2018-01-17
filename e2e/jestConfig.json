@@ -1,5 +1,5 @@
 {
-  "setupTestFrameworkScriptFile": "./e2eSetup.js",
+  "setupTestFrameworkScriptFile": "./jestSetup.js",
   "testMatch": [
     "**/e2e/tests/**/*.test.js"
   ],

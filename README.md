@@ -48,7 +48,7 @@ __NOTE:__ you will need Google Chrome installed on your machine to run end-to-en
 Run these commands in order:
 
 1. `npm run test:e2e:update` will update the server used to run the tests
-2. `npm run test:e2e:server` will start the server
+2. `npm run test:e2e:server` will start the server at http://localhost:4444/wd/hub (configurable in `e2e/driver.js`)
 3. `npm run test:e2e` will run the end-to-end tests
 
 Note that end-to-end tests have a separate Jest configuration located at `e2e/jestConfig.json`

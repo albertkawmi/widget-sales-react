@@ -1,5 +1,5 @@
 import { By, until } from 'selenium-webdriver'
-import { defaultTimeout, driver, load, rootEl } from '../helpers'
+import { defaultTimeout, driver, load, rootEl } from '../driver'
 
 beforeAll(async () => {
   await load('sales')
