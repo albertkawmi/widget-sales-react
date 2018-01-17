@@ -1,0 +1,171 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<WhySoSlow /> renders the Why So Slow? page 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <WhySoSlow />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h2
+          className="page-heading"
+>
+          Why so slow?
+</h2>,
+        <p>
+          This app is hosted on Zeit's now.sh free plan. I chose this service because it makes deployment a breeze. However, they do seem to be having some 
+          <a
+                    href="https://github.com/zeit/now-cli/issues/1039"
+          >
+                    performance issues
+          </a>
+           of late.
+</p>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Why so slow?",
+          "className": "page-heading",
+        },
+        "ref": null,
+        "rendered": "Why so slow?",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "This app is hosted on Zeit's now.sh free plan. I chose this service because it makes deployment a breeze. However, they do seem to be having some ",
+            <a
+              href="https://github.com/zeit/now-cli/issues/1039"
+>
+              performance issues
+</a>,
+            " of late.",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "This app is hosted on Zeit's now.sh free plan. I chose this service because it makes deployment a breeze. However, they do seem to be having some ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "performance issues",
+              "href": "https://github.com/zeit/now-cli/issues/1039",
+            },
+            "ref": null,
+            "rendered": "performance issues",
+            "type": "a",
+          },
+          " of late.",
+        ],
+        "type": "p",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h2
+            className="page-heading"
+>
+            Why so slow?
+</h2>,
+          <p>
+            This app is hosted on Zeit's now.sh free plan. I chose this service because it makes deployment a breeze. However, they do seem to be having some 
+            <a
+                        href="https://github.com/zeit/now-cli/issues/1039"
+            >
+                        performance issues
+            </a>
+             of late.
+</p>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Why so slow?",
+            "className": "page-heading",
+          },
+          "ref": null,
+          "rendered": "Why so slow?",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "This app is hosted on Zeit's now.sh free plan. I chose this service because it makes deployment a breeze. However, they do seem to be having some ",
+              <a
+                href="https://github.com/zeit/now-cli/issues/1039"
+>
+                performance issues
+</a>,
+              " of late.",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "This app is hosted on Zeit's now.sh free plan. I chose this service because it makes deployment a breeze. However, they do seem to be having some ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "performance issues",
+                "href": "https://github.com/zeit/now-cli/issues/1039",
+              },
+              "ref": null,
+              "rendered": "performance issues",
+              "type": "a",
+            },
+            " of late.",
+          ],
+          "type": "p",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
