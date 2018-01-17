@@ -1,0 +1,19 @@
+.spinner-outer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+}
+
+.spinner {
+  width: 40px;
+  animation: spin 4s linear infinite;
+}
+
+.spinner-link {
+  color: #2bafba;
+  margin-top: 2rem;
+}
+
+@keyframes spin { 100% { transform: rotate(360deg); } }
