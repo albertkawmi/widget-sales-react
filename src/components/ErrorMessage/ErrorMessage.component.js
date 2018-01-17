@@ -16,7 +16,7 @@ export default class ErrorMessage extends React.Component {
           </h4>
         </div>
         <div className="error__dismiss" onClick={dismissError}>
-          <span role="img" aria-label="Dismiss Error">✖</span>
+          <span role="img" aria-label="Dismiss Error">✖︎</span>
         </div>
       </div>
     )
