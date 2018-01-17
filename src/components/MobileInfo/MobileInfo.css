@@ -1,0 +1,20 @@
+.mobile-info {
+  display: none;
+}
+
+.mobile-info__dismiss {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .mobile-info {
+    display: block;
+    background: lemonchiffon;
+    padding: 0.5rem;
+    border: solid 1px #e8be1e;
+  }
+  .mobile-info.dismissed {
+    display: none;
+  }
+}
