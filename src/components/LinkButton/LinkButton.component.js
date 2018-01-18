@@ -22,9 +22,7 @@ LinkButton.propTypes = {
   text: PropTypes.string,
   linkClassName: PropTypes.string,
   buttonClassName: PropTypes.string,
-  options: PropTypes.objectOf({
-    disabled: PropTypes.bool
-  })
+  options: PropTypes.object
 }
 
 LinkButton.defaultProps = {

@@ -14,29 +14,18 @@ const SalesTable = ({ sales = [] }) => (
         </tr>
       </thead>
       <tbody>
-        {sales.map(sale => <SalesRow
-          key={sale.id}
-          {...sale}
-        />)}
+        {sales.map(sale => (
+          <tr key={sale.id}>
+            <td>{sale.id}</td>
+            <td>{sale.clientId}</td>
+            <td>{sale.productName}</td>
+            <td>{sale.size}</td>
+            <td>£{sale.price}</td>
+          </tr>
+        ))}
       </tbody>
     </table>
     : <Spinner />
-)
-
-const SalesRow = ({
-  id,
-  clientId,
-  productName,
-  size,
-  price
-}) => (
-  <tr>
-    <td>{id}</td>
-    <td>{clientId}</td>
-    <td>{productName}</td>
-    <td>{size}</td>
-    <td>£{price}</td>
-  </tr>
 )
 
 export default SalesTable

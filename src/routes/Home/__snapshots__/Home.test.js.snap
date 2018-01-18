@@ -28,16 +28,34 @@ ShallowWrapper {
 </p>,
         <LinkButton
           buttonClassName="mr mt"
+          linkClassName=""
+          options={
+                    Object {
+                              "disabled": false,
+                            }
+          }
           text="View all your Clients"
           to="/clients"
 />,
         <LinkButton
           buttonClassName="mr mt"
+          linkClassName=""
+          options={
+                    Object {
+                              "disabled": false,
+                            }
+          }
           text="View all your Sales"
           to="/sales"
 />,
         <LinkButton
           buttonClassName="mr mt"
+          linkClassName=""
+          options={
+                    Object {
+                              "disabled": false,
+                            }
+          }
           text="Actually, I'd like to see an error page instead"
           to="/fault"
 />,
@@ -75,6 +93,10 @@ ShallowWrapper {
         "nodeType": "function",
         "props": Object {
           "buttonClassName": "mr mt",
+          "linkClassName": "",
+          "options": Object {
+            "disabled": false,
+          },
           "text": "View all your Clients",
           "to": "/clients",
         },
@@ -88,6 +110,10 @@ ShallowWrapper {
         "nodeType": "function",
         "props": Object {
           "buttonClassName": "mr mt",
+          "linkClassName": "",
+          "options": Object {
+            "disabled": false,
+          },
           "text": "View all your Sales",
           "to": "/sales",
         },
@@ -101,6 +127,10 @@ ShallowWrapper {
         "nodeType": "function",
         "props": Object {
           "buttonClassName": "mr mt",
+          "linkClassName": "",
+          "options": Object {
+            "disabled": false,
+          },
           "text": "Actually, I'd like to see an error page instead",
           "to": "/fault",
         },
@@ -128,16 +158,34 @@ ShallowWrapper {
 </p>,
           <LinkButton
             buttonClassName="mr mt"
+            linkClassName=""
+            options={
+                        Object {
+                                    "disabled": false,
+                                  }
+            }
             text="View all your Clients"
             to="/clients"
 />,
           <LinkButton
             buttonClassName="mr mt"
+            linkClassName=""
+            options={
+                        Object {
+                                    "disabled": false,
+                                  }
+            }
             text="View all your Sales"
             to="/sales"
 />,
           <LinkButton
             buttonClassName="mr mt"
+            linkClassName=""
+            options={
+                        Object {
+                                    "disabled": false,
+                                  }
+            }
             text="Actually, I'd like to see an error page instead"
             to="/fault"
 />,
@@ -175,6 +223,10 @@ ShallowWrapper {
           "nodeType": "function",
           "props": Object {
             "buttonClassName": "mr mt",
+            "linkClassName": "",
+            "options": Object {
+              "disabled": false,
+            },
             "text": "View all your Clients",
             "to": "/clients",
           },
@@ -188,6 +240,10 @@ ShallowWrapper {
           "nodeType": "function",
           "props": Object {
             "buttonClassName": "mr mt",
+            "linkClassName": "",
+            "options": Object {
+              "disabled": false,
+            },
             "text": "View all your Sales",
             "to": "/sales",
           },
@@ -201,6 +257,10 @@ ShallowWrapper {
           "nodeType": "function",
           "props": Object {
             "buttonClassName": "mr mt",
+            "linkClassName": "",
+            "options": Object {
+              "disabled": false,
+            },
             "text": "Actually, I'd like to see an error page instead",
             "to": "/fault",
           },

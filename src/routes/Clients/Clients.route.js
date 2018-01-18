@@ -7,15 +7,7 @@ import Spinner from '../../components/Spinner'
 
 export default class Clients extends React.Component {
   static propTypes = {
-    match: PropTypes.objectOf({
-      params: PropTypes.objectOf({
-        clientId: PropTypes.string
-      })
-    })
-  }
-
-  static defaultProps = {
-    match: { params: { clientId: '' } }
+    match: PropTypes.object.isRequired
   }
 
   componentWillMount() {

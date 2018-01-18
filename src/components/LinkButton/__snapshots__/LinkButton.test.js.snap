@@ -5,6 +5,14 @@ ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <LinkButton
+    buttonClassName=""
+    linkClassName=""
+    options={
+        Object {
+            "disabled": false,
+          }
+    }
+    text=""
     to="/amazing/page"
 />,
   Symbol(enzyme.__renderer__): Object {
@@ -21,7 +29,7 @@ ShallowWrapper {
     "props": Object {
       "children": <button
         className=""
-        disabled={undefined}
+        disabled={false}
 />,
       "className": "",
       "replace": false,
@@ -35,7 +43,7 @@ ShallowWrapper {
       "props": Object {
         "children": "",
         "className": "",
-        "disabled": undefined,
+        "disabled": false,
       },
       "ref": null,
       "rendered": "",
@@ -51,7 +59,7 @@ ShallowWrapper {
       "props": Object {
         "children": <button
           className=""
-          disabled={undefined}
+          disabled={false}
 />,
         "className": "",
         "replace": false,
@@ -65,7 +73,7 @@ ShallowWrapper {
         "props": Object {
           "children": "",
           "className": "",
-          "disabled": undefined,
+          "disabled": false,
         },
         "ref": null,
         "rendered": "",
