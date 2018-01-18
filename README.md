@@ -36,14 +36,14 @@ After `yarn start` a browser tab will open with the client-side app running in i
 ## Unit Tests
 [Jest](https://facebook.github.io/jest/) is used as a test runner and unit tests are written using the [Enzyme](https://github.com/airbnb/enzyme) library.
 
-* `npm test` runs tests in watch mode for instant feedback
+* `yarn test` runs tests in watch mode for instant feedback
 * `yarn test:coverage` runs tests once, with coverage report
 * `yarn test:snapshots` will update failing snapshot tests. ([What's a snapshot test?](https://facebook.github.io/jest/docs/en/snapshot-testing.html))
 
 ## End-to-end Tests
 End-to-end browser tests use [Selenium Webdriver](https://seleniumhq.github.io/selenium/docs/api/javascript/index.html) and currently run in Google Chrome browser, in headless mode.
 
-__NOTE:__ you will need Google Chrome installed on your machine to run end-to-end tests.
+__NOTE:__ you will need Google Chrome installed on your machine to run end-to-end tests. You also need Node v8.9 as specified in the `package.json`
 
 Run these commands in order:
 
@@ -55,7 +55,9 @@ Note that end-to-end tests have a separate Jest configuration located at `e2e/je
 
 ## Code Linting
 
-[ESLint](https://eslint.org/) is used and can be configured in the `.eslintrc` file.
+[ESLint](https://eslint.org/) is used for linting and can be configured in the `.eslintrc` file. Run `yarn eslint` to check from the command line (or use an ESLint plugin for your code editor).
+
+`yarn eslint` will run before deployment.
 
 ## Deployment
 
@@ -71,7 +73,7 @@ Use the command:
 ```bash
 yarn deploy
 ```
-This will run ESLint, run tests and finally it will run `yarn now:production`. This last step is like the now:staging command, but it points the project alias to the deployed instance.
+This will run ESLint, run tests and finally it will run `yarn now:production`. This last step is like the `now:staging` command, but it points the project alias to the newly deployed instance.
 
 The current alias is `widget-sales-react` which is connected to my credentials. You can modify this to anything you like in `package.json` and Now will allow you to deploy it (you may need to confirm your email address if it's your first time using Now, then it will store credentials on your machine.)
 
