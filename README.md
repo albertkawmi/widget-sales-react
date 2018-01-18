@@ -1,16 +1,25 @@
 # widget-sales-react
-A simple React web UI for [widget-sales-api](https://github.com/albertkawmi/widget-sales-api). You can [see it in action here](https://widget-sales-react.now.sh/).
+A simple React web UI for [widget-sales-api](https://github.com/albertkawmi/widget-sales-api). [Try it here](https://widget-sales-react.now.sh/).
+
+Contents:
+- [Dependencies](#dependencies)
+- [Development](#development)
+- [Unit Tests](#unit-tests)
+- [End-to-end Tests](#end-to-end-tests)
+- [Code Linting](#code-linting)
+- [Deployment](#deployment)
+- [Related Links](#related-links)
 
 ## Dependencies
 
-This project uses [Yarn](https://yarnpkg.com/en/) to manage dependencies. You can install Yarn via Homebrew on Mac:
+Install [Yarn](https://yarnpkg.com/en/) via Homebrew on Mac:
 ```bash
 brew update
 brew install yarn 1.3.2
 ```
 For other operating systems see the [Yarn installation docs](https://yarnpkg.com/lang/en/docs/install/#windows-tab).
 
-Once Yarn is installed, you're ready to go:
+Clone the repo and run `yarn install`:
 
 ```bash
 git clone git@github.com:albertkawmi/widget-sales-react.git
@@ -20,16 +29,21 @@ yarn install
 
 __NOTE__: Yarn creates a `yarn.lock` file, locking dependency versions so that installs run consistently across machines. At project start, latest stable version of Yarn was 1.3.2. If you have any problems installing or running dependencies, please try this version.
 
-## Run locally `yarn start`
-This app uses tooling from [Create React App](https://github.com/facebookincubator/create-react-app). For development, you can run a local server with `yarn start`.
+## Development
+This app uses tooling from [Create React App](https://github.com/facebookincubator/create-react-app).
 
-By default, the app will hit the production server API (which is probably undesirable). You can configure this in the `.env` file in root project directory:
+To start a local development server:
+```
+yarn start
+```
+By default, the app will hit the production back-end API (which is probably undesirable). You can configure this in the `.env` file in root project directory, for example:
 ```bash
 echo REACT_APP_API_URL=http://localhost:4000 > .env
 ```
 `.env` is `.gitignore`d so it will not be committed to source control. This  means you'll need to add it on each machine you work on.
 
-To run the server locally, see the README for [widget-sales-api](https://github.com/albertkawmi/widget-sales-api#widget-sales-api)
+## Back-end API server
+See the README for [widget-sales-api](https://github.com/albertkawmi/widget-sales-api#widget-sales-api)
 
 After `yarn start` a browser tab will open with the client-side app running in it. The dev server will watch for file changes and live-reload the browser on save.
 
@@ -45,39 +59,31 @@ End-to-end browser tests use [Selenium Webdriver](https://seleniumhq.github.io/s
 
 __NOTE:__ you will need Google Chrome installed on your machine to run end-to-end tests. You also need Node v8.9 as specified in the `package.json`
 
-Run these commands in order:
-
-1. `yarn test:e2e:update` will update the server used to run the tests
-2. `yarn test:e2e:server` will start the server at http://localhost:4444/wd/hub (configurable in `e2e/driver.js`)
-3. `yarn test:e2e` will run the end-to-end tests
-
-Note that end-to-end tests have a separate Jest configuration located at `e2e/jestConfig.json`
+Note that end-to-end tests have a separate Jest config located at `e2e/jestConfig.json`
 
 ## Code Linting
-
 [ESLint](https://eslint.org/) is used for linting and can be configured in the `.eslintrc` file. Run `yarn eslint` to check from the command line (or use an ESLint plugin for your code editor).
 
 `yarn eslint` will run before deployment.
 
 ## Deployment
-
 [Zeit Now.sh](https://zeit.co/now) is used for cloud infrastructure and hosting. All Now deployments in their free plan will be given a subdomain with a hash under now.sh (see example link below). These URLs can be used as a staging step after local development.
 
 For production, a friendly alias (without the hash) can be redirected to the new instance URL. This redirect means zero downtime. It also means deployments can be reverted by simply reassigning the alias to a previous instance.
 
 ### Staging
-`yarn now:staging` will deploy the project to a URL like https://widget-sales-react-xxxxx.now.sh. You can create as many of these staging deployments as you like (within Now.sh's limits).
+```
+yarn deploy:staging
+```
+This will deploy the project to a URL like https://widget-sales-react-xxxxx.now.sh
 
 ### Production
-Use the command:
 ```bash
-yarn deploy
+yarn deploy:production
 ```
-This will run ESLint, run tests and finally it will run `yarn now:production`. This last step is like the `now:staging` command, but it points the project alias to the newly deployed instance.
+This will run ESLint, all tests and then deploy to the production alias https://widget-sales-react.now.sh
 
-The current alias is `widget-sales-react` which is connected to my credentials. You can modify this to anything you like in `package.json` and Now will allow you to deploy it (you may need to confirm your email address if it's your first time using Now, then it will store credentials on your machine.)
-
-The current production URL is: https://widget-sales-react.now.sh
+The alias `widget-sales-react` is connected to my credentials. You can modify this to anything you like in `package.json` and Now will allow you to deploy it (you may need to confirm your email address if it's your first time using Now, then it will store credentials on your machine.)
 
 ### Reverting
 Since the deployment is simply an alias change, it is easy to revert:

@@ -7,6 +7,7 @@
     "node": "8.9.x"
   },
   "dependencies": {
+    "chromedriver": "2.34.1",
     "dotenv": "^4.0.0",
     "prop-types": "^15.6.0",
     "react": "16.2.0",
@@ -22,14 +23,14 @@
     "test:snapshots": "jest --updateSnapshot",
     "test:coverage": "npm test -- --coverage",
     "test:e2e": "jest --config e2e/jestConfig.json",
-    "test:e2e:update": "webdriver-manager update --out_dir ../../e2e/selenium",
-    "test:e2e:server": "webdriver-manager start --out_dir ../../e2e/selenium",
+    "test:all": "npm-run-all eslint test:coverage test:e2e",
     "eslint": "eslint ./src",
     "eject": "react-scripts eject",
     "now": "now",
-    "now:staging": "now --public",
-    "now:production": "now alias $(now --public) widget-sales-react",
-    "deploy": "npm run eslint && npm run test:coverage && npm run test:e2e && npm run build && npm run now:production"
+    "now:scale": "now scale https://widget-sales-react.now.sh 1",
+    "now:alias": "now alias $(now --public) widget-sales-react",
+    "deploy:staging": "npm-run-all test:all build now --public",
+    "deploy:production": "npm-run-all test:all build now:alias now:scale"
   },
   "repository": {
     "type": "git",
@@ -49,6 +50,7 @@
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
     "now": "^9.1.0",
+    "npm-run-all": "4.1.2",
     "selenium-webdriver": "^4.0.0-alpha.1",
     "serve": "^6.4.8",
     "webdriver-manager": "^12.0.6"

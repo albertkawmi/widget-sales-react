@@ -10,7 +10,6 @@ const options = new chrome.Options()
 export const driver = new Builder()
   .forBrowser('chrome')
   .setChromeOptions(options)
-  .usingServer('http://localhost:4444/wd/hub')
   .build()
 
 // Cleanup `process.on('exit')` event handlers to prevent a memory leak
