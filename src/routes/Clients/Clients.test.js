@@ -1,11 +1,11 @@
 /* eslint-env jest */
 import React from 'react'
 import Enzyme from 'enzyme'
-import Adapter from 'enzyme-adapter-react-16';
+import Adapter from 'enzyme-adapter-react-16'
 import Clients from './Clients.route'
 import Store from '../../components/Store'
 
-Enzyme.configure({ adapter: new Adapter() });
+Enzyme.configure({ adapter: new Adapter() })
 
 const store = Enzyme.shallow(<Store />)
 const defaultContext = store.instance().getChildContext()

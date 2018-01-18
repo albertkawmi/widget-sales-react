@@ -1,11 +1,11 @@
 /* eslint-env jest */
 import React from 'react'
 import Enzyme from 'enzyme'
-import Adapter from 'enzyme-adapter-react-16';
+import Adapter from 'enzyme-adapter-react-16'
 import Store from './'
 import api from '../../utils/api'
 
-Enzyme.configure({ adapter: new Adapter() });
+Enzyme.configure({ adapter: new Adapter() })
 
 // Mock API module
 const mockApiData = ['usually an array']

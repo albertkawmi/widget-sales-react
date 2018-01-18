@@ -1,10 +1,10 @@
 /* eslint-env jest */
 import React from 'react'
 import Enzyme from 'enzyme'
-import Adapter from 'enzyme-adapter-react-16';
+import Adapter from 'enzyme-adapter-react-16'
 import MobileInfo from './MobileInfo.component'
 
-Enzyme.configure({ adapter: new Adapter() });
+Enzyme.configure({ adapter: new Adapter() })
 
 describe('<MobileInfo />', () => {
   const mobileInfo = Enzyme.shallow(

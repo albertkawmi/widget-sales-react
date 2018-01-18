@@ -1,11 +1,12 @@
 /* eslint-env jest */
 import React from 'react'
 import Enzyme from 'enzyme'
-import Adapter from 'enzyme-adapter-react-16';
-import ClientsTable, { ClientRow } from './ClientsTable.component'
+import Adapter from 'enzyme-adapter-react-16'
+import ClientsTable from './ClientsTable.component'
+import ClientRow from './ClientRow.component'
 import clientsData from '../../../mocks/clients.json'
 
-Enzyme.configure({ adapter: new Adapter() });
+Enzyme.configure({ adapter: new Adapter() })
 
 describe('<ClientsTable />', () => {
   it('renders a spinner if it has no data', () => {

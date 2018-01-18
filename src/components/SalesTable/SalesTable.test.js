@@ -1,11 +1,11 @@
 /* eslint-env jest */
 import React from 'react'
 import Enzyme from 'enzyme'
-import Adapter from 'enzyme-adapter-react-16';
+import Adapter from 'enzyme-adapter-react-16'
 import SalesTable from './SalesTable.component'
 import salesData from '../../../mocks/sales.json'
 
-Enzyme.configure({ adapter: new Adapter() });
+Enzyme.configure({ adapter: new Adapter() })
 
 describe('<SalesTable />', () => {
   it('renders a spinner if it has no data', () => {
@@ -22,7 +22,7 @@ describe('<SalesTable />', () => {
     expect(table).toMatchSnapshot()
   })
 
-  it('renders even if clients prop is undefined', () => {
+  it('renders even if sales prop is undefined', () => {
     expect(
       Enzyme.shallow(<SalesTable />)
     ).toBeTruthy()

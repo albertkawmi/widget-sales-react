@@ -28,7 +28,7 @@ class App extends Component {
           <Page />
         </Store>
       </Router>
-    );
+    )
   }
 }
 
@@ -53,4 +53,4 @@ const Page = () => (
   </div>
 )
 
-export default App;
+export default App
