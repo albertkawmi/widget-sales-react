@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import { Redirect } from 'react-router-dom'
 import './ClickableRow.css'
 
@@ -10,6 +11,17 @@ import './ClickableRow.css'
 // https://stackoverflow.com/questions/29244731/react-router-how-to-manually-invoke-link
 
 class ClickableRow extends React.Component {
+  static propTypes = {
+    to: PropTypes.string.isRequired,
+    className: PropTypes.string,
+    isClickable: PropTypes.bool,
+  }
+
+  static defaultProps = {
+    className: '',
+    isClickable: true,
+  }
+
   state = { redirect: false }
 
   render() {

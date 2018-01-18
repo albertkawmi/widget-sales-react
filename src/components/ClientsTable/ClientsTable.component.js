@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import ClickableRow from '../ClickableRow'
 import LinkButton from '../LinkButton'
 import Spinner from '../Spinner'
@@ -30,6 +31,11 @@ const ClientsTable = ({ clients = [], selectedId }) => (
     </div>
     : <Spinner />
 )
+
+ClientsTable.propTypes = {
+  selectedId: PropTypes.number,
+  clients: PropTypes.array.isRequired
+}
 
 // Can't use an arrow function as Enzyme renders it 'Unknown'
 export function ClientRow({

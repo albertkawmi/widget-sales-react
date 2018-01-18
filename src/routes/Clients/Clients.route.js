@@ -1,10 +1,23 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import ClientsTable from '../../components/ClientsTable'
 import Store from '../../components/Store'
 import MobileInfo from '../../components/MobileInfo'
 import Spinner from '../../components/Spinner'
 
 export default class Clients extends React.Component {
+  static propTypes = {
+    match: PropTypes.objectOf({
+      params: PropTypes.objectOf({
+        clientId: PropTypes.string
+      })
+    })
+  }
+
+  static defaultProps = {
+    match: { params: { clientId: '' } }
+  }
+
   componentWillMount() {
     this.fetchDataIfNeeded()
   }
