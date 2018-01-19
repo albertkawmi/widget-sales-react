@@ -1,7 +1,7 @@
 # widget-sales-react
 A simple React web UI for [widget-sales-api](https://github.com/albertkawmi/widget-sales-api). [Try it here](https://widget-sales-react.now.sh/).
 
-Contents:
+### Contents
 - [Dependencies](#dependencies)
 - [Development](#development)
 - [Unit Tests](#unit-tests)
@@ -55,6 +55,9 @@ After `yarn start` a browser tab will open with the client-side app running in i
 * `yarn test:snapshots` will update failing snapshot tests. ([What's a snapshot test?](https://facebook.github.io/jest/docs/en/snapshot-testing.html))
 
 ## End-to-end Tests
+```
+yarn test:e2e
+```
 End-to-end browser tests use [Selenium Webdriver](https://seleniumhq.github.io/selenium/docs/api/javascript/index.html) and currently run in Google Chrome browser, in headless mode.
 
 __NOTE:__ you will need Google Chrome installed on your machine to run end-to-end tests. You also need Node v8.9 as specified in the `package.json`
@@ -62,9 +65,10 @@ __NOTE:__ you will need Google Chrome installed on your machine to run end-to-en
 Note that end-to-end tests have a separate Jest config located at `e2e/jestConfig.json`
 
 ## Code Linting
+```
+yarn eslint
+```
 [ESLint](https://eslint.org/) is used for linting and can be configured in the `.eslintrc` file. Run `yarn eslint` to check from the command line (or use an ESLint plugin for your code editor).
-
-`yarn eslint` will run before deployment.
 
 ## Deployment
 [Zeit Now.sh](https://zeit.co/now) is used for cloud infrastructure and hosting. All Now deployments in their free plan will be given a subdomain with a hash under now.sh (see example link below). These URLs can be used as a staging step after local development.
@@ -75,7 +79,7 @@ For production, a friendly alias (without the hash) can be redirected to the new
 ```
 yarn deploy:staging
 ```
-This will deploy the project to a URL like https://widget-sales-react-xxxxx.now.sh
+This will run ESLint, all tests and then deploy to a URL like https://widget-sales-react-xxxxx.now.sh
 
 ### Production
 ```bash
