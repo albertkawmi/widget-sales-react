@@ -17,139 +17,62 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": Array [
-        <h2
-          className="page-heading"
+      "children": <section
+        className="homepage-box"
 >
-          Welcome
-</h2>,
+        <h2
+                className="page-heading page-heading--homepage"
+        >
+                Welcome
+        </h2>
         <p>
-          What would you like to do?
-</p>,
+                What would you like to do?
+        </p>
         <LinkButton
-          buttonClassName="mr mt"
-          linkClassName=""
-          options={
-                    Object {
-                              "disabled": false,
-                            }
-          }
-          text="View all your Clients"
-          to="/clients"
-/>,
+                buttonClassName="homepage-btn"
+                linkClassName=""
+                options={
+                        Object {
+                                "disabled": false,
+                              }
+                }
+                text="View all your Clients"
+                to="/clients"
+        />
         <LinkButton
-          buttonClassName="mr mt"
-          linkClassName=""
-          options={
-                    Object {
-                              "disabled": false,
-                            }
-          }
-          text="View all your Sales"
-          to="/sales"
-/>,
+                buttonClassName="homepage-btn"
+                linkClassName=""
+                options={
+                        Object {
+                                "disabled": false,
+                              }
+                }
+                text="View all your Sales"
+                to="/sales"
+        />
         <LinkButton
-          buttonClassName="mr mt"
-          linkClassName=""
-          options={
-                    Object {
-                              "disabled": false,
-                            }
-          }
-          text="Actually, I'd like to see an error page instead"
-          to="/fault"
-/>,
-      ],
+                buttonClassName="homepage-btn"
+                linkClassName=""
+                options={
+                        Object {
+                                "disabled": false,
+                              }
+                }
+                text="Actually, I'd like to see an error page instead"
+                to="/fault"
+        />
+</section>,
       "className": "home",
     },
     "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "Welcome",
-          "className": "page-heading",
-        },
-        "ref": null,
-        "rendered": "Welcome",
-        "type": "h2",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "What would you like to do?",
-        },
-        "ref": null,
-        "rendered": "What would you like to do?",
-        "type": "p",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "buttonClassName": "mr mt",
-          "linkClassName": "",
-          "options": Object {
-            "disabled": false,
-          },
-          "text": "View all your Clients",
-          "to": "/clients",
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "buttonClassName": "mr mt",
-          "linkClassName": "",
-          "options": Object {
-            "disabled": false,
-          },
-          "text": "View all your Sales",
-          "to": "/sales",
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "buttonClassName": "mr mt",
-          "linkClassName": "",
-          "options": Object {
-            "disabled": false,
-          },
-          "text": "Actually, I'd like to see an error page instead",
-          "to": "/fault",
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-    ],
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
+    "rendered": Object {
       "instance": null,
       "key": undefined,
       "nodeType": "host",
       "props": Object {
         "children": Array [
           <h2
-            className="page-heading"
+            className="page-heading page-heading--homepage"
 >
             Welcome
 </h2>,
@@ -157,7 +80,7 @@ ShallowWrapper {
             What would you like to do?
 </p>,
           <LinkButton
-            buttonClassName="mr mt"
+            buttonClassName="homepage-btn"
             linkClassName=""
             options={
                         Object {
@@ -168,7 +91,7 @@ ShallowWrapper {
             to="/clients"
 />,
           <LinkButton
-            buttonClassName="mr mt"
+            buttonClassName="homepage-btn"
             linkClassName=""
             options={
                         Object {
@@ -179,7 +102,7 @@ ShallowWrapper {
             to="/sales"
 />,
           <LinkButton
-            buttonClassName="mr mt"
+            buttonClassName="homepage-btn"
             linkClassName=""
             options={
                         Object {
@@ -190,7 +113,7 @@ ShallowWrapper {
             to="/fault"
 />,
         ],
-        "className": "home",
+        "className": "homepage-box",
       },
       "ref": null,
       "rendered": Array [
@@ -200,7 +123,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "Welcome",
-            "className": "page-heading",
+            "className": "page-heading page-heading--homepage",
           },
           "ref": null,
           "rendered": "Welcome",
@@ -222,7 +145,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "function",
           "props": Object {
-            "buttonClassName": "mr mt",
+            "buttonClassName": "homepage-btn",
             "linkClassName": "",
             "options": Object {
               "disabled": false,
@@ -239,7 +162,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "function",
           "props": Object {
-            "buttonClassName": "mr mt",
+            "buttonClassName": "homepage-btn",
             "linkClassName": "",
             "options": Object {
               "disabled": false,
@@ -256,7 +179,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "function",
           "props": Object {
-            "buttonClassName": "mr mt",
+            "buttonClassName": "homepage-btn",
             "linkClassName": "",
             "options": Object {
               "disabled": false,
@@ -269,6 +192,193 @@ ShallowWrapper {
           "type": [Function],
         },
       ],
+      "type": "section",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <section
+          className="homepage-box"
+>
+          <h2
+                    className="page-heading page-heading--homepage"
+          >
+                    Welcome
+          </h2>
+          <p>
+                    What would you like to do?
+          </p>
+          <LinkButton
+                    buttonClassName="homepage-btn"
+                    linkClassName=""
+                    options={
+                              Object {
+                                        "disabled": false,
+                                      }
+                    }
+                    text="View all your Clients"
+                    to="/clients"
+          />
+          <LinkButton
+                    buttonClassName="homepage-btn"
+                    linkClassName=""
+                    options={
+                              Object {
+                                        "disabled": false,
+                                      }
+                    }
+                    text="View all your Sales"
+                    to="/sales"
+          />
+          <LinkButton
+                    buttonClassName="homepage-btn"
+                    linkClassName=""
+                    options={
+                              Object {
+                                        "disabled": false,
+                                      }
+                    }
+                    text="Actually, I'd like to see an error page instead"
+                    to="/fault"
+          />
+</section>,
+        "className": "home",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h2
+              className="page-heading page-heading--homepage"
+>
+              Welcome
+</h2>,
+            <p>
+              What would you like to do?
+</p>,
+            <LinkButton
+              buttonClassName="homepage-btn"
+              linkClassName=""
+              options={
+                            Object {
+                                          "disabled": false,
+                                        }
+              }
+              text="View all your Clients"
+              to="/clients"
+/>,
+            <LinkButton
+              buttonClassName="homepage-btn"
+              linkClassName=""
+              options={
+                            Object {
+                                          "disabled": false,
+                                        }
+              }
+              text="View all your Sales"
+              to="/sales"
+/>,
+            <LinkButton
+              buttonClassName="homepage-btn"
+              linkClassName=""
+              options={
+                            Object {
+                                          "disabled": false,
+                                        }
+              }
+              text="Actually, I'd like to see an error page instead"
+              to="/fault"
+/>,
+          ],
+          "className": "homepage-box",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Welcome",
+              "className": "page-heading page-heading--homepage",
+            },
+            "ref": null,
+            "rendered": "Welcome",
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "What would you like to do?",
+            },
+            "ref": null,
+            "rendered": "What would you like to do?",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "buttonClassName": "homepage-btn",
+              "linkClassName": "",
+              "options": Object {
+                "disabled": false,
+              },
+              "text": "View all your Clients",
+              "to": "/clients",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "buttonClassName": "homepage-btn",
+              "linkClassName": "",
+              "options": Object {
+                "disabled": false,
+              },
+              "text": "View all your Sales",
+              "to": "/sales",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "buttonClassName": "homepage-btn",
+              "linkClassName": "",
+              "options": Object {
+                "disabled": false,
+              },
+              "text": "Actually, I'd like to see an error page instead",
+              "to": "/fault",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "section",
+      },
       "type": "div",
     },
   ],
